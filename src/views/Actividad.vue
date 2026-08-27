@@ -2,8 +2,6 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
       #Actividad                
       <ActividadController :cuestionario="cuestionario"/>
   
@@ -19,72 +17,80 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Operación comercial digital',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> verificar la comprensión y aplicación de conceptos relacionados con estrategia comercial, contenidos digitales, conversión, análisis comercial y ventas en social media desarrollados en el componente formativo.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_aprobado: '¡EXCELENTE!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
+      mensaje_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es la finalidad principal del embudo de ventas?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Guiar consumidores durante etapas previas y posteriores a compra.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Diseñar únicamente campañas promocionales para incrementar alcance digital estratégico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Administrar medios de pago utilizados en comercio electrónico empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Configurar perfiles empresariales dentro de plataformas sociales digitales modernas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué característica distingue principalmente a los objetivos SMART?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Promueven únicamente acciones comerciales relacionadas con publicidad digital contemporánea.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Definen metas específicas, medibles, alcanzables, realistas y temporales claramente.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Facilitan producción audiovisual mediante herramientas tecnológicas especializadas modernas actuales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'Sustituyen indicadores utilizados para evaluar desempeño comercial organizacional estratégico.',
               esCorrecta: false,
             },
           ],
@@ -93,30 +99,33 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Qué permite lograr una adecuada segmentación?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto:
+                'Reducir necesidad de contenidos adaptados para consumidores específicos digitales.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Eliminar análisis relacionados con comportamiento comercial del consumidor actual.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto:
+                'Dirigir mensajes relevantes hacia grupos con características comunes identificadas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'Reemplazar completamente procesos estratégicos relacionados con posicionamiento comercial digital.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -124,30 +133,33 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto: '¿Cuál es función principal de un lead magnet comercial?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto:
+                'Incrementar costos asociados con campañas comerciales digitales contemporáneas actuales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Facilitar únicamente procesos relacionados con servicio postventa empresarial estratégico.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto:
+                'Sustituir herramientas utilizadas para análisis de métricas comerciales digitales.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto:
+                'Captar prospectos ofreciendo recursos valiosos relacionados con necesidades específicas.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -155,30 +167,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué elemento fortalece el posicionamiento percibido por los consumidores digitales?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Diferenciación clara sustentada mediante beneficios relevantes para audiencias específicas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'Incremento permanente de publicaciones sin objetivos comerciales definidos estratégicamente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto:
+                'Eliminación de canales digitales utilizados para interacción comercial constante.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Sustitución de estrategias comunicativas por herramientas automatizadas exclusivamente digitales.',
               esCorrecta: false,
             },
           ],
@@ -187,29 +202,32 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué propósito cumple el copywriting?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto:
+                'Organizar cronogramas relacionados con publicaciones comerciales digitales empresariales actuales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Crear mensajes persuasivos orientados a influir decisiones del consumidor.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto:
+                'Gestionar sistemas logísticos vinculados con procesos de entrega comercial.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto:
+                'Sustituir herramientas utilizadas para segmentación de audiencias digitales estratégicas.',
               esCorrecta: false,
             },
           ],
@@ -218,29 +236,32 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Qué función cumplen los llamados a la acción?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto:
+                'Reducir frecuencia de interacción entre organizaciones y consumidores digitales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto:
+                'Eliminar necesidad de mensajes personalizados durante procesos comerciales actuales.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Orientar usuarios hacia acciones específicas alineadas con objetivos comerciales.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto:
+                'Sustituir completamente estrategias de posicionamiento utilizadas por organizaciones modernas.',
               esCorrecta: false,
             },
           ],
@@ -250,28 +271,32 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál beneficio estratégico aportan los guiones técnicos para contenidos digitales?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Incrementan aleatoriedad durante producción de piezas comunicativas digitales actuales.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Facilitan planificación estructurada de mensajes y recursos audiovisuales estratégicos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Eliminan necesidad de definir objetivos comerciales para contenidos publicados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Reemplazan herramientas utilizadas para programación de publicaciones digitales empresariales.',
               esCorrecta: false,
             },
           ],
@@ -281,19 +306,33 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué representa el tono de marca para una organización digital?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Forma particular de comunicarse consistentemente con sus audiencias digitales.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Herramienta exclusiva para desarrollar campañas publicitarias de pago digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sistema utilizado para administrar pagos dentro comercio electrónico moderno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Método empleado para medir resultados financieros organizacionales estratégicos actuales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -302,18 +341,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué ventaja ofrecen plataformas de inteligencia artificial en la producción de contenidos digitales?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Eliminar completamente participación humana durante procesos comerciales estratégicos actuales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Automatizar tareas y optimizar productividad en actividades digitales diversas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir métricas utilizadas para evaluar desempeño comercial organizacional estratégico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reemplazar medios digitales empleados para interacción con consumidores actuales.',
               esCorrecta: false,
             },
           ],
@@ -323,19 +376,33 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Qué principio de diseño facilita destacar elementos importantes dentro del contenido digital?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Coherencia visual permanente entre diferentes canales digitales utilizados actualmente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Contraste aplicado estratégicamente para resaltar información relevante presentada.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Automatización comercial mediante plataformas tecnológicas especializadas para ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Segmentación geográfica utilizada para campañas digitales empresariales contemporáneas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -344,18 +411,32 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué herramienta organiza estratégicamente publicaciones futuras dentro de las redes sociales?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Lead magnet orientado a captar prospectos comerciales interesados previamente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Embudo comercial utilizado para gestionar etapas de compra digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Calendario de publicaciones para programar contenidos ordenadamente en plataformas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Pasarela de pagos empleada durante procesos comerciales electrónicos actuales.',
               esCorrecta: false,
             },
           ],
@@ -365,18 +446,32 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué beneficio aporta la divulgación multicanal de contenidos digitales estratégicos?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Incrementa alcance mediante distribución en diversos medios digitales disponibles.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Elimina necesidad de planificar contenidos para audiencias específicas digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituye herramientas utilizadas para monitorear resultados comerciales estratégicos actuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reduce posibilidades de interacción entre consumidores y organizaciones digitales.',
               esCorrecta: false,
             },
           ],
@@ -386,19 +481,33 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál objetivo cumplen los protocolos de publicación dentro de las estrategias digitales?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Incrementar costos operativos asociados con producción de contenidos digitales.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Garantizar procesos organizados, coherentes y alineados con objetivos comerciales.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituir plataformas tecnológicas utilizadas para programación de publicaciones digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Eliminar revisiones previas realizadas sobre contenidos empresariales estratégicos actuales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -406,19 +515,205 @@ export default {
         },
         {
           id: 15,
+          texto: '¿Qué promueve la netiqueta?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Respuestas impulsivas orientadas únicamente a defender intereses empresariales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Comunicación irrespetuosa que genere controversia dentro comunidades digitales actuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Interacciones responsables, respetuosas y profesionales entre participantes digitales diversos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Eliminación de criterios éticos relacionados con atención al cliente.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué representa una conversión dentro estrategias de las ventas digitales?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Acción valiosa realizada por usuario según objetivos comerciales definidos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Proceso utilizado para diseñar contenidos audiovisuales en plataformas digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Herramienta destinada exclusivamente a programar publicaciones comerciales empresariales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Método empleado para administrar garantías posteriores a la compra.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué ventaja ofrecen los medios de pago digitales?',
+          imagen: '@/assets/actividad/imagen1.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Incrementan complejidad durante procesos de compra desarrollados digitalmente actuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Facilitan transacciones seguras adaptadas a preferencias de consumidores diversos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituyen procesos relacionados con logística y entrega de productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Eliminan necesidad de implementar estrategias comerciales digitales organizacionales actuales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué contribuye a fortalecer una adecuada gestión de garantías comerciales digitales?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reducir transparencia durante procesos posteriores a la venta empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Eliminar responsabilidades relacionadas con calidad de productos ofrecidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Incrementar confianza y satisfacción del consumidor frente a compras.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir mecanismos legales relacionados con protección al consumidor actual.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Cuál finalidad principal tienen las métricas comerciales dentro del análisis estratégico empresarial?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reemplazar completamente decisiones basadas en experiencia organizacional previa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Proporcionar información objetiva sobre desempeño y resultados comerciales obtenidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Gestionar publicaciones digitales mediante cronogramas previamente establecidos estratégicamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Diseñar sistemas logísticos asociados con distribución de productos digitales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Qué característica distingue principalmente a los KPIs?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Miden variables relacionadas directamente con objetivos organizacionales prioritarios definidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Funcionan únicamente como reportes descriptivos sin aplicación estratégica alguna.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Sustituyen métricas utilizadas para evaluar campañas comerciales digitales actuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Se utilizan exclusivamente en procesos financieros de grandes empresas.',
               esCorrecta: false,
             },
           ],
@@ -426,82 +721,9 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
     },
   }),
 }
 </script>
+
+<style lang="sass"></style>

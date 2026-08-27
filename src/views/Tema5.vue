@@ -5,7 +5,743 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Tema 5
+      h1 Comercio electrónico
+
+  //
+    .bg-full-width.bg-fondo-1
+
+      .bloque-texto-g.bg-color-02.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/tema5/img01.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 El comercio electrónico transformó las dinámicas tradicionales de compra y venta mediante el uso de plataformas digitales y tecnologías orientadas a interacción comercial <em>online</em>. Actualmente, las organizaciones utilizan modelos digitales para comercializar productos, fortalecer posicionamiento y ampliar alcance comercial en mercados globalizados. Este entorno exige comprender herramientas, procesos y estrategias relacionadas con ventas digitales y experiencia del cliente. El capítulo desarrolla conceptos, ventajas, tipos y elementos del comercio electrónico aplicados a procesos comerciales y estrategias de ventas en <em>social media</em>.
+
+      separador
+      
+      #t_5_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 5.1 Concepto
+
+
+      .row.mb-4.justify-content-center.align-items-center
+        .col-lg-3.col-md-8.mb-0.mb-lg-0.order-1.order-lg-2
+          figure
+            img(src="@/assets/curso/tema5/img03.png", data-aos="zoom-in")
+        .col-lg-9.order-2.order-lg-1.mb-4.mb-lg-0
+
+          .row.mb-3.justify-content-center.align-items-center
+            .col-lg-5.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
+              figure
+                img(src="@/assets/curso/tema5/img02.png", data-aos="zoom-in")
+            .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0
+              .bg-color-07.p-4
+                p.mb-0(data-aos="fade-right") El comercio electrónico corresponde al conjunto de actividades comerciales desarrolladas mediante plataformas digitales y tecnologías orientadas a procesos de compra y venta <em>online</em>. Este modelo permite comercializar productos y servicios utilizando sitios web, aplicaciones móviles y redes sociales. Actualmente, las organizaciones implementan estrategias digitales para ampliar el alcance comercial y fortalecer la interacción con consumidores digitales. 
+
+          .bg-fondo-08.p-4.mb-3
+            p.mb-0 El comercio electrónico facilita procesos de conversión y optimiza experiencias relacionadas con acceso, comunicación y disponibilidad permanente de productos comerciales digitales.
+
+
+      .row.align-items-center(data-aos="fade-right")
+        .col-lg-12.mx-auto
+          .tarjeta.bg-fondo-03.p-3.mb-5
+            .row.justify-content-around.align-items-center
+              .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center
+                img(src="@/assets/curso/tema1/img07.png")
+              .col-12.col-lg.mb-2.mb-lg-0
+                h4.mb-2.bg-color-04.p-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start Visión general del comercio electrónico
+                p.mb-0 Lo invitamos a consultar el siguiente recurso educativo, mediante el cual podrá profundizar en la temática abordada. Este corresponde a un video del Ecosistema de Recursos Educativos Digitales del SENA que presenta una visión general del comercio electrónico, su impacto en la comercialización digital, la transformación de los procesos empresariales y la importancia de las redes sociales y de la normatividad en entornos comerciales digitales.
+              .col-12.col-lg-auto.text-center
+                a.boton.bg-color-04(:href="'https://www.youtube.com/watch?v=KM-RhabB6qs'" target="_blank")
+                  span Ir al recurso
+                  i.fas.fa-link
+
+    separador
+    
+    #t_5_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 5.2 Ventajas
+
+
+    img(src="@/assets/curso/tema5/img05.png", alt="")
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-lg-11(data-aos="fade-right")
+        p.banner-text Las ventajas del comercio electrónico se relacionan con la capacidad de ampliar mercados, optimizar procesos comerciales y fortalecer la interacción con consumidores digitales. Este modelo permite desarrollar actividades comerciales sin limitaciones geográficas ni restricciones horarias tradicionales. Actualmente, las organizaciones implementan comercio electrónico para mejorar competitividad y fortalecer posicionamiento digital dentro de mercados dinámicos. Las ventajas estratégicas de este entorno favorecen el crecimiento empresarial y facilitan procesos relacionados con automatización, segmentación y personalización comercial digital.
+
+
+    .bg-full-width.bg-fondo-1
+
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-4.mb-4.mb-lg-0.col-md-8.order-1.order-lg-1
+          figure
+            img(src="@/assets/curso/tema5/img06.png", data-aos="zoom-in")
+        .col-lg-8.order-2.order-lg-2.col-md-12.mb-4.mb-lg-0
+          SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-2")
+            .tarjeta.bg-fondo-04.p-4.h-100.br-15
+              .row.align-items-center.mb-3
+                .col-7
+                  h4.mb-0 Cobertura comercial
+                .col-5
+                  img(src='@/assets/curso/tema5/img07.svg' alt='Cobertura comercial', style="max-width: 80px;").mx-auto
+              p.mb-0 Permite ampliar el alcance empresarial mediante plataformas digitales. <br><b>Ejemplo:</b> una tienda virtual vende a clientes de diferentes ciudades mediante redes sociales y comercio electrónico.
+
+            .tarjeta.bg-fondo-04.p-4.h-100.br-15
+              .row.align-items-center.mb-3
+                .col-7
+                  h4.mb-0 Optimización operativa
+                .col-5
+                  img(src='@/assets/curso/tema5/img08.svg' alt='Optimización operativa', style="max-width: 80px;").mx-auto
+              p.mb-0 Facilita la automatización de pagos, pedidos y atención al cliente. <br><b>Ejemplo:</b> un comercio utiliza respuestas automáticas y pasarelas digitales para agilizar compras y consultas.
+
+            .tarjeta.bg-fondo-04.p-4.h-100.br-15
+              .row.align-items-center.mb-3
+                .col-7
+                  h4.mb-0 Disponibilidad permanente
+                .col-5
+                  img(src='@/assets/curso/tema5/img09.svg' alt='Disponibilidad permanente', style="max-width: 80px;").mx-auto
+              p.mb-0 Favorece procesos comerciales continuos mediante plataformas digitales accesibles. <br><b>Ejemplo:</b> una plataforma permite realizar pedidos las 24 horas desde cualquier ubicación con acceso a internet.
+
+            .tarjeta.bg-fondo-04.p-4.h-100.br-15
+              .row.align-items-center.mb-3
+                .col-7
+                  h4.mb-0 Análisis estratégico
+                .col-5
+                  img(src='@/assets/curso/tema5/img10.svg' alt='Análisis estratégico', style="max-width: 80px;").mx-auto
+              p.mb-0 Permite recopilar métricas e información comercial para fortalecer las decisiones empresariales. <br><b>Ejemplo:</b> una empresa analiza interacciones y conversiones digitales para optimizar campañas comerciales.
+
+      .row.align-items-center.mb-5(data-aos="fade-right")
+        .col-lg-8.mx-auto
+          .bg-color-09.br-15.mb-0
+            .row.align-items-center.justify-content-center(data-aos="fade-right")
+              .col-lg-auto.d-none.d-lg-block.order-lg-1
+                img(src="@/assets/curso/tema2/img06.png", style="max-width: 150px;").mx-auto
+              .col-lg-9.order-1.order-lg-2.p-4
+                .bg-color-08.p-2.mb-2.max-cont-md
+                  h4.mb-0.text-bold.text-white Clave estratégica
+                p.mb-0 Las ventajas del comercio electrónico fortalecen competitividad empresarial y mejoran procesos relacionados con ventas digitales y atención comercial.
+
+      separador
+
+      #t_5_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 5.3 Tipos
+
+
+
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-4.col-md-12.mb-0.mb-lg-0.order-2.order-lg-1
+          figure
+            img(src="@/assets/curso/tema5/img12.png", data-aos="zoom-in")
+        .col-lg-8.order-1.order-lg-2.mb-4.mb-lg-0
+          p.mb-0(data-aos="fade-right") Los tipos de comercio electrónico permiten clasificar relaciones comerciales desarrolladas mediante plataformas digitales y tecnologías orientadas a procesos de compra y venta <em>online</em>, esta clasificación facilita comprender dinámicas comerciales, características del consumidor y modelos de interacción empresarial utilizados en mercados digitales contemporáneos. Dentro de los tipos más utilizados se encuentran <em>B2B</em>, <em>B2C</em>, <em>C2C</em> y <em>C2B</em>. Comprender estas modalidades fortalece procesos estratégicos relacionados con segmentación, posicionamiento y construcción de experiencias digitales orientadas a ventas y comercio electrónico.
+
+
+    .bg-full-width.bg-fondo-1
+
+      .row.justify-content-center.mb-5
+        .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema5/img13.png", alt="B2B")
+            .crd_hover_txt--body
+              h4.mb-3.text-center <em>B2B</em>
+              p.mb-0 Relaciona organizaciones mediante procesos comerciales digitales orientados al abastecimiento y a la negociación empresarial especializada y estratégica.
+
+        .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema5/img14.png", alt="B2C")
+            .crd_hover_txt--body
+              h4.mb-3.text-center <em>B2C</em>
+              p.mb-0 Facilita ventas digitales directas entre empresas y consumidores mediante experiencias comerciales digitales ágiles y personalizadas.
+
+        .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema5/img15.png", alt="C2C")
+            .crd_hover_txt--body
+              h4.mb-3.text-center <em>C2C</em>
+              p.mb-0 Permite la interacción comercial entre consumidores utilizando plataformas digitales colaborativas relacionadas con el intercambio y las ventas en línea.
+
+        .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema5/img16.png", alt="C2B")
+            .crd_hover_txt--body
+              h4.mb-3.text-center <em>C2B</em>
+              p.mb-0 Favorece relaciones donde consumidores ofrecen productos, servicios o contenidos a empresas dentro de entornos digitales actuales.
+
+
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-3.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
+          figure
+            img(src="@/assets/curso/tema5/img17.png", data-aos="zoom-in")
+        .col-lg-9.order-1.order-lg-2.mb-4.mb-lg-0
+          h4 Ejemplo aplicado. Tipos de comercio electrónico en “Urban Style”
+          p.mb-0(data-aos="fade-right") El negocio “Urban Style” inicialmente desarrollaba ventas únicamente mediante interacción directa con consumidores finales a través de Instagram y WhatsApp Business. Sin embargo, identificó oportunidades comerciales relacionadas con distribución de prendas a pequeños emprendimientos interesados en comercialización de moda urbana dentro de plataformas digitales y mercados locales especializados. Posteriormente, la empresa fortaleció estrategias <em>B2C</em> orientadas a consumidores finales y desarrolló acuerdos <em>B2B</em> relacionados con ventas mayoristas para tiendas locales. Como resultado, amplió oportunidades comerciales, diversificó procesos de venta digital y fortaleció posicionamiento mediante diferentes modalidades de comercio electrónico adaptadas a sus objetivos empresariales.
+
+
+      separador
+    
+    #t_5_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 5.4 Elementos
+
+    .bg-full-width.bg-fondo-1
+
+
+      .bloque-texto-g.bg-color-12.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/tema5/img18.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Los elementos del comercio electrónico corresponden a componentes tecnológicos, comerciales y logísticos necesarios para desarrollar procesos de venta digital eficientes. Estos elementos permiten gestionar interacción comercial, pagos, atención y distribución mediante plataformas digitales. Actualmente, las organizaciones integran diferentes herramientas para fortalecer experiencia del cliente y optimizar procesos relacionados con conversión comercial <em>online</em>. Comprender estos componentes facilita implementación estratégica de modelos digitales orientados a ventas, posicionamiento y fortalecimiento de relaciones comerciales dentro de ecosistemas digitales contemporáneos.
+
+
+      .row.align-items-center.mb-5.justify-content-center
+        .col-lg-10.col-md-12
+          .row.justify-content-center.mb-0
+            .titulo-sexto.color-acento-contenido.mb-4
+              h5.text-bold.mb-2 Figura 3.
+              span Elementos del comercio electrónico
+            figure
+              img.mb-3(data-aos="fade-up", src="@/assets/curso/tema5/img19.png", alt="Infografía titulada “Elementos del comercio electrónico”. Presenta cuatro elementos relacionados con la operación del comercio electrónico: plataforma digital, pasarela de pagos, logística de entrega y analítica digital. La plataforma digital permite gestionar productos, contenidos y procesos comerciales; la pasarela de pagos facilita transacciones seguras; la logística de entrega favorece la distribución eficiente de productos; y la analítica digital permite interpretar métricas y comportamiento comercial para fortalecer la toma de decisiones estratégicas. Los elementos se presentan de manera articulada como componentes de los procesos comerciales digitales.").mx-auto.d-none.d-lg-block
+              img.mb-3(data-aos="fade-up", src="@/assets/curso/tema5/img20.png", alt="Infografía titulada “Elementos del comercio electrónico”. Presenta cuatro elementos relacionados con la operación del comercio electrónico: plataforma digital, pasarela de pagos, logística de entrega y analítica digital. La plataforma digital permite gestionar productos, contenidos y procesos comerciales; la pasarela de pagos facilita transacciones seguras; la logística de entrega favorece la distribución eficiente de productos; y la analítica digital permite interpretar métricas y comportamiento comercial para fortalecer la toma de decisiones estratégicas. Los elementos se presentan de manera articulada como componentes de los procesos comerciales digitales.").mx-auto.d-lg-none
+              figcaption Nota. SENA, (2026).
+
+    .row.align-items-center(data-aos="fade-right")
+      .col-lg-8.mx-auto
+        .bg-color-01.br-15.mb-0
+          .row.align-items-center.justify-content-center(data-aos="fade-right")
+            .col-lg-auto.d-none.d-lg-block.order-lg-1
+              img(src="@/assets/curso/tema1/img19.png", style="max-width: 150px;").mx-auto
+            .col-lg-9.order-1.order-lg-2.p-4
+              .bg-color-10.p-2.mb-2.max-cont-md
+                h4.mb-0.text-bold.text-white Cita de reflexión
+              p.mb-0 “El crecimiento del comercio electrónico requiere decisiones responsables orientadas a transparencia, confianza y compromiso permanente con el consumidor”.
+
+
+
+
+
+
+
+
+    //- .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-4.mb-5
+    //-   .bloque-texto-g__img(
+    //-     :style="{'background-image': `url(${require_src('@/assets/curso/tema5/img01.png')})`}"
+    //-   )
+    //-   .bloque-texto-g__texto.p-4
+    //-     p.mb-0 Una vez capturadas las variables mediante sensores, procesadas por los transductores y acondicionadas las señales, es posible utilizar esta información para realizar acciones básicas de control.
+
+    //- p.mb-3 En los procesos industriales, los sistemas electrónicos permiten recibir información proveniente de los sensores, analizar las condiciones del proceso y generar una respuesta de acuerdo con los valores establecidos.
+    //- p.mb-3 El material de formación plantea esta etapa como una aproximación a las aplicaciones de la automatización industrial, mediante circuitos básicos que permiten realizar pequeñas acciones de control.
+    //- p.mb-4 La relación general puede representarse de la siguiente manera:
+
+    //- .row.align-items-center.bg-color-02.p-4.br-15.mb-5.max-cont-md
+    //-   .col-lg-auto.d-none.d-lg-block
+    //-     img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-   .col-lg
+    //-     p.mb-0.fw-bold Variable &rarr; sensor &rarr; señal &rarr; acondicionamiento &rarr; sistema electrónico &rarr; acción de control
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Electricidad y electrónica en los sistemas de control
+
+    //- .row.mb-4.justify-content-center.align-items-center
+    //-   .col-lg-9.col-md-12.mb-4.mb-lg-0
+    //-     p.mb-3 Los sistemas electrónicos de control requieren elementos eléctricos y electrónicos que permitan recibir, procesar y modificar señales.
+    //-     p.mb-0 La electricidad proporciona las condiciones necesarias para el funcionamiento de los circuitos, mientras que la electrónica permite procesar señales y establecer respuestas de acuerdo con las condiciones determinadas.
+
+    //-   .col-lg-3.col-md-8.mb-0.mb-lg-0
+    //-     img(src="@/assets/curso/tema5/img2.png", data-aos="zoom-in").mx-auto
+        
+    //- .row.mb-3.align-items-center
+    //-   .col-lg-6.mb-3.mb-lg-0
+    //-     p.mb-2 Dentro de este contexto, los sensores y transductores proporcionan información sobre el proceso y los circuitos electrónicos utilizan dicha información para generar una respuesta.
+    //-   .col-lg-6
+    //-     .row.align-items-center.bg-color-02.p-4.br-15
+    //-       .col-lg-auto.d-none.d-lg-block
+    //-         img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-       .col-lg
+    //-         p.mb-0.fw-bold Información del proceso &rarr; circuito electrónico &rarr; respuesta
+        
+    //- p.mb-4 La relación puede expresarse así:
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Amplificador operacional
+
+    //- .row.mb-4.justify-content-center
+    //-   .col-lg-6.mb-4.mb-lg-0
+    //-     p.mb-3 El amplificador operacional es un dispositivo electrónico que comúnmente se encuentra en forma de circuito integrado o chip.
+
+    //-     .bg-color-02.p-3.p-md-4.br-15.mb-3.d-flex.align-items-center
+    //-       .row.align-items-center.mb-0
+    //-         .col-lg-8
+    //-           span.mb-0 Para su funcionamiento como comparador se consideran dos entradas:
+    //-         .col-lg-4
+    //-           span.fw-bold.ms-lg-2 V1 y V2
+
+    //-     .row.align-items-center.mb-4.g-3
+    //-       .col-sm-4
+    //-         .bg-color-01.p-4.br-15.d-flex.align-items-center.justify-content-between
+    //-           span.mb-0 y una salida:
+    //-           span.fw-bold.ms-2 VOUT
+    //-       .col-sm-8
+    //-         p.mb-0 Además, el dispositivo requiere una alimentación positiva VS+ y una alimentación negativa VS-. La estructura básica puede representarse como:
+
+    //-     figure.mt-3
+    //-       img(src="@/assets/curso/tema5/img03.png", alt="")
+
+    //-   .col-lg-6.mb-0.mb-lg-0
+    //-     .row.justify-content-center.mb-3
+    //-       .titulo-sexto.color-acento-contenido.mb-4
+    //-         h5.text-bold.mb-2 Figura 5.
+    //-         span Señal
+    //-       img.mb-3(data-aos="fade-up", src="@/assets/curso/tema5/img02.png", alt="").mx-auto.d-none.d-lg-block
+    //-       img(src="@/assets/curso/tema5/img02-m.png", data-aos="zoom-in").d-lg-none
+    //-       figcaption Nota. SENA, (2026).
+    //-     p.mt-3 En esta aplicación, el amplificador operacional permite comparar dos valores de tensión y generar una salida de acuerdo con la relación existente entre ellos.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Amplificador operacional como comparador
+
+    //- .row.mb-5.align-items-center.justify-content-center
+    //-   .col-lg-6.col-md-12.mb-4.mb-lg-0
+    //-     .bg-color-08.p-3.br-15.mb-3
+    //-       .p-2.br-12.mb-2(style="border: 2px solid #74A2F2;").br-15
+    //-         .row.justify-content-center.mb-0.align-items-center
+    //-           .col-10
+    //-             p.mb-0 Cuando el amplificador operacional se utiliza como comparador, la salida depende de la relación entre V1 y V2. Si:
+    //-           .col-2
+    //-             p.mb-0.text-bold V1 > V2
+
+    //-       p.mb-2 el voltaje de salida será igual al de la alimentación positiva:
+    //-       p.mb-0.fw-bold VOUT = VS+
+    //-         span.fw-normal.ms-4 Si:
+    //-         span.fw-bold.ms-2 V1 < V2
+
+        
+    //-     .bg-color-02.p-3.br-15
+    //-       .p-3.br-12.mb-2(style="border: 2px solid #049767;").br-15
+    //-         .row.justify-content-center.mb-0.align-items-center
+    //-           .col-8
+    //-             p.mb-0  el voltaje de salida será igual al de la alimentación negativa:
+    //-           .col-4
+    //-             p.mb-0.text-bold VOUT = VS-
+                
+    //-       p.mb-0.d-flex.align-items-center
+    //-         span.me-2 Si:
+    //-         span.fw-bold.me-3 V1 = V2
+    //-         span.me-3 el voltaje de salida será:
+    //-         span.fw-bold VOUT = 0
+
+    //-   .col-lg-2.col-md-6.mb-4.mb-lg-0.text-center.d-none.d-lg-block
+    //-     figure
+    //-       img(src="@/assets/curso/tema5/img04.png", data-aos="zoom-in").mx-auto
+
+    //-   .col-lg-4.col-md-12.mb-0.mb-lg-0
+    //-     p.mb-3 La relación puede organizarse de la siguiente manera:
+    //-     .bg-color-01.p-4.br-15.h-100
+    //-       .row.mb-2
+    //-         .col-6
+    //-           span Condición
+    //-         .col-6
+    //-           span Salida
+    //-       .row.mb-1
+    //-         .col-6.fw-bold V1 > V2
+    //-         .col-6 VOUT = VS+
+    //-       .row.mb-1
+    //-         .col-6.fw-bold V1 < V2
+    //-         .col-6 VOUT = VS-
+    //-       .row.mb-3
+    //-         .col-6.fw-bold V1 = V2
+    //-         .col-6 VOUT = 0
+
+    //-       p.mb-0 De esta manera, el amplificador operacional puede utilizarse para establecer una condición de decisión dentro de un circuito electrónico.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Comparación de señales
+
+    //- .row.mb-5.justify-content-center.align-items-center
+    //-   .col-lg-3.col-md-8.mb-4.mb-lg-0
+    //-     figure
+    //-       img(src="@/assets/curso/tema5/img05.png", data-aos="zoom-in")
+
+    //-   .col-lg-9.col-md-12
+    //-     p.mb-1 La función de comparación permite determinar si una señal se encuentra por encima, por debajo o en el mismo nivel que otra señal de referencia.
+    //-     p.mb-3 Por ejemplo, si una señal proveniente de un sensor representa la temperatura de un proceso y otra señal representa el valor de referencia, el comparador puede establecer una condición de acuerdo con la relación entre ambas.
+
+    //-     p.mb-3 Conceptualmente:
+
+    //-     .row.align-items-center.bg-color-02.p-4.br-15.mb-4.max-cont-md
+    //-       .col-lg-auto.d-none.d-lg-block
+    //-         img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-       .col-lg
+    //-         p.mb-0.fw-bold Señal del sensor &rarr; comparación con referencia &rarr; respuesta
+
+    //-     p.mb-0 Esta estructura permite transformar la información proveniente del sensor en una condición que posteriormente puede utilizarse para activar o desactivar un elemento.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Compuertas lógicas
+
+    //- p.mb-2 Una compuerta lógica es un circuito electrónico que recibe una o más entradas y genera una salida de acuerdo con una determinada condición lógica.
+    //- p.mb-4 La información puede representarse mediante valores binarios:
+
+    //- .row.mb-5.align-items-center
+    //-   .col-lg-6.col-md-12.mb-3.mb-lg-0
+    //-     .row.g-3
+    //-       .col-sm-6
+    //-         .bg-color-01.p-3.br-15.text-center
+    //-           p.mb-0.fw-bold 0 &rarr; condición no activa
+    //-       .col-sm-6
+    //-         .bg-color-01.p-3.br-15.text-center
+    //-           p.mb-0.fw-bold 1 &rarr; condición activa
+    //-   .col-lg-6.col-md-12
+    //-     p.mb-0 La salida depende de la combinación de los estados presentes en las entradas. Esta lógica permite establecer relaciones entre diferentes condiciones de un proceso.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-5(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo
+    //-       img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
+    //-       h3.titulo-con-imagen__texto Lógica aplicada a un proceso
+
+    //- .row.mb-5.justify-content-center.align-items-stretch
+    //-   .col-lg-6.col-md-12.mb-4.mb-lg-0
+    //-     p.mb-2 Supóngase que un sistema debe activar una salida cuando se cumplen determinadas condiciones.
+    //-     p.mb-2 Cada condición puede representarse mediante una señal binaria.
+    //-     p.mb-3 Por ejemplo:
+
+    //-     .row.g-3.align-items-center.mb-3
+    //-       .col-sm-5
+    //-         .bg-color-02.p-3.br-15.text-center
+    //-           p.mb-0.fw-bold Sensor 1 &rarr; 1
+    //-       .col-sm-7
+    //-         p.mb-0 indica que la primera condición se encuentra activa.
+
+    //-     .row.g-3.align-items-center.mb-0
+    //-       .col-sm-5
+    //-         .bg-color-02.p-3.br-15.text-center
+    //-           p.mb-0.fw-bold Sensor 2 &rarr; 1
+    //-       .col-sm-7
+    //-         p.mb-0 indica que la segunda condición también se encuentra activa.
+
+    //-   .col-lg-6.col-md-12
+    //-     .bg-color-0.p-4.br-15.h-100
+    //-       p.mb-3 El circuito lógico puede determinar si ambas condiciones deben cumplirse para generar una salida
+    //-       p.mb-2 La estructura general sería:
+    //-       p.mb-3.fw-bold Entrada 1 + Entrada 2 &rarr; lógica de decisión &rarr; salida
+    //-       p.mb-0 Esta forma de procesamiento constituye uno de los fundamentos de los sistemas electrónicos básicos de control.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-5(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo
+    //-       img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
+    //-       h3.titulo-con-imagen__texto El relé
+
+    //- .row.mb-4.justify-content-center.align-items-center
+    //-   .col-lg-9.col-md-12.mb-0.mb-lg-0.order-2.order-lg-1
+    //-     p.mb-2 El relé es un dispositivo que permite utilizar una pequeña corriente para controlar el paso de corriente a través de unos contactos.
+    //-     p.mb-3 El material de formación describe el relé sencillo como un dispositivo constituido por un electroimán y un interruptor de contactos. Cuando circula una pequeña corriente por la bobina, el núcleo se imanta y atrae el inducido, provocando el movimiento de los contactos.
+    //-     p.mb-3 Su funcionamiento puede representarse:
+
+    //-     .container
+    //-       .row.align-items-center.bg-color-02.p-4.br-15.mb-3.max-cont-md
+    //-         .col-lg-auto.d-none.d-lg-block
+    //-           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-         .col-lg
+    //-           p.mb-0.fw-bold Señal de control &rarr; bobina &rarr; electroimán &rarr; movimiento del contacto &rarr; circuito controlado
+
+    //-   .col-lg-3.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
+    //-     figure
+    //-       img(src="@/assets/curso/tema5/img06.png", data-aos="zoom-in")
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Funcionamiento básico del relé
+
+    //- .row.mb-5.align-items-center.justify-content-center
+    //-   .col-lg-3.col-md-8.mb-4.mb-lg-0
+    //-     figure
+    //-       img(src="@/assets/curso/tema5/img07.png", data-aos="zoom-in").mx-auto
+
+    //-   .col-lg-9.col-md-12
+    //-     p.mb-1 Cuando no circula corriente por la bobina, los contactos permanecen en su estado inicial.
+    //-     p.mb-2 Cuando se aplica corriente a la bobina:
+
+    //-     .container
+    //-       .row.align-items-center.bg-color-02.p-4.br-15.mb-lg-2.mb-4.max-cont-md
+    //-         .col-lg-auto.d-none.d-lg-block
+    //-           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-         .col-lg
+    //-           p.mb-0.fw-bold Corriente &rarr; campo magnético &rarr; movimiento del inducido &rarr; cambio de contactos
+
+    //-     p.mb-0 El cambio de estado de los contactos permite controlar otro circuito.
+    //-     p.mb-0 Por esta razón, el relé puede utilizarse como elemento de salida en aplicaciones donde una señal electrónica debe generar una acción.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Relación entre sensor, comparador y relé
+
+    //- .row.mb-4.align-items-stretch
+    //-   .col-lg-7.mb-3.mb-lg-0
+    //-     p.mb-2 Los elementos estudiados pueden integrarse en una aplicación básica.
+    //-     p.mb-2 Un sensor obtiene información sobre una variable.
+    //-     p.mb-0 La señal puede ser comparada con un valor de referencia mediante un amplificador operacional.
+    //-   .col-lg-5
+    //-     p.mb-2 La salida del comparador puede utilizarse como señal de control.
+    //-     p.mb-2 Esta señal puede activar un relé.
+    //-     p.mb-0 El relé puede modificar el estado de otro circuito.
+
+    //- .container
+    //-   .row.align-items-center.bg-color-02.p-4.br-15.mb-5.max-cont-md
+    //-     .col-12.mb-2
+    //-       span.fw-bold La secuencia puede representarse:
+    //-     .col-lg-auto.d-none.d-lg-block
+    //-       img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-     .col-lg
+    //-       p.mb-0.fw-bold Variable &rarr; Sensor &rarr; Señal &rarr; Comparador &rarr; Señal de control &rarr; Relé &rarr; Acción
+
+    //- .row.mb-4.mb-lg-5.align-items-stretch
+    //-   .col-lg-6.mb-4.mb-lg-0
+    //-     .bg-color-0.p-4.br-15.h-100
+    //-       p.mb-3 Los sistemas electrónicos digitales requieren representar la información mediante sistemas numéricos.
+    //-       p.mb-3 El sistema decimal utiliza diez símbolos:
+    //-       .row.align-items-center.mb-0
+    //-         .col-sm-5
+    //-           .bg-color-02.p-3.br-15.text-center.mb-2.mb-lg-0.max-cont-md
+    //-             p.mb-0.fw-bold 0, 1, 2, 3, 4, 5, 6, 7, 8 y 9.
+    //-         .col-sm-5
+    //-           p.mb-0 El sistema binario utiliza únicamente dos símbolos:
+    //-         .col-sm-2
+    //-           .bg-color-02.p-3.br-15.text-center.max-cont-md.mb-0
+    //-             p.mb-0.fw-bold 0 y 1.
+
+    //-   .col-lg-6
+    //-     p.mb-3 El sistema binario es fundamental para representar los estados utilizados por los circuitos digitales.
+    //-     p.mb-3 Por ejemplo:
+
+    //-     .row.g-3.mb-3
+    //-       .col-sm-6
+    //-         .bg-color-01.p-3.br-15.text-center
+    //-           p.mb-0.fw-bold 0 &rarr; estado lógico bajo
+    //-       .col-sm-6
+    //-         .bg-color-01.p-3.br-15.text-center
+    //-           p.mb-0.fw-bold 1 &rarr; estado lógico alto
+
+    //-     p.mb-0 La representación binaria permite que las señales puedan ser interpretadas y procesadas por los sistemas electrónicos digitales.
+
+    //- .row.mb-4.align-items-stretch
+    //-   .col-lg-6.mb-4.mb-lg-0.col-md-12
+    //-     .container
+    //-       .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-         .titulo-con-imagen__fondo_2
+    //-           h3.titulo-con-imagen__texto_2 Conversión entre decimal y binario
+
+    //-     p.mb-4 Cada posición dentro de un número binario representa una potencia de dos.
+
+    //-     figure.mb-2
+    //-       img(src="@/assets/curso/tema5/img12.svg")
+
+    //-     p.mb-0 La conversión entre sistemas numéricos permite interpretar los valores que se utilizan dentro de los sistemas electrónicos.
+
+    //-   .col-lg-6.col-md-12
+    //-     .container
+    //-       .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-         .titulo-con-imagen__fondo_2
+    //-           h3.titulo-con-imagen__texto_2 Medidas análogas y códigos binarios
+
+    //-     p.mb-3 Una variable física puede generar una medida análoga que posteriormente debe representarse mediante un código digital.
+    //-     p.mb-2 Para ello, el sistema puede utilizar un conversor análogo digital.
+    //-     p.mb-2 El material de formación establece que un conversor ADC toma valores analógicos de tensión y los convierte en códigos binarios.
+    //-     p.mb-3 La secuencia es:
+
+    //-     .container
+    //-       .row.align-items-center.bg-color-02.p-4.br-15.max-cont-md.mb-2
+    //-         .col-lg-auto.d-none.d-lg-block
+    //-           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-         .col-lg
+    //-           p.mb-0.fw-bold Medida análoga &rarr; ADC &rarr; código binario
+
+    //-     p.mb-0 Este proceso permite que la información obtenida mediante un sensor pueda ser interpretada por un sistema digital.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Convertidor análogo digital
+
+    //- .bg-full-width.bg-fondo-010.px-5.py-4
+    //-   img(src="@/assets/curso/tema5/img08.png", alt="")
+    //- .row.justify-content-center.align-items-center.z-2.mb-5
+    //-   .col-lg-11(data-aos="fade-right")
+    //-     p.banner-text El conversor análogo digital, identificado como ADC, constituye el enlace entre una señal análoga y su representación digital. Su función consiste en tomar un valor analógico de tensión y convertirlo en un código binario.
+
+    //- .row.mb-5.align-items-center
+    //-   .col-lg-3.col-md-12.mb-3.mb-lg-0
+    //-     p.mb-0 La estructura puede representarse así:
+    //-   .col-lg-6.col-md-12.mb-3.mb-lg-0
+    //-     .container
+    //-       .row.align-items-center.bg-color-02.p-4.br-15
+    //-         .col-lg-auto.d-none.d-lg-block
+    //-           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-         .col-lg
+    //-           p.mb-0.fw-bold Señal análoga &rarr; ADC &rarr; código binario &rarr; sistema digital
+    //-   .col-lg-3.col-md-12
+    //-     p.mb-0 La conversión permite trabajar con la información de una variable dentro de un sistema digital.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-5(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo
+    //-       img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
+    //-       h3.titulo-con-imagen__texto Integración del sistema electrónico básico de control
+
+    //- .row.justify-content-center.align-items-center.mb-5
+    //-   .col-lg-4.col-md-8.mb-4.mb-lg-0
+    //-     figure
+    //-       img(src="@/assets/curso/tema5/img09.png", data-aos="zoom-in")
+    //-   .col-lg-8.col-md-12.mb-0.mb-lg-0
+    //-     SlyderF(columnas="col-lg-12 col-xl-4 col-md-6 col-sm-12 p-2")
+    //-       .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
+    //-         .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 1
+    //-         p.mb-0 Los elementos estudiados pueden integrarse en una cadena de control.
+
+    //-       .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
+    //-         .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 2
+    //-         p.mb-0 Una variable física es captada por un sensor.
+
+    //-       .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
+    //-         .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 3
+    //-         p.mb-0 El sensor genera una señal.
+
+    //-       .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
+    //-         .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 4
+    //-         p.mb-0 El transductor puede adaptar dicha señal.
+
+    //-       .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
+    //-         .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 5
+    //-         p.mb-0 Cuando la información es análoga, puede convertirse a un código binario mediante un ADC.
+
+    //-       .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
+    //-         .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 6
+    //-         p.mb-0 El sistema electrónico puede comparar o procesar la información.
+
+    //-       .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
+    //-         .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 7
+    //-         p.mb-0 Se genera una señal de control o decisión.
+
+    //-       .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
+    //-         .rounded-circle.d-flex.align-items-center.justify-content-center.mx-auto.mb-3.fw-bold(style="width: 45px; height: 45px; background-color: #B9F6DF; color: #12263F;") 8
+    //-         p.mb-0 Finalmente, una salida puede generar una acción mediante un dispositivo como el relé.
+
+    //- p.mb-3 La estructura general puede representarse:
+
+    //- .container
+    //-   .row.align-items-center.bg-color-02.p-4.br-15.mb-4.max-cont-md
+    //-     .col-lg-auto.d-none.d-lg-block
+    //-       img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-     .col-lg
+    //-       p.mb-0.fw-bold Variable física &rarr; sensor &rarr; señal &rarr; acondicionamiento &rarr; ADC &rarr; Código binario &rarr; comparación / procesamiento &rarr; relé &rarr; acción
+
+    //- p.mb-5 Esta integración permite comprender cómo los diferentes elementos estudiados pueden participar en un sistema electrónico básico de control.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Aplicación de un sistema básico de control
+
+    //- p.mb-4 Considérese un sistema en el que se requiere controlar el funcionamiento de un elemento cuando una variable supera un valor de referencia.
+
+    //- .row.mb-4.align-items-stretch
+    //-   .col-lg-6.mb-3.mb-lg-0
+    //-     .bg-color-0.p-4.br-15.h-100
+    //-       p.mb-1 El sensor capta la variable.
+    //-       p.mb-1 La señal obtenida es enviada al sistema electrónico.
+    //-       p.mb-0 La señal puede ser comparada con el valor de referencia.
+    //-   .col-lg-6
+    //-     .bg-color-01.p-4.br-15.h-100
+    //-       p.mb-1 Cuando se cumple la condición establecida, el sistema genera una señal de salida.
+    //-       p.mb-1 Esta señal puede activar un relé.
+    //-       p.mb-0 El relé modifica el estado del circuito controlado.
+
+    //- .row.mb-5.align-items-center
+    //-   .col-lg-8.mb-3.mb-lg-0
+    //-     .container
+    //-       .row.align-items-center.bg-color-02.p-4.br-15
+    //-         .col-lg-3
+    //-           span.fw-bold La secuencia puede resumirse así:
+    //-         .col-lg-auto.d-none.d-lg-block
+    //-           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-         .col-lg
+    //-           p.mb-0.fw-bold Captación &rarr; comparación &rarr; decisión &rarr; activación &rarr; acción
+    //-   .col-lg-4
+    //-     p.mb-0 Este principio constituye una aplicación básica de la utilización de sensores en sistemas de control.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Automatización industrial
+
+    //- .container
+    //-   .row.mb-4.justify-content-center.align-items-center.bg-color-08
+    //-     .col-lg-5.mb-4.mb-lg-0.col-md-12.order-1.order-lg-1.p-0.p-lg-2.p-xl-0
+    //-       figure
+    //-         img(src="@/assets/curso/tema5/img10.png", data-aos="zoom-in")
+    //-     .col-lg-7.order-2.order-lg-2.col-md-12.mb-4.mb-lg-0.p-lg-3.p-xl-4.p-3
+    //-       p.mb-0 La automatización industrial integra elementos de medición, adquisición, procesamiento y control para permitir que determinadas operaciones se realicen de manera automática.
+
+    //- .row.mb-4.align-items-center
+    //-   .col-lg-6.mb-3.mb-lg-0
+    //-     p.mb-0 Los sensores proporcionan información sobre el proceso.
+    //-     p.mb-0 Los sistemas electrónicos procesan dicha información.
+    //-     p.mb-0 Los elementos de salida ejecutan las acciones correspondientes.
+    //-     p.mb-0 La estructura general puede expresarse como:
+    //-   .col-lg-6
+    //-     .container
+    //-       .row.align-items-center.bg-color-02.p-4.br-15.max-cont-md
+    //-         .col-lg-auto.d-none.d-lg-block
+    //-           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-         .col-lg
+    //-           p.mb-0.fw-bold Sensar &rarr; procesar &rarr; decidir &rarr; actuar
+
+    //- p.mb-3 Esta secuencia constituye una base para comprender sistemas de automatización de mayor complejidad.
+    //- p.mb-5 La automatización industrial y la instrumentación industrial forman parte de los conocimientos de concepto establecidos en el material de formación para este Resultado de Aprendizaje.
+
+    //- .container
+    //-   .titulo-con-imagen.mb-4(data-aos="fade-right")
+    //-     .titulo-con-imagen__fondo_2
+    //-       h3.titulo-con-imagen__texto_2 Potencia y control
+
+    //- .row.mb-4.justify-content-center.align-items-center
+    //-   .col-lg-9.col-md-12.mb-4.mb-lg-0
+    //-     p.mb-1 En un sistema de control es importante diferenciar la señal utilizada para tomar una decisión de la energía necesaria para ejecutar una acción.
+    //-     p.mb-1 Una señal de control puede tener características que no sean suficientes para alimentar directamente un elemento de mayor demanda de potencia.
+    //-     p.mb-1 Por esta razón, pueden utilizarse dispositivos de salida que permitan controlar otro circuito.
+    //-     p.mb-2 El relé constituye un ejemplo de esta relación, ya que una corriente aplicada a su bobina produce el movimiento de sus contactos y permite controlar el paso de corriente por otro circuito.
+    //-     p.mb-0 La relación funcional puede representarse:
+
+    //-   .col-lg-3.col-md-8.mb-0.mb-lg-0
+    //-     figure
+    //-       img(src="@/assets/curso/tema5/img11.png", data-aos="zoom-in")
+
+    //- .row.mb-4.justify-content-center.align-items-center
+    //-   .col-lg-7.col-md-12.mb-0
+    //-     .container
+    //-       .row.align-items-center.bg-color-02.p-4.br-15
+    //-         .col-lg-auto.d-none.d-lg-block
+    //-           img(src="@/assets/curso/tema1/img13.svg", style="max-width: 90px").mx-auto
+    //-         .col-lg
+    //-           p.mb-0.fw-bold Señal de control &rarr; dispositivo de salida &rarr; circuito de potencia &rarr; acción
 
 </template>
 
