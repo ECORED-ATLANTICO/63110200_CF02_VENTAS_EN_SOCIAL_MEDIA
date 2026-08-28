@@ -20,7 +20,7 @@ export default {
       tema: 'Operación comercial digital',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> verificar la comprensión y aplicación de conceptos relacionados con estrategia comercial, contenidos digitales, conversión, análisis comercial y ventas en social media desarrollados en el componente formativo.',
+        '<b>Objetivo:</b> verificar la comprensión y aplicación de conceptos relacionados con estrategia comercial, contenidos digitales, conversión, análisis comercial y ventas en <em>social media</em> desarrollados en el componente formativo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡EXCELENTE!',
       titulo_reprobado: 'VUELVA A INTENTARLO',

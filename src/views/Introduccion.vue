@@ -18,10 +18,10 @@
             figure
               img(src="@/assets/curso/intro/img01.png", data-aos="zoom-in")
           .col-lg-7.order-1.order-lg-2.mb-4.mb-lg-0
-            p.mb-0(data-aos="fade-right") Las ventas en social media constituyen una disciplina estratégica que integra procesos comerciales, comunicación digital y análisis del comportamiento del consumidor para generar oportunidades de negocio en entornos digitales. Su aplicación permite a las organizaciones identificar audiencias, construir relaciones comerciales y desarrollar acciones orientadas a la conversión, fidelización y crecimiento empresarial mediante plataformas digitales y redes sociales.
+            p.mb-0(data-aos="fade-right") Las ventas en <em>social media</em> constituyen una disciplina estratégica que integra procesos comerciales, comunicación digital y análisis del comportamiento del consumidor para generar oportunidades de negocio en entornos digitales. Su aplicación permite a las organizaciones identificar audiencias, construir relaciones comerciales y desarrollar acciones orientadas a la conversión, fidelización y crecimiento empresarial mediante plataformas digitales y redes sociales.
            
         .bg-fondo-01.br-15.mb-0.p-4
-            p.mb-0 El componente aborda los fundamentos estratégicos, tácticos y operativos de las ventas en social media a través del análisis de conceptos, herramientas, metodologías y aplicaciones prácticas. El contenido será desarrollado mediante ejemplos empresariales, casos aplicados y escenarios comerciales que permitan comprender cómo las organizaciones utilizan medios digitales, contenidos y estrategias comerciales para alcanzar objetivos de posicionamiento, interacción y resultados de negocio.
+            p.mb-0 El componente aborda los fundamentos estratégicos, tácticos y operativos de las ventas en <em>social media</em> a través del análisis de conceptos, herramientas, metodologías y aplicaciones prácticas. El contenido será desarrollado mediante ejemplos empresariales, casos aplicados y escenarios comerciales que permitan comprender cómo las organizaciones utilizan medios digitales, contenidos y estrategias comerciales para alcanzar objetivos de posicionamiento, interacción y resultados de negocio.
     
 
 </template>

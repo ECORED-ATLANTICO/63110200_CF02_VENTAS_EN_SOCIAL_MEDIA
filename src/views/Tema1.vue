@@ -5,14 +5,14 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Estrategia comercial en social media
+      h1 Estrategia comercial en <em>social media</em>
 
     .bg-full-width.bg-fondo-1
     
       img(src="@/assets/curso/tema1/img01.png", alt="")
       .row.justify-content-center.align-items-center.z-2.mb-5
         .col-lg-11(data-aos="fade-right")
-          p.banner-text La estrategia comercial en social media integra principios de mercadeo, comunicación digital y gestión comercial orientados al logro de objetivos empresariales en entornos digitales. Su importancia radica en la capacidad de conectar productos, audiencias y plataformas mediante acciones estructuradas que favorecen el posicionamiento, la interacción y la conversión comercial. Comprender estos fundamentos permite establecer bases sólidas para la construcción de estrategias alineadas con las dinámicas actuales del mercado digital.
+          p.banner-text La estrategia comercial en <em>social media</em> integra principios de mercadeo, comunicación digital y gestión comercial orientados al logro de objetivos empresariales en entornos digitales. Su importancia radica en la capacidad de conectar productos, audiencias y plataformas mediante acciones estructuradas que favorecen el posicionamiento, la interacción y la conversión comercial. Comprender estos fundamentos permite establecer bases sólidas para la construcción de estrategias alineadas con las dinámicas actuales del mercado digital.
 
       separador
       
@@ -70,7 +70,7 @@
         figure
           img(src="@/assets/curso/tema1/img07.png", data-aos="zoom-in")
       .col-lg-8.order-2.order-lg-2.mb-0.mb-lg-0
-        p.mb-0(data-aos="fade-right") Los usos de la venta dentro de social media trascienden la simple comercialización de productos. Actualmente, las organizaciones utilizan estrategias de venta para generar reconocimiento, captar clientes potenciales, fortalecer relaciones comerciales y aumentar niveles de fidelización. Cuando una empresa combina contenidos relevantes, interacción permanente y propuestas de valor diferenciadas, incrementa significativamente las probabilidades de conversión y sostenibilidad comercial dentro de ecosistemas digitales cada vez más competitivos.
+        p.mb-0(data-aos="fade-right") Los usos de la venta dentro de <em>social media</em> trascienden la simple comercialización de productos. Actualmente, las organizaciones utilizan estrategias de venta para generar reconocimiento, captar clientes potenciales, fortalecer relaciones comerciales y aumentar niveles de fidelización. Cuando una empresa combina contenidos relevantes, interacción permanente y propuestas de valor diferenciadas, incrementa significativamente las probabilidades de conversión y sostenibilidad comercial dentro de ecosistemas digitales cada vez más competitivos.
 
     .row.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8.mx-auto
@@ -81,7 +81,7 @@
             .col-lg-9.order-1.order-lg-2.p-4
               .bg-color-08.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Clave estratégica
-              p.mb-0 La efectividad de la venta en social media depende de la capacidad para generar confianza antes de intentar generar conversión.
+              p.mb-0 La efectividad de la venta en <em>social media</em> depende de la capacidad para generar confianza antes de intentar generar conversión.
 
     separador
 
@@ -90,7 +90,7 @@
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.order-2.order-lg-1
-        p.mb-2(data-aos="fade-right") Los objetivos SMART constituyen una metodología utilizada para formular metas comerciales claras y verificables. Su importancia radica en que permiten transformar intenciones generales en resultados concretos que pueden ser gestionados, monitoreados y evaluados. Dentro de las estrategias de ventas en social media, la aplicación de objetivos SMART facilita orientar recursos, contenidos y acciones hacia resultados específicos alineados con necesidades empresariales y condiciones reales del mercado digital.
+        p.mb-2(data-aos="fade-right") Los objetivos SMART constituyen una metodología utilizada para formular metas comerciales claras y verificables. Su importancia radica en que permiten transformar intenciones generales en resultados concretos que pueden ser gestionados, monitoreados y evaluados. Dentro de las estrategias de ventas en <em>social media</em>, la aplicación de objetivos SMART facilita orientar recursos, contenidos y acciones hacia resultados específicos alineados con necesidades empresariales y condiciones reales del mercado digital.
         p.mb-0(data-aos="fade-right") Para formular objetivos comerciales claros y orientados a resultados, es necesario considerar diferentes componentes que permitan definir, medir y evaluar su cumplimiento, entre ellos:
       .col-lg-4.col-md-8.order-1.order-lg-2.mb-4.mb-lg-0
         figure
@@ -182,20 +182,20 @@
     .bg-color-015.p-4.br-15.mb-5(data-aos="fade-right")
       .row.align-items-center
         .col-lg-12.mb-3.mb-lg-0
-          p.mb-0 Dentro de las ventas en social media, el marketing online actúa como un sistema integrador que conecta objetivos comerciales, contenidos, audiencias y plataformas digitales. Su aplicación permite desarrollar campañas orientadas a posicionamiento, generación de prospectos, conversión y fidelización. Cuando las organizaciones utilizan adecuadamente herramientas digitales para comunicar valor y comprender el comportamiento del consumidor, logran optimizar recursos y aumentar la efectividad de sus estrategias comerciales en entornos altamente dinámicos.
+          p.mb-0 Dentro de las ventas en <em>social media</em>, el <em>marketing online</em> actúa como un sistema integrador que conecta objetivos comerciales, contenidos, audiencias y plataformas digitales. Su aplicación permite desarrollar campañas orientadas a posicionamiento, generación de prospectos, conversión y fidelización. Cuando las organizaciones utilizan adecuadamente herramientas digitales para comunicar valor y comprender el comportamiento del consumidor, logran optimizar recursos y aumentar la efectividad de sus estrategias comerciales en entornos altamente dinámicos.
 
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.order-2.order-lg-1
         .bg-color-07.p-4.br-15(data-aos="fade-right")
           p.text-bold.mb-2 Ejemplo aplicado.
-          p.mb-0 La organización Aprende Digital ofrecía programas de capacitación empresarial, pero dependía principalmente de referencias personales para conseguir nuevos clientes. Con el propósito de ampliar su alcance comercial, implementó una estrategia de marketing online basada en contenidos especializados, posicionamiento en buscadores y campañas segmentadas en redes sociales. Durante seis meses, la empresa publicó recursos educativos, desarrolló anuncios orientados a públicos específicos y optimizó sus canales digitales. Como resultado, incrementó significativamente el tráfico hacia sus plataformas, aumentó la generación de prospectos y fortaleció el reconocimiento de marca dentro de su sector. Este caso evidencia cómo el marketing online permite ampliar oportunidades comerciales mediante estrategias fundamentadas en datos y segmentación.
+          p.mb-0 La organización Aprende Digital ofrecía programas de capacitación empresarial, pero dependía principalmente de referencias personales para conseguir nuevos clientes. Con el propósito de ampliar su alcance comercial, implementó una estrategia de <em>marketing online</em> basada en contenidos especializados, posicionamiento en buscadores y campañas segmentadas en redes sociales. Durante seis meses, la empresa publicó recursos educativos, desarrolló anuncios orientados a públicos específicos y optimizó sus canales digitales. Como resultado, incrementó significativamente el tráfico hacia sus plataformas, aumentó la generación de prospectos y fortaleció el reconocimiento de marca dentro de su sector. Este caso evidencia cómo el <em>marketing online</em> permite ampliar oportunidades comerciales mediante estrategias fundamentadas en datos y segmentación.
       .col-lg-4.col-md-8.order-1.order-lg-2.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/img17.png", data-aos="zoom-in")
 
 
-    p.mb-5 En este contexto, las estrategias de marketing online pueden orientarse a diferentes acciones comerciales que permiten fortalecer la presencia digital, atraer potenciales clientes, favorecer la conversión y mantener relaciones sostenibles con los consumidores, entre ellas:
+    p.mb-5 En este contexto, las estrategias de <em>marketing online</em> pueden orientarse a diferentes acciones comerciales que permiten fortalecer la presencia digital, atraer potenciales clientes, favorecer la conversión y mantener relaciones sostenibles con los consumidores, entre ellas:
 
   
     .row.mb-5.justify-content-center.align-items-center
@@ -255,7 +255,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5.text-bold.mb-2 Figura 1.
-          span Aplicaciones de la negociación digital
+          span Etapas del embudo de ventas
         img.mb-3(data-aos="fade-up", src="@/assets/curso/tema1/img25.png", alt="Infografía que ilustra las 4 etapas del embudo de ventas: 1. Reconocimiento: permite atraer audiencias mediante contenidos orientados a generar visibilidad digital. 2. Interés: favorece interacción inicial mediante información relevante relacionada con necesidades específicas. 3. Consideración: facilita evaluación de alternativas mediante argumentos, evidencias y beneficios comerciales. 4. Conversión: busca concretar la compra mediante acciones orientadas a la toma de decisiones.").mx-auto.d-none.d-lg-block
         img.mb-3(data-aos="fade-up", src="@/assets/curso/tema1/img26.png", alt="Infografía que ilustra las 4 etapas del embudo de ventas: 1. Reconocimiento: permite atraer audiencias mediante contenidos orientados a generar visibilidad digital. 2. Interés: favorece interacción inicial mediante información relevante relacionada con necesidades específicas. 3. Consideración: facilita evaluación de alternativas mediante argumentos, evidencias y beneficios comerciales. 4. Conversión: busca concretar la compra mediante acciones orientadas a la toma de decisiones.").mx-auto.d-lg-none
         figcaption Nota. SENA, (2026).
