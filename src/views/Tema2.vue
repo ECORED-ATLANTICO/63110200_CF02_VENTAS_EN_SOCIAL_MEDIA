@@ -19,15 +19,15 @@
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 2.1 Segmentación
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-5.col-md-8.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/img02.png", data-aos="zoom-in")
-      .col-lg-7
-        p.mb-3(data-aos="fade-right") La segmentación corresponde al proceso mediante el cual una organización divide un mercado amplio en grupos de consumidores que comparten características, comportamientos o necesidades similares. Su aplicación permite comprender con mayor precisión las particularidades de cada grupo y diseñar estrategias comerciales ajustadas a sus expectativas. En contextos digitales, la segmentación adquiere especial relevancia debido a la disponibilidad de información que facilita identificar patrones de comportamiento y preferencias específicas.
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-5.col-md-8.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema2/img02.png", data-aos="zoom-in")
+        .col-lg-7
+          p.mb-3(data-aos="fade-right") La segmentación corresponde al proceso mediante el cual una organización divide un mercado amplio en grupos de consumidores que comparten características, comportamientos o necesidades similares. Su aplicación permite comprender con mayor precisión las particularidades de cada grupo y diseñar estrategias comerciales ajustadas a sus expectativas. En contextos digitales, la segmentación adquiere especial relevancia debido a la disponibilidad de información que facilita identificar patrones de comportamiento y preferencias específicas.
 
-        .bg-color-014.p-3.br-15.mb-0(data-aos="fade-left")
-          p.mb-0 La necesidad de segmentar surge porque los consumidores no reaccionan de manera uniforme frente a productos, contenidos o campañas comerciales. Cuando una organización intenta dirigirse a todos los usuarios utilizando el mismo mensaje, disminuye la probabilidad de generar conexión efectiva. En cambio, al identificar segmentos específicos, resulta posible adaptar propuestas de valor, formatos de contenido y canales de interacción según características particulares de la audiencia objetivo.
+          .bg-color-014.p-3.br-15.mb-0(data-aos="fade-left")
+            p.mb-0 La necesidad de segmentar surge porque los consumidores no reaccionan de manera uniforme frente a productos, contenidos o campañas comerciales. Cuando una organización intenta dirigirse a todos los usuarios utilizando el mismo mensaje, disminuye la probabilidad de generar conexión efectiva. En cambio, al identificar segmentos específicos, resulta posible adaptar propuestas de valor, formatos de contenido y canales de interacción según características particulares de la audiencia objetivo.
 
 
     .row.align-items-center(data-aos="fade-right")
@@ -120,7 +120,7 @@
             p.mb-0 Facilita compartir conocimiento especializado relacionado con necesidades específicas.
           .col-lg-5.col-md-10.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img09.png', alt='Guía digital')
+              img(src='@/assets/curso/tema2/img09.png', alt='')
 
       .p-3.p-md-4(titulo="Plantilla")
         .row.justify-content-center.align-items-center
@@ -129,7 +129,7 @@
             p.mb-0 Permite resolver tareas concretas mediante recursos prácticos y reutilizables.
           .col-lg-5.col-md-10.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img10.png', alt='Plantilla')
+              img(src='@/assets/curso/tema2/img10.png', alt='')
 
       .p-3.p-md-4(titulo="Webinar")
         .row.justify-content-center.align-items-center
@@ -138,7 +138,7 @@
             p.mb-0 Favorece la interacción directa y profundización temática con consumidores interesados.
           .col-lg-5.col-md-10.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img11.png', alt='Webinar')
+              img(src='@/assets/curso/tema2/img11.png', alt='')
 
       .p-3.p-md-4(titulo="Lista de verificación")
         .row.justify-content-center.align-items-center
@@ -147,73 +147,75 @@
             p.mb-0 Ayuda a simplificar procesos mediante orientaciones estructuradas y aplicables.
           .col-lg-5.col-md-10.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img12.png', alt='Lista de verificación')
+              img(src='@/assets/curso/tema2/img12.png', alt='')
 
-    .row.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-8.mx-auto
-        .bg-color-09.br-15.mb-0
-          .row.align-items-center.justify-content-center(data-aos="fade-right")
-            .col-lg-auto.d-none.d-lg-block.order-lg-1
-              img(src="@/assets/curso/tema1/img08.png", style="max-width: 150px;").mx-auto
-            .col-lg-9.order-1.order-lg-2.p-4
-              .bg-color-08.p-2.mb-2.max-cont-md
-                h4.mb-0.text-bold.text-white Clave estratégica
-              p.mb-0 Un <em>lead magnet</em> efectivo debe resolver una necesidad inmediata relacionada con la solución comercial ofrecida posteriormente.
+    .bg-full-width.bg-fondo-1
+  
+      .row.align-items-center.mb-0(data-aos="fade-right")
+        .col-lg-12.col-xl-8.mx-auto
+          .bg-color-09.br-15.mb-0
+            .row.align-items-center.justify-content-center(data-aos="fade-right")
+              .col-lg-auto.d-none.d-lg-block.order-lg-1
+                img(src="@/assets/curso/tema1/img08.png", style="max-width: 150px;").mx-auto
+              .col-lg-9.order-1.order-lg-2.p-4
+                .bg-color-08.p-2.mb-2.max-cont-md
+                  h4.mb-0.text-bold.text-white Clave estratégica
+                p.mb-0 Un <em>lead magnet</em> efectivo debe resolver una necesidad inmediata relacionada con la solución comercial ofrecida posteriormente.
 
-    separador
+      separador
 
-    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.4 Palabras clave e intenciones de búsqueda
+      #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.4 Palabras clave e intenciones de búsqueda
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-5.col-md-8.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema2/img13.png", data-aos="zoom-in")
-      .col-lg-7
-        p.mb-3(data-aos="fade-right") Las palabras clave corresponden a términos o expresiones utilizados por los usuarios para buscar información, productos o servicios en entornos digitales. Su análisis permite comprender cómo las personas expresan necesidades, intereses y problemas dentro de motores de búsqueda y plataformas digitales. En las ventas en <em>social media</em>, las palabras clave facilitan optimizar contenidos y estrategias de comunicación, favoreciendo una mayor conexión entre las búsquedas realizadas por los consumidores y las soluciones ofrecidas por las organizaciones.
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-5.col-md-8.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema2/img13.png", data-aos="zoom-in")
+        .col-lg-7
+          p.mb-3(data-aos="fade-right") Las palabras clave corresponden a términos o expresiones utilizados por los usuarios para buscar información, productos o servicios en entornos digitales. Su análisis permite comprender cómo las personas expresan necesidades, intereses y problemas dentro de motores de búsqueda y plataformas digitales. En las ventas en <em>social media</em>, las palabras clave facilitan optimizar contenidos y estrategias de comunicación, favoreciendo una mayor conexión entre las búsquedas realizadas por los consumidores y las soluciones ofrecidas por las organizaciones.
 
-        .bg-color-01.p-4.br-15(data-aos="fade-left")
-          p.mb-0 Las intenciones de búsqueda representan el propósito que motiva una consulta digital. Estas pueden clasificarse como informativas, cuando el usuario busca conocimiento; navegacionales, cuando desea acceder a una página específica; comerciales, cuando compara alternativas antes de comprar; y transaccionales, cuando existe intención directa de adquisición. Comprender estas diferencias permite diseñar contenidos alineados con el momento y la necesidad específica del consumidor dentro de su recorrido digital. Para identificar tendencias, seleccionar términos relevantes y comprender cómo buscan información los consumidores en entornos digitales, existen diferentes herramientas que facilitan el análisis de palabras clave, entre ellas:
+          .bg-color-01.p-4.br-15(data-aos="fade-left")
+            p.mb-0 Las intenciones de búsqueda representan el propósito que motiva una consulta digital. Estas pueden clasificarse como informativas, cuando el usuario busca conocimiento; navegacionales, cuando desea acceder a una página específica; comerciales, cuando compara alternativas antes de comprar; y transaccionales, cuando existe intención directa de adquisición. Comprender estas diferencias permite diseñar contenidos alineados con el momento y la necesidad específica del consumidor dentro de su recorrido digital. Para identificar tendencias, seleccionar términos relevantes y comprender cómo buscan información los consumidores en entornos digitales, existen diferentes herramientas que facilitan el análisis de palabras clave, entre ellas:
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-6.mb-4
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema2/img14.svg", style="max-width: 60px;").mx-auto
-            .col
-              h4.mb-1 Google Trends:
-              p.mb-0 Permite identificar tendencias y evolución de términos buscados digitalmente.
+      .row.justify-content-center.mb-5(data-aos="zoom-in")
+        .col-lg-6.mb-4
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema2/img14.svg", style="max-width: 60px;").mx-auto
+              .col
+                h4.mb-1 Google Trends:
+                p.mb-0 Permite identificar tendencias y evolución de términos buscados digitalmente.
 
-      .col-lg-6.mb-4
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema2/img14.svg", style="max-width: 60px;").mx-auto
-            .col
-              h4.mb-1 Google Keyword Planner:
-              p.mb-0 Facilita analizar el volumen y la relevancia de palabras clave comerciales.
+        .col-lg-6.mb-4
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema2/img14.svg", style="max-width: 60px;").mx-auto
+              .col
+                h4.mb-1 Google Keyword Planner:
+                p.mb-0 Facilita analizar el volumen y la relevancia de palabras clave comerciales.
 
-      .col-lg-6.mb-4.mb-lg-0
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema2/img14.svg", style="max-width: 60px;").mx-auto
-            .col
-              h4.mb-1 Semrush:
-              p.mb-0 Proporciona información estratégica sobre posicionamiento y competencia digital.
+        .col-lg-6.mb-4.mb-lg-0
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema2/img14.svg", style="max-width: 60px;").mx-auto
+              .col
+                h4.mb-1 Semrush:
+                p.mb-0 Proporciona información estratégica sobre posicionamiento y competencia digital.
 
-      .col-lg-6
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema2/img14.svg", style="max-width: 60px;").mx-auto
-            .col
-              h4.mb-1 Ubersuggest:
-              p.mb-0 Ayuda a descubrir oportunidades relacionadas con búsquedas y contenidos digitales.
+        .col-lg-6
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema2/img14.svg", style="max-width: 60px;").mx-auto
+              .col
+                h4.mb-1 Ubersuggest:
+                p.mb-0 Ayuda a descubrir oportunidades relacionadas con búsquedas y contenidos digitales.
 
     .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-07.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
@@ -249,7 +251,7 @@
             p.mb-0 <b>Ejemplo aplicativo:</b> una tienda identifica que sus clientes prefieren recibir recomendaciones personalizadas antes de realizar una compra y adapta sus contenidos digitales a este comportamiento.
           .col-lg-4.col-md-10
             figure
-              img(src='@/assets/curso/tema2/img16.png', alt='Insight de consumidor')
+              img(src='@/assets/curso/tema2/img16.png', alt='')
 
       .tarjeta.p-4(titulo="Insight de mercado")
         .row.justify-content-center.align-items-center
@@ -258,7 +260,7 @@
             p.mb-0 <b>Ejemplo aplicativo:</b> una empresa detecta un aumento en las búsquedas de productos sostenibles y desarrolla una línea de productos orientada a esta tendencia.
           .col-lg-4.col-md-10
             figure
-              img(src='@/assets/curso/tema2/img17.png', alt='Insight de mercado')
+              img(src='@/assets/curso/tema2/img17.png', alt='')
 
       .tarjeta.p-4(titulo="Insight de producto")
         .row.justify-content-center.align-items-center
@@ -267,7 +269,7 @@
             p.mb-0 <b>Ejemplo aplicativo:</b> una marca identifica que los consumidores valoran más la facilidad de uso de un producto y destaca este atributo en sus contenidos comerciales.
           .col-lg-4.col-md-10
             figure
-              img(src='@/assets/curso/tema2/img18.png', alt='Insight de producto')
+              img(src='@/assets/curso/tema2/img18.png', alt='')
 
       .tarjeta.p-4(titulo="Insight de comunicación")
         .row.justify-content-center.align-items-center
@@ -276,7 +278,7 @@
             p.mb-0 <b>Ejemplo aplicativo:</b> una empresa identifica que los videos cortos generan mayor interacción que las publicaciones estáticas y ajusta su estrategia de contenidos.
           .col-lg-4.col-md-10
             figure
-              img(src='@/assets/curso/tema2/img19.png', alt='Insight de comunicación')
+              img(src='@/assets/curso/tema2/img19.png', alt='')
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1

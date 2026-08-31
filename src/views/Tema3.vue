@@ -19,15 +19,15 @@
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 3.1 Copywriting
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-5.col-md-8.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema3/img02.png", data-aos="zoom-in")
-      .col-lg-7
-        p.mb-3(data-aos="fade-right") El <em>copywriting</em> corresponde a la disciplina orientada a la creación de mensajes persuasivos diseñados para influir en comportamientos específicos del consumidor. Su propósito trasciende la simple redacción de textos, debido a que busca comunicar valor, despertar interés y motivar acciones comerciales concretas. En las ventas en <em>social media</em>, el <em>copywriting</em> permite transformar información sobre productos y servicios en mensajes capaces de conectar emocional y racionalmente con las necesidades de una audiencia determinada.
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-5.col-md-8.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema3/img02.png", data-aos="zoom-in")
+        .col-lg-7
+          p.mb-3(data-aos="fade-right") El <em>copywriting</em> corresponde a la disciplina orientada a la creación de mensajes persuasivos diseñados para influir en comportamientos específicos del consumidor. Su propósito trasciende la simple redacción de textos, debido a que busca comunicar valor, despertar interés y motivar acciones comerciales concretas. En las ventas en <em>social media</em>, el <em>copywriting</em> permite transformar información sobre productos y servicios en mensajes capaces de conectar emocional y racionalmente con las necesidades de una audiencia determinada.
 
-        .bg-color-09.p-4.br-15.mb-0(data-aos="fade-left")
-          p.mb-0 La redacción creativa constituye uno de los pilares fundamentales del <em>copywriting</em> porque facilita presentar propuestas comerciales mediante enfoques atractivos y diferenciadores. Sin embargo, la creatividad debe complementarse con una correcta ortografía y una estructura coherente que garantice claridad comunicativa. Los errores gramaticales o de escritura afectan la credibilidad de la marca y pueden disminuir la confianza del consumidor. Por esta razón, la calidad lingüística se convierte en un elemento estratégico dentro de los procesos comerciales digitales.
+          .bg-color-09.p-4.br-15.mb-0(data-aos="fade-left")
+            p.mb-0 La redacción creativa constituye uno de los pilares fundamentales del <em>copywriting</em> porque facilita presentar propuestas comerciales mediante enfoques atractivos y diferenciadores. Sin embargo, la creatividad debe complementarse con una correcta ortografía y una estructura coherente que garantice claridad comunicativa. Los errores gramaticales o de escritura afectan la credibilidad de la marca y pueden disminuir la confianza del consumidor. Por esta razón, la calidad lingüística se convierte en un elemento estratégico dentro de los procesos comerciales digitales.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
@@ -66,7 +66,7 @@
                 td Comunica beneficios específicos alineados con necesidades del mercado objetivo.
 
     .row.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-09.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
@@ -125,55 +125,57 @@
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3 Guiones técnicos para contenidos digitales
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-5.col-md-8.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema3/img08.png", data-aos="zoom-in")
-      .col-lg-7
-        p.mb-3(data-aos="fade-right") Los guiones técnicos constituyen herramientas de planificación utilizadas para estructurar contenidos digitales antes de su producción y publicación. Su función principal consiste en organizar de manera lógica los elementos visuales, textuales y audiovisuales que conforman una pieza comunicativa. Dentro de las ventas en <em>social media</em>, los guiones técnicos permiten garantizar coherencia entre los objetivos comerciales, el mensaje que se desea transmitir y la experiencia que recibirá el consumidor durante la interacción con el contenido.
+    .bg-full-width.bg-fondo-1
 
-        .bg-color-09.p-4.br-15(data-aos="fade-left")
-          p.mb-0 La elaboración de un guion técnico favorece la optimización de recursos y reduce errores durante la producción de contenidos digitales. Cuando una organización define previamente la secuencia de escenas, mensajes, elementos gráficos y llamados a la acción, facilita la coordinación entre las diferentes actividades necesarias para desarrollar una publicación efectiva. Esta planificación contribuye a mantener consistencia comunicativa y fortalece la calidad de los contenidos difundidos mediante plataformas digitales.
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-5.col-md-8.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema3/img08.png", data-aos="zoom-in")
+        .col-lg-7
+          p.mb-3(data-aos="fade-right") Los guiones técnicos constituyen herramientas de planificación utilizadas para estructurar contenidos digitales antes de su producción y publicación. Su función principal consiste en organizar de manera lógica los elementos visuales, textuales y audiovisuales que conforman una pieza comunicativa. Dentro de las ventas en <em>social media</em>, los guiones técnicos permiten garantizar coherencia entre los objetivos comerciales, el mensaje que se desea transmitir y la experiencia que recibirá el consumidor durante la interacción con el contenido.
 
-    .bg-color-07.p-3.br-15.mb-5(data-aos="fade-right")
-      p.mb-0 Para organizar la producción de contenidos digitales y asegurar que cada elemento responda al propósito de la comunicación, es necesario considerar los principales componentes de un guion técnico, entre ellos:
+          .bg-color-09.p-4.br-15(data-aos="fade-left")
+            p.mb-0 La elaboración de un guion técnico favorece la optimización de recursos y reduce errores durante la producción de contenidos digitales. Cuando una organización define previamente la secuencia de escenas, mensajes, elementos gráficos y llamados a la acción, facilita la coordinación entre las diferentes actividades necesarias para desarrollar una publicación efectiva. Esta planificación contribuye a mantener consistencia comunicativa y fortalece la calidad de los contenidos difundidos mediante plataformas digitales.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-6.col-xl-5.col-md-12.mb-4
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema3/img09.svg", style="max-width: 60px;").mx-auto
-            .col
-              h4.mb-1 Objetivo
-              p.mb-0 Define el resultado comercial esperado mediante el contenido digital.
+      .bg-color-07.p-3.br-15.mb-5(data-aos="fade-right")
+        p.mb-0 Para organizar la producción de contenidos digitales y asegurar que cada elemento responda al propósito de la comunicación, es necesario considerar los principales componentes de un guion técnico, entre ellos:
 
-      .col-lg-6.col-xl-5.col-md-12.mb-4
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema3/img10.svg", style="max-width: 60px;").mx-auto
-            .col
-              h4.mb-1 Escenas
-              p.mb-0 Organizan visualmente la secuencia narrativa del mensaje comercial.
+      .row.justify-content-center.mb-5(data-aos="zoom-in")
+        .col-lg-6.col-xl-5.col-md-12.mb-4
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema3/img09.svg", style="max-width: 60px;").mx-auto
+              .col
+                h4.mb-1 Objetivo
+                p.mb-0 Define el resultado comercial esperado mediante el contenido digital.
 
-      .col-lg-6.col-xl-5.col-md-12.mb-4.mb-lg-0
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema3/img11.svg", style="max-width: 60px;").mx-auto
-            .col
-              h4.mb-1 Mensajes
-              p.mb-0 Comunican información relevante alineada con las necesidades del consumidor.
+        .col-lg-6.col-xl-5.col-md-12.mb-4
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema3/img10.svg", style="max-width: 60px;").mx-auto
+              .col
+                h4.mb-1 Escenas
+                p.mb-0 Organizan visualmente la secuencia narrativa del mensaje comercial.
 
-      .col-lg-6.col-xl-5.col-md-12
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema3/img12.svg", style="max-width: 60px;").mx-auto
-            .col
-              h4.mb-1 <em>CTA</em>
-              p.mb-0 Orienta la acción que se espera obtener del usuario digital.
+        .col-lg-6.col-xl-5.col-md-12.mb-4.mb-lg-0
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema3/img11.svg", style="max-width: 60px;").mx-auto
+              .col
+                h4.mb-1 Mensajes
+                p.mb-0 Comunican información relevante alineada con las necesidades del consumidor.
+
+        .col-lg-6.col-xl-5.col-md-12
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema3/img12.svg", style="max-width: 60px;").mx-auto
+              .col
+                h4.mb-1 <em>CTA</em>
+                p.mb-0 Orienta la acción que se espera obtener del usuario digital.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.col-md-8.mb-4.mb-lg-0
@@ -232,7 +234,7 @@
                 td Adapta la comunicación según características de cada plataforma digital.
 
     .row.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-09.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
@@ -260,45 +262,47 @@
       .col-lg-auto.d-none.d-lg-flex
         img.d-none.d-lg-flex(src="@/assets/curso/tema3/img18.svg", style="max-width: 100px;").mx-auto
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-5.col-md-8.mb-4.mb-lg-0.d-none.d-lg-block
-        figure
-          img(src="@/assets/curso/tema3/img19.png", data-aos="zoom-in")
-      .col-lg-7
-        p.mb-3(data-aos="fade-right") En entornos digitales, el prisma de la marca facilita la construcción de experiencias consistentes a través de diferentes canales y formatos de contenido. Cada interacción desarrollada mediante redes sociales contribuye a reforzar o debilitar la identidad percibida por los consumidores. Por esta razón, las organizaciones utilizan este modelo como una herramienta para alinear comunicación, posicionamiento y experiencia del cliente, fortaleciendo relaciones comerciales sostenibles y diferenciadas.
+    .bg-full-width.bg-fondo-1
+  
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-5.col-md-8.mb-4.mb-lg-0.d-none.d-lg-block
+          figure
+            img(src="@/assets/curso/tema3/img19.png", data-aos="zoom-in")
+        .col-lg-7
+          p.mb-3(data-aos="fade-right") En entornos digitales, el prisma de la marca facilita la construcción de experiencias consistentes a través de diferentes canales y formatos de contenido. Cada interacción desarrollada mediante redes sociales contribuye a reforzar o debilitar la identidad percibida por los consumidores. Por esta razón, las organizaciones utilizan este modelo como una herramienta para alinear comunicación, posicionamiento y experiencia del cliente, fortaleciendo relaciones comerciales sostenibles y diferenciadas.
 
-        .bg-color-09.p-4.br-15(data-aos="fade-left")
-          p.mb-0 Para comprender cómo se construye y gestiona la identidad de una marca en entornos digitales, es necesario reconocer los componentes que permiten definir su personalidad, relación con los consumidores, cultura e imagen percibida, entre ellos:
+          .bg-color-09.p-4.br-15(data-aos="fade-left")
+            p.mb-0 Para comprender cómo se construye y gestiona la identidad de una marca en entornos digitales, es necesario reconocer los componentes que permiten definir su personalidad, relación con los consumidores, cultura e imagen percibida, entre ellos:
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-md-8.col-lg-5.mb-4.mb-lg-0.order-lg-2
-        figure
-          img(src="@/assets/curso/tema3/img20.png", data-aos="zoom-in")
-      .col-lg-7.order-lg-1
-        TabsA.color-acento-botones
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Personalidad")
-            p.mb-0 Define características humanas asociadas con la identidad de la marca.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Relación")
-            p.mb-0 Describe la forma en que la marca interactúa con los consumidores y las audiencias.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Cultura")
-            p.mb-0 Representa los valores y principios que orientan la actuación empresarial.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Imagen percibida")
-            p.mb-0 Refleja la manera en que los consumidores interpretan la marca.
+      .row.mb-5.justify-content-center.align-items-center
+        .col-md-8.col-lg-5.mb-4.mb-lg-0.order-lg-2
+          figure
+            img(src="@/assets/curso/tema3/img20.png", data-aos="zoom-in")
+        .col-lg-7.order-lg-1
+          TabsA.color-acento-botones
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Personalidad")
+              p.mb-0 Define características humanas asociadas con la identidad de la marca.
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Relación")
+              p.mb-0 Describe la forma en que la marca interactúa con los consumidores y las audiencias.
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Cultura")
+              p.mb-0 Representa los valores y principios que orientan la actuación empresarial.
+            .tarjeta.color-acento-botones--borde.p-4(titulo="Imagen percibida")
+              p.mb-0 Refleja la manera en que los consumidores interpretan la marca.
 
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-4.col-md-8.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema3/img21.png", data-aos="zoom-in")
-      .col-lg-8
-        .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
-          p.mb-0 La empresa GreenWear experimentaba dificultades para diferenciarse dentro del mercado de moda sostenible. Aunque sus productos respondían a principios ambientales, los consumidores no percibían claramente los atributos que la organización deseaba comunicar. Con el propósito de fortalecer su identidad, decidió aplicar el prisma de la marca como herramienta de análisis estratégico. A partir de este ejercicio, identificó inconsistencias entre los valores comunicados, el estilo visual y los mensajes difundidos en redes sociales. Posteriormente ajustó su comunicación, fortaleció la coherencia de sus contenidos y alineó su experiencia digital con la propuesta de valor empresarial. Como resultado, mejoró el reconocimiento de marca y fortaleció la conexión emocional con sus consumidores.
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-4.col-md-8.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema3/img21.png", data-aos="zoom-in")
+        .col-lg-8
+          .bg-color-07.p-4.br-15(data-aos="fade-right")
+            p.text-bold.mb-2 Ejemplo aplicado.
+            p.mb-0 La empresa GreenWear experimentaba dificultades para diferenciarse dentro del mercado de moda sostenible. Aunque sus productos respondían a principios ambientales, los consumidores no percibían claramente los atributos que la organización deseaba comunicar. Con el propósito de fortalecer su identidad, decidió aplicar el prisma de la marca como herramienta de análisis estratégico. A partir de este ejercicio, identificó inconsistencias entre los valores comunicados, el estilo visual y los mensajes difundidos en redes sociales. Posteriormente ajustó su comunicación, fortaleció la coherencia de sus contenidos y alineó su experiencia digital con la propuesta de valor empresarial. Como resultado, mejoró el reconocimiento de marca y fortaleció la conexión emocional con sus consumidores.
 
-    separador
+      separador
 
-    #t_3_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.6 Contenidos digitales
+      #t_3_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 3.6 Contenidos digitales
 
     .bloque-texto-g.bg-color-014.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -318,7 +322,7 @@
           img(src="@/assets/curso/tema3/img23.png", data-aos="zoom-in")
 
     .row.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-01.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1

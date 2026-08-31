@@ -19,18 +19,18 @@
       #t_5_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 5.1 Parrilla de contenidos
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-5.col-md-8.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema5/img02.png", data-aos="zoom-in")
-      .col-lg-7
-        p.mb-3(data-aos="fade-right") La parrilla de contenidos corresponde a una herramienta de planificación utilizada para organizar de manera estructurada los contenidos que serán publicados en medios digitales durante un periodo determinado. Su función consiste en facilitar la visualización de temas, formatos, objetivos y fechas asociadas a las diferentes acciones comunicativas. Dentro de las ventas en <em>social media</em>, esta herramienta permite mantener coherencia estratégica y asegurar una distribución equilibrada de contenidos orientados a diferentes necesidades comerciales.
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-5.col-md-8.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema5/img02.png", data-aos="zoom-in")
+        .col-lg-7
+          p.mb-3(data-aos="fade-right") La parrilla de contenidos corresponde a una herramienta de planificación utilizada para organizar de manera estructurada los contenidos que serán publicados en medios digitales durante un periodo determinado. Su función consiste en facilitar la visualización de temas, formatos, objetivos y fechas asociadas a las diferentes acciones comunicativas. Dentro de las ventas en <em>social media</em>, esta herramienta permite mantener coherencia estratégica y asegurar una distribución equilibrada de contenidos orientados a diferentes necesidades comerciales.
 
-        .bg-fondo-07.p-4.br-15.mb-0(data-aos="fade-left")
-          p.mb-0 Entre las principales características de una parrilla de contenidos se encuentra su capacidad para integrar objetivos comerciales, segmentos de audiencia, formatos digitales y cronogramas de publicación dentro de un mismo instrumento de planificación. Esta visión integral facilita la coordinación de actividades relacionadas con producción, revisión y publicación de contenidos. Además, permite identificar oportunidades de mejora y garantizar que las acciones desarrolladas respondan a una estrategia previamente definida.
+          .bg-fondo-07.p-4.br-15.mb-0(data-aos="fade-left")
+            p.mb-0 Entre las principales características de una parrilla de contenidos se encuentra su capacidad para integrar objetivos comerciales, segmentos de audiencia, formatos digitales y cronogramas de publicación dentro de un mismo instrumento de planificación. Esta visión integral facilita la coordinación de actividades relacionadas con producción, revisión y publicación de contenidos. Además, permite identificar oportunidades de mejora y garantizar que las acciones desarrolladas respondan a una estrategia previamente definida.
 
-    .bg-color-015.p-3.br-15.mb-5(data-aos="fade-right")
-      p.mb-0 Una parrilla bien diseñada distribuye los tipos de contenido (informativo, promocional, aspiracional, experiencial e interactivo) de manera equilibrada, garantizando coherencia con el posicionamiento de la marca.
+      .bg-color-015.p-3.br-15.mb-5(data-aos="fade-right")
+        p.mb-0 Una parrilla bien diseñada distribuye los tipos de contenido (informativo, promocional, aspiracional, experiencial e interactivo) de manera equilibrada, garantizando coherencia con el posicionamiento de la marca.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-md-8.col-lg-5.mb-4.mb-lg-0.order-lg-2
@@ -120,95 +120,96 @@
                 td Reforzar identidad
                 td "Conoce nuestro compromiso"
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5.text-bold.mb-2 Tabla 8.
-          span Ejemplo de parrilla semanal de contenidos para Arturo Calle
-        .tabla-a.tb-custom.mb-0
-          table
-            caption Nota. SENA, (2026).
-            thead
-              tr
-                th Tipo de contenido
-                th Formato
-                th Tema
-                th Objetivo
-                th CTA
-            tbody
-              tr
-                td <b>Inspiracional</b>
-                td <i>Post</i>
-                td Estilo masculino
-                td Posicionar marca
-                td "Explora nuestros <i>looks</i>"
-              tr
-                td <b>Educativo</b>
-                td <i>Reel</i>
-                td <i>Tips</i> de oficina
-                td Aportar valor práctico
-                td "Descubre más en tienda"
-              tr
-                td <b>Producto</b>
-                td Carrusel
-                td Camisas <i>slim fit</i>
-                td Promocionar colección
-                td "Compra en línea"
-              tr
-                td <b>Lifestyle</b>
-                td Artículo
-                td <i>Look</i> ejecutivo vs casual
-                td Mostrar versatilidad
-                td "Lee más en nuestro blog"
-              tr
-                td <b>Interacción</b>
-                td Pregunta
-                td <i>Blazer</i> azul o gris
-                td Generar conversación
-                td "Responde en <i>Stories</i>"
-              tr
-                td <b>Entretenimiento</b>
-                td Video
-                td <i>Behind the scenes</i> campaña
-                td Humanizar marca
-                td "Suscríbete al canal"
-              tr
-                td <b>Valores de marca</b>
-                td <i>Post</i>
-                td Responsabilidad social
-                td Reforzar identidad
-                td "Conoce nuestros programas"
+    .bg-full-width.bg-fondo-1
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5.text-bold.mb-2 Tabla 8.
+            span Ejemplo de parrilla semanal de contenidos para Arturo Calle
+          .tabla-a.tb-custom.mb-0
+            table
+              caption Nota. SENA, (2026).
+              thead
+                tr
+                  th Tipo de contenido
+                  th Formato
+                  th Tema
+                  th Objetivo
+                  th CTA
+              tbody
+                tr
+                  td <b>Inspiracional</b>
+                  td <i>Post</i>
+                  td Estilo masculino
+                  td Posicionar marca
+                  td "Explora nuestros <i>looks</i>"
+                tr
+                  td <b>Educativo</b>
+                  td <i>Reel</i>
+                  td <i>Tips</i> de oficina
+                  td Aportar valor práctico
+                  td "Descubre más en tienda"
+                tr
+                  td <b>Producto</b>
+                  td Carrusel
+                  td Camisas <i>slim fit</i>
+                  td Promocionar colección
+                  td "Compra en línea"
+                tr
+                  td <b>Lifestyle</b>
+                  td Artículo
+                  td <i>Look</i> ejecutivo vs casual
+                  td Mostrar versatilidad
+                  td "Lee más en nuestro blog"
+                tr
+                  td <b>Interacción</b>
+                  td Pregunta
+                  td <i>Blazer</i> azul o gris
+                  td Generar conversación
+                  td "Responde en <i>Stories</i>"
+                tr
+                  td <b>Entretenimiento</b>
+                  td Video
+                  td <i>Behind the scenes</i> campaña
+                  td Humanizar marca
+                  td "Suscríbete al canal"
+                tr
+                  td <b>Valores de marca</b>
+                  td <i>Post</i>
+                  td Responsabilidad social
+                  td Reforzar identidad
+                  td "Conoce nuestros programas"
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-4.col-md-6.mb-4.mb-lg-0
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema5/img05.svg", style="max-width: 50px;").mx-auto
-            .col
-              h4.mb-2 Johanna Ortiz:
-              p.mb-0 Comunica exclusividad, artesanía y lujo; su parrilla debe resaltar <em>storytelling</em> aspiracional y valores de sostenibilidad.
+      .row.justify-content-center.mb-5(data-aos="zoom-in")
+        .col-lg-4.col-md-6.mb-4.mb-lg-0
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema5/img05.svg", style="max-width: 50px;").mx-auto
+              .col
+                h4.mb-2 Johanna Ortiz:
+                p.mb-0 Comunica exclusividad, artesanía y lujo; su parrilla debe resaltar <em>storytelling</em> aspiracional y valores de sostenibilidad.
 
-      .col-lg-4.col-md-6.mb-4.mb-lg-0
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema5/img05.svg", style="max-width: 50px;").mx-auto
-            .col
-              h4.mb-2 Arturo Calle:
-              p.mb-0 Combina accesibilidad, practicidad y cercanía; su parrilla se centra en consejos útiles, promociones y valores corporativos.
+        .col-lg-4.col-md-6.mb-4.mb-lg-0
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema5/img05.svg", style="max-width: 50px;").mx-auto
+              .col
+                h4.mb-2 Arturo Calle:
+                p.mb-0 Combina accesibilidad, practicidad y cercanía; su parrilla se centra en consejos útiles, promociones y valores corporativos.
 
-      .col-lg-4.col-md-6
-        .bg-color-015.p-4.br-15.h-100
-          .row.align-items-center
-            .col-auto
-              img(src="@/assets/curso/tema5/img05.svg", style="max-width: 50px;").mx-auto
-            .col
-              h4.mb-2 Ambas marcas:
-              p.mb-0 Equilibran contenido aspiracional, educativo y comercial, adaptado a sus públicos meta.
+        .col-lg-4.col-md-6
+          .bg-color-015.p-4.br-15.h-100
+            .row.align-items-center
+              .col-auto
+                img(src="@/assets/curso/tema5/img05.svg", style="max-width: 50px;").mx-auto
+              .col
+                h4.mb-2 Ambas marcas:
+                p.mb-0 Equilibran contenido aspiracional, educativo y comercial, adaptado a sus públicos meta.
 
     .row.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-07.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
@@ -233,53 +234,56 @@
         .bg-fondo-08.p-4.br-15(data-aos="fade-left")
           p.mb-1 Las características principales de un calendario de publicaciones incluyen organización temporal, programación anticipada, integración de campañas y seguimiento de actividades comunicativas. Estas características permiten visualizar de manera clara las acciones planificadas y facilitan la coordinación entre los diferentes integrantes involucrados en la producción y difusión de contenidos. Asimismo, contribuyen a evitar duplicidades, omisiones o desequilibrios dentro de la estrategia digital.
           p.mb-0 Para organizar y gestionar de manera eficiente la publicación de contenidos, existen diferentes herramientas digitales que facilitan la programación, coordinación y seguimiento de las actividades en los distintos canales, entre ellas:
-
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-4.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
-        figure
-          img(src="@/assets/curso/tema5/img07.png", data-aos="zoom-in")
-      .col-lg-8.order-2.order-lg-1
-        .bg-fondo-02.p-4.br-15
-          SlyderA(tipo="b").bg-color-white.p-3.tarjeta
-            .tarjeta.p-3
-              h4 Trello
-              p.mb-0 <b>Uso estratégico:</b> permite organizar y visualizar las actividades relacionadas con la planificación y publicación de contenidos mediante tableros interactivos.
-
-            .tarjeta.p-3
-              h4 Google Calendar
-              p.mb-0 <b>Uso estratégico:</b> facilita programar fechas y horarios para coordinar la publicación de contenidos en diferentes medios digitales.
-
-            .tarjeta.p-3
-              h4 Notion
-              p.mb-0 <b>Uso estratégico:</b> permite organizar contenidos, estructurar información y coordinar actividades relacionadas con la gestión de contenidos para equipos.
-
-            .tarjeta.p-3
-              h4 HubSpot
-              p.mb-0 <b>Uso estratégico:</b> facilita la gestión de contenidos y la automatización de acciones de <em>marketing</em> para fortalecer procesos comerciales digitales.
-
-        
-    .row.align-items-center.bg-color-015.p-4.mb-5.br-15
-      .col-lg-auto.order-2.order-lg-2.d-none.d-lg-flex
-        img(src="@/assets/curso/tema5/img08.svg", style="max-width: 100px").mx-auto
-      .col-lg.order-1.order-lg-1
-        p.mb-0 Las herramientas digitales especializadas permiten gestionar calendarios de publicaciones de forma más eficiente. Estas herramientas facilitan programar contenidos, administrar múltiples canales y monitorear actividades desde una única interfaz. Su utilización contribuye a optimizar procesos operativos y fortalecer el control sobre las estrategias de comunicación desarrolladas en entornos digitales. La selección de una herramienta adecuada depende de las necesidades organizacionales y de los canales utilizados dentro de la estrategia comercial.
     
     
-    .row.align-items-center.mb-4(data-aos="fade-right")
-      .col-lg-8.mx-auto
-        .bg-color-09.br-15.mb-0
-          .row.align-items-center.justify-content-center(data-aos="fade-right")
-            .col-lg-auto.d-none.d-lg-block.order-lg-1
-              img(src="@/assets/curso/tema1/img08.png", style="max-width: 150px;").mx-auto
-            .col-lg-9.order-1.order-lg-2.p-4
-              .bg-color-08.p-2.mb-2.max-cont-md
-                h4.mb-0.text-bold.text-white Clave estratégica
-              p.mb-0 La constancia en la publicación de contenidos depende más de la planificación que de la improvisación.
+    .bg-full-width.bg-fondo-1
 
-    separador
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-4.col-md-8.mb-4.mb-lg-0.order-1.order-lg-2
+          figure
+            img(src="@/assets/curso/tema5/img07.png", data-aos="zoom-in")
+        .col-lg-8.order-2.order-lg-1
+          .bg-fondo-02.p-4.br-15
+            SlyderA(tipo="b").bg-color-white.p-3.tarjeta
+              .tarjeta.p-3
+                h4 Trello
+                p.mb-0 <b>Uso estratégico:</b> permite organizar y visualizar las actividades relacionadas con la planificación y publicación de contenidos mediante tableros interactivos.
 
-    #t_5_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 5.3 Divulgación de contenido digital
+              .tarjeta.p-3
+                h4 Google Calendar
+                p.mb-0 <b>Uso estratégico:</b> facilita programar fechas y horarios para coordinar la publicación de contenidos en diferentes medios digitales.
+
+              .tarjeta.p-3
+                h4 Notion
+                p.mb-0 <b>Uso estratégico:</b> permite organizar contenidos, estructurar información y coordinar actividades relacionadas con la gestión de contenidos para equipos.
+
+              .tarjeta.p-3
+                h4 HubSpot
+                p.mb-0 <b>Uso estratégico:</b> facilita la gestión de contenidos y la automatización de acciones de <em>marketing</em> para fortalecer procesos comerciales digitales.
+
+          
+      .row.align-items-center.bg-color-015.p-4.mb-5.br-15
+        .col-lg-auto.order-2.order-lg-2.d-none.d-lg-flex
+          img(src="@/assets/curso/tema5/img08.svg", style="max-width: 100px").mx-auto
+        .col-lg.order-1.order-lg-1
+          p.mb-0 Las herramientas digitales especializadas permiten gestionar calendarios de publicaciones de forma más eficiente. Estas herramientas facilitan programar contenidos, administrar múltiples canales y monitorear actividades desde una única interfaz. Su utilización contribuye a optimizar procesos operativos y fortalecer el control sobre las estrategias de comunicación desarrolladas en entornos digitales. La selección de una herramienta adecuada depende de las necesidades organizacionales y de los canales utilizados dentro de la estrategia comercial.
+      
+      
+      .row.align-items-center.mb-4(data-aos="fade-right")
+        .col-lg-12.col-xl-8.mx-auto
+          .bg-color-09.br-15.mb-0
+            .row.align-items-center.justify-content-center(data-aos="fade-right")
+              .col-lg-auto.d-none.d-lg-block.order-lg-1
+                img(src="@/assets/curso/tema1/img08.png", style="max-width: 150px;").mx-auto
+              .col-lg-9.order-1.order-lg-2.p-4
+                .bg-color-08.p-2.mb-2.max-cont-md
+                  h4.mb-0.text-bold.text-white Clave estratégica
+                p.mb-0 La constancia en la publicación de contenidos depende más de la planificación que de la improvisación.
+
+      separador
+
+      #t_5_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 5.3 Divulgación de contenido digital
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-5.col-md-8.mb-4.mb-lg-0
@@ -303,7 +307,7 @@
             p.mb-0 <b>Ejemplo:</b> una tienda publica una nueva colección en su sitio web, redes sociales y correo electrónico.
           .col-lg-5.col-md-8.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema5/img10.png', alt='Publicación multicanal')
+              img(src='@/assets/curso/tema5/img10.png', alt='')
 
       .p-3.p-md-4(titulo="Segmentación de audiencia")
         .row.justify-content-center.align-items-center
@@ -313,7 +317,7 @@
             p.mb-0 <b>Ejemplo:</b> una campaña promocional orientada a jóvenes interesados en moda sostenible.
           .col-lg-5.col-md-8.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema5/img11.png', alt='Segmentación de audiencia')
+              img(src='@/assets/curso/tema5/img11.png', alt='')
 
       .p-3.p-md-4(titulo="Reutilización de contenidos")
         .row.justify-content-center.align-items-center
@@ -323,7 +327,7 @@
             p.mb-0 <b>Ejemplo:</b> transformar un artículo de blog en una infografía para redes sociales o un video corto.
           .col-lg-5.col-md-8.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema5/img12.png', alt='Reutilización de contenidos')
+              img(src='@/assets/curso/tema5/img12.png', alt='')
 
       .p-3.p-md-4(titulo="Promoción digital")
         .row.justify-content-center.align-items-center
@@ -333,7 +337,7 @@
             p.mb-0 <b>Ejemplo:</b> promocionar un reel de lanzamiento para alcanzar usuarios que aún no siguen la marca.
           .col-lg-5.col-md-8.mb-3.mb-lg-0
             figure
-              img(src='@/assets/curso/tema5/img13.png', alt='Promoción digital')
+              img(src='@/assets/curso/tema5/img13.png', alt='')
 
     .row.align-items-center.bg-color-07.p-4.mb-5.br-15
       .col-lg-auto.order-2.order-lg-2.d-none.d-lg-flex
@@ -347,7 +351,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema5/img15.png", alt="Mailchimp")
+              img(src="@/assets/curso/tema5/img15.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center <em>Mailchimp</em>
             p.mb-0 Facilita la distribución de contenidos mediante campañas de correo electrónico segmentadas.
@@ -356,7 +360,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema5/img16.png", alt="Hootsuite")
+              img(src="@/assets/curso/tema5/img16.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center <em>Hootsuite</em>
             p.mb-0 Facilita la gestión simultánea de múltiples canales digitales desde una misma plataforma.
@@ -365,7 +369,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema5/img17.png", alt="Meta Business Suite")
+              img(src="@/assets/curso/tema5/img17.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center <em>Meta Business Suite</em>
             p.mb-0 Permite programar y gestionar publicaciones en las plataformas de Meta.
@@ -374,7 +378,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema5/img18.png", alt="Metricool")
+              img(src="@/assets/curso/tema5/img18.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center <em>Metricool</em>
             p.mb-0 Facilita la programación, el monitoreo y el análisis de estrategias de contenido digital.
@@ -389,7 +393,7 @@
           img(src="@/assets/curso/tema5/img19.png", data-aos="zoom-in")
 
     .row.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-07.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
@@ -430,7 +434,7 @@
               .col-7
                 h4.mb-0 Revisión de contenido
               .col-5
-                img(src='@/assets/curso/tema5/img27.svg', alt='Revisión de contenido', style="max-width: 80px; max-height: 80px").mx-auto
+                img(src='@/assets/curso/tema5/img27.svg', alt='', style="max-width: 80px; max-height: 80px").mx-auto
             p.mb-0 Garantiza la precisión, coherencia y calidad de la información, permitiendo identificar errores o inconsistencias que afecten la comprensión del mensaje.
 
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
@@ -438,7 +442,7 @@
               .col-7
                 h4.mb-0 Validación de marca
               .col-5
-                img(src='@/assets/curso/tema5/img28.svg', alt='Validación de marca', style="max-width: 80px; max-height: 80px").mx-auto
+                img(src='@/assets/curso/tema5/img28.svg', alt='', style="max-width: 80px; max-height: 80px").mx-auto
             p.mb-0 Asegura el cumplimiento de los lineamientos visuales, comunicativos y estratégicos institucionales, fortaleciendo la identidad y coherencia de la marca.
 
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
@@ -446,7 +450,7 @@
               .col-7
                 h4.mb-0 Programación
               .col-5
-                img(src='@/assets/curso/tema5/img29.svg', alt='Programación', style="max-width: 80px; max-height: 80px").mx-auto
+                img(src='@/assets/curso/tema5/img29.svg', alt='', style="max-width: 80px; max-height: 80px").mx-auto
             p.mb-0 Facilita organizar temporalmente las publicaciones, optimizando su frecuencia, oportunidad y alcance según los objetivos establecidos.
 
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
@@ -454,7 +458,7 @@
               .col-7
                 h4.mb-0 Aprobación final
               .col-5
-                img(src='@/assets/curso/tema5/img30.svg', alt='Aprobación final', style="max-width: 80px; max-height: 80px").mx-auto
+                img(src='@/assets/curso/tema5/img30.svg', alt='', style="max-width: 80px; max-height: 80px").mx-auto
             p.mb-0 Reduce riesgos asociados con errores, inconsistencias o incumplimientos normativos, verificando que el contenido cumpla los criterios definidos antes de publicarse.
 
     .row.align-items-center.mb-5.bg-color-015.p-4.br-15(data-aos="fade-right")
@@ -473,7 +477,7 @@
           img(src="@/assets/curso/tema5/img22.png", data-aos="zoom-in")
 
     .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-09.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
@@ -527,7 +531,7 @@
             p.mb-0 Dentro de las estrategias comerciales digitales, la netiqueta también cumple una función preventiva al reducir conflictos derivados de malentendidos, respuestas inadecuadas o comportamientos poco profesionales. Cuando una organización establece lineamientos claros para la interacción digital, fortalece su capacidad para gestionar comunidades virtuales y construir experiencias positivas para sus consumidores. Esta práctica favorece la sostenibilidad de las relaciones comerciales y contribuye a consolidar una reputación digital sólida.
 
     .row.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-01.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1

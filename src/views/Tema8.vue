@@ -88,7 +88,7 @@
               p.mb-0 <b>Ejemplo:</b> consultar resultados generales para ajustar la estrategia comercial.
 
     .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-07.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
@@ -172,7 +172,7 @@
           img(src="@/assets/curso/tema8/img08.png", data-aos="zoom-in")
 
     .row.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-09.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1

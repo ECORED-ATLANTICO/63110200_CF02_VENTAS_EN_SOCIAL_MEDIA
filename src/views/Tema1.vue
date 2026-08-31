@@ -33,7 +33,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/img03.png", alt="Presencial")
+              img(src="@/assets/curso/tema1/img03.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Presencial
             p.mb-0 Facilitan la interacción directa y la evaluación inmediata de las necesidades del consumidor durante los procesos comerciales.
@@ -42,7 +42,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/img04.png", alt="Remota")
+              img(src="@/assets/curso/tema1/img04.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Remota
             p.mb-0 Permite desarrollar procesos comerciales mediante plataformas digitales sin restricciones geográficas significativas.
@@ -51,7 +51,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/img05.png", alt="Consultiva")
+              img(src="@/assets/curso/tema1/img05.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Consultiva
             p.mb-0 Prioriza diagnóstico y comprensión profunda de necesidades antes de formular propuestas comerciales.
@@ -60,7 +60,7 @@
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema1/img06.png", alt="Transaccional")
+              img(src="@/assets/curso/tema1/img06.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Transaccional
             p.mb-0 Busca concretar ventas de forma eficiente mediante procesos comerciales ágiles y estructurados.
@@ -68,16 +68,16 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.col-md-12.mb-4.mb-lg-0.order-1.order-lg-1
         figure
-          img(src="@/assets/curso/tema1/img07.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img07.png", data-aos="zoom-in", alt="")
       .col-lg-8.order-2.order-lg-2.mb-0.mb-lg-0
         p.mb-0(data-aos="fade-right") Los usos de la venta dentro de <em>social media</em> trascienden la simple comercialización de productos. Actualmente, las organizaciones utilizan estrategias de venta para generar reconocimiento, captar clientes potenciales, fortalecer relaciones comerciales y aumentar niveles de fidelización. Cuando una empresa combina contenidos relevantes, interacción permanente y propuestas de valor diferenciadas, incrementa significativamente las probabilidades de conversión y sostenibilidad comercial dentro de ecosistemas digitales cada vez más competitivos.
 
     .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-09.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
-              img(src="@/assets/curso/tema1/img08.png", style="max-width: 150px;").mx-auto
+              img(src="@/assets/curso/tema1/img08.png", style="max-width: 150px;", alt="").mx-auto
             .col-lg-9.order-1.order-lg-2.p-4
               .bg-color-08.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Clave estratégica
@@ -94,12 +94,12 @@
         p.mb-0(data-aos="fade-right") Para formular objetivos comerciales claros y orientados a resultados, es necesario considerar diferentes componentes que permitan definir, medir y evaluar su cumplimiento, entre ellos:
       .col-lg-4.col-md-8.order-1.order-lg-2.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/img09.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img09.png", data-aos="zoom-in", alt="")
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.col-md-8.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/img10.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img10.png", data-aos="zoom-in", alt="")
       .col-lg-8
         .bg-fondo-02.p-4.br-15
           SlyderA(tipo="b").bg-color-white.p-3.tarjeta
@@ -130,7 +130,7 @@
           p.mb-0 La empresa EcoStyle comercializa productos sostenibles mediante redes sociales. Durante varios periodos ejecutó campañas digitales sin establecer metas específicas, lo que dificultaba evaluar resultados y optimizar recursos. Posteriormente implementó objetivos SMART para cada campaña, definiendo indicadores relacionados con alcance, generación de prospectos y conversiones comerciales. Uno de sus objetivos consistía en aumentar en 25 % los registros obtenidos mediante formularios digitales durante un periodo de noventa días. Gracias a la claridad del objetivo, la empresa pudo monitorear avances, corregir desviaciones y optimizar contenidos. Como resultado, logró superar la meta planteada y mejorar significativamente la efectividad de sus acciones comerciales digitales.
       .col-lg-4.col-md-8.order-1.order-lg-2.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/img12.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img12.png", data-aos="zoom-in", alt="")
 
     separador
 
@@ -144,39 +144,41 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Dentro de las estrategias de ventas en <em>social media</em>, el producto constituye el elemento central alrededor del cual se construyen las propuestas de valor, los mensajes comerciales y las experiencias del consumidor. Su importancia trasciende las características físicas o funcionales, debido a que representa una solución diseñada para satisfacer necesidades específicas. En entornos digitales, la percepción del producto depende significativamente de la información, los contenidos y las experiencias comunicadas mediante plataformas y canales de interacción comercial.
 
-    .bg-color-014.p-4.br-15.mb-5(data-aos="fade-right")
-      .row.align-items-center
-        .col-lg-10.mb-0.mb-lg-0
-          p.mb-0 Las características de un producto permiten diferenciarlo frente a las alternativas existentes en el mercado. Estos atributos pueden relacionarse con aspectos funcionales, diseño, calidad, presentación, nivel de innovación o beneficios específicos ofrecidos al consumidor. Cuando una organización identifica claramente estos atributos, puede construir mensajes comerciales más efectivos y segmentados. En <em>social media</em>, comunicar adecuadamente los elementos diferenciales facilita generar interés, fortalecer el posicionamiento y aumentar las posibilidades de conversión comercial.
-        .col-lg-2.col-md-4.mx-auto.p-0.d-none.d-lg-block
+    .bg-full-width.bg-fondo-1
+ 
+      .bg-color-014.p-4.br-15.mb-5(data-aos="fade-right")
+        .row.align-items-center
+          .col-lg-10.mb-0.mb-lg-0
+            p.mb-0 Las características de un producto permiten diferenciarlo frente a las alternativas existentes en el mercado. Estos atributos pueden relacionarse con aspectos funcionales, diseño, calidad, presentación, nivel de innovación o beneficios específicos ofrecidos al consumidor. Cuando una organización identifica claramente estos atributos, puede construir mensajes comerciales más efectivos y segmentados. En <em>social media</em>, comunicar adecuadamente los elementos diferenciales facilita generar interés, fortalecer el posicionamiento y aumentar las posibilidades de conversión comercial.
+          .col-lg-2.col-md-4.mx-auto.p-0.d-none.d-lg-block
+            figure
+              img(src="@/assets/curso/tema1/img14.png", style="max-width: 100px;", alt="").mx-auto
+
+      .row.align-items-center.mb-3(data-aos="fade-right")
+        .col-lg-12.col-xl-8.mx-auto
+          .bg-color-07.br-15.mb-0
+            .row.align-items-center.justify-content-center(data-aos="fade-right")
+              .col-lg-auto.d-none.d-lg-block.order-lg-1
+                img(src="@/assets/curso/tema1/img15.png", alt="").mx-auto
+              .col-lg-7.order-lg-2.p-4
+                .bg-color-06.p-2.mb-2.max-cont-md
+                  h4.mb-0.text-bold Pregunta de aplicación
+                p.mb-0 ¿Cómo podría una empresa de alimentos saludables transformar las características de sus productos en ventajas relevantes para sus consumidores digitales?
+
+      separador
+
+      #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 1.4 Marketing online
+
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-5.col-md-8.mb-4.mb-lg-0
           figure
-            img(src="@/assets/curso/tema1/img14.png", style="max-width: 100px;").mx-auto
+            img(src="@/assets/curso/tema1/img16.png", data-aos="zoom-in", alt="")
+        .col-lg-7
+          p.mb-3(data-aos="fade-right") El <em>marketing online</em> corresponde al conjunto de estrategias, acciones y herramientas utilizadas para promover productos, servicios o marcas mediante entornos digitales. Su evolución ha transformado la forma en que las organizaciones interactúan con los consumidores, permitiendo desarrollar procesos de comunicación más directos, personalizados y medibles. A diferencia de los medios tradicionales, el <em>marketing online</em> facilita segmentar audiencias específicas y adaptar mensajes según intereses, comportamientos y necesidades identificadas mediante datos digitales.
 
-    .row.align-items-center.mb-3(data-aos="fade-right")
-      .col-lg-8.mx-auto
-        .bg-color-07.br-15.mb-0
-          .row.align-items-center.justify-content-center(data-aos="fade-right")
-            .col-lg-auto.d-none.d-lg-block.order-lg-1
-              img(src="@/assets/curso/tema1/img15.png").mx-auto
-            .col-lg-7.order-lg-2.p-4
-              .bg-color-06.p-2.mb-2.max-cont-md
-                h4.mb-0.text-bold Pregunta de aplicación
-              p.mb-0 ¿Cómo podría una empresa de alimentos saludables transformar las características de sus productos en ventajas relevantes para sus consumidores digitales?
-
-    separador
-
-    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.4 Marketing online
-
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-5.col-md-8.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema1/img16.png", data-aos="zoom-in")
-      .col-lg-7
-        p.mb-3(data-aos="fade-right") El <em>marketing online</em> corresponde al conjunto de estrategias, acciones y herramientas utilizadas para promover productos, servicios o marcas mediante entornos digitales. Su evolución ha transformado la forma en que las organizaciones interactúan con los consumidores, permitiendo desarrollar procesos de comunicación más directos, personalizados y medibles. A diferencia de los medios tradicionales, el <em>marketing online</em> facilita segmentar audiencias específicas y adaptar mensajes según intereses, comportamientos y necesidades identificadas mediante datos digitales.
-
-        .bg-color-01.p-4.br-15(data-aos="fade-left")
-          p.mb-0 La relevancia del <em>marketing online</em> se encuentra estrechamente relacionada con los cambios experimentados en los hábitos de consumo. Actualmente, los consumidores investigan productos, comparan alternativas y toman decisiones apoyándose en información disponible en internet. Como consecuencia, las organizaciones requieren presencia estratégica en medios digitales para participar activamente dentro de esos procesos de búsqueda y evaluación. Esta realidad convierte al <em>marketing online</em> en un componente fundamental para la competitividad empresarial contemporánea.
+          .bg-color-01.p-4.br-15(data-aos="fade-left")
+            p.mb-0 La relevancia del <em>marketing online</em> se encuentra estrechamente relacionada con los cambios experimentados en los hábitos de consumo. Actualmente, los consumidores investigan productos, comparan alternativas y toman decisiones apoyándose en información disponible en internet. Como consecuencia, las organizaciones requieren presencia estratégica en medios digitales para participar activamente dentro de esos procesos de búsqueda y evaluación. Esta realidad convierte al <em>marketing online</em> en un componente fundamental para la competitividad empresarial contemporánea.
 
 
     .bg-color-015.p-4.br-15.mb-5(data-aos="fade-right")
@@ -192,7 +194,7 @@
           p.mb-0 La organización Aprende Digital ofrecía programas de capacitación empresarial, pero dependía principalmente de referencias personales para conseguir nuevos clientes. Con el propósito de ampliar su alcance comercial, implementó una estrategia de <em>marketing online</em> basada en contenidos especializados, posicionamiento en buscadores y campañas segmentadas en redes sociales. Durante seis meses, la empresa publicó recursos educativos, desarrolló anuncios orientados a públicos específicos y optimizó sus canales digitales. Como resultado, incrementó significativamente el tráfico hacia sus plataformas, aumentó la generación de prospectos y fortaleció el reconocimiento de marca dentro de su sector. Este caso evidencia cómo el <em>marketing online</em> permite ampliar oportunidades comerciales mediante estrategias fundamentadas en datos y segmentación.
       .col-lg-4.col-md-8.order-1.order-lg-2.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/img17.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img17.png", data-aos="zoom-in", alt="")
 
 
     p.mb-5 En este contexto, las estrategias de <em>marketing online</em> pueden orientarse a diferentes acciones comerciales que permiten fortalecer la presencia digital, atraer potenciales clientes, favorecer la conversión y mantener relaciones sostenibles con los consumidores, entre ellas:
@@ -201,7 +203,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.mb-4.mb-lg-0.col-md-12.order-1.order-lg-2
         figure
-          img(src="@/assets/curso/tema1/img23.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/img23.png", data-aos="zoom-in", alt="")
       .col-lg-8.order-2.order-lg-1.col-md-12.mb-4.mb-lg-0
         SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-2")
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
@@ -209,7 +211,7 @@
               .col-7
                 h4.mb-0 Posicionamiento digital
               .col-5
-                img(src='@/assets/curso/tema1/img19.svg', alt='Posicionamiento digital', style="max-width: 80px; max-height: 80px").mx-auto
+                img(src='@/assets/curso/tema1/img19.svg', alt='', style="max-width: 80px; max-height: 80px").mx-auto
             p.mb-0 Incrementa la visibilidad y el reconocimiento mediante la presencia constante en medios digitales.
 
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
@@ -217,7 +219,7 @@
               .col-7
                 h4.mb-0 Generación de prospectos
               .col-5
-                img(src='@/assets/curso/tema1/img20.svg', alt='Generación de prospectos', style="max-width: 80px; max-height: 80px").mx-auto
+                img(src='@/assets/curso/tema1/img20.svg', alt='', style="max-width: 80px; max-height: 80px").mx-auto
             p.mb-0 Facilita identificar y reconocer consumidores potenciales interesados en productos o servicios específicos.
 
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
@@ -225,7 +227,7 @@
               .col-7
                 h4.mb-0 Conversión comercial
               .col-5
-                img(src='@/assets/curso/tema1/img21.svg', alt='Conversión comercial', style="max-width: 80px;").mx-auto
+                img(src='@/assets/curso/tema1/img21.svg', alt='', style="max-width: 80px;").mx-auto
             p.mb-0 Favorece procesos orientados a transformar prospectos en clientes efectivos.
 
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
@@ -233,7 +235,7 @@
               .col-7
                 h4.mb-0 Fidelización digital
               .col-5
-                img(src='@/assets/curso/tema1/img22.svg', alt='Fidelización digital', style="max-width: 80px;").mx-auto
+                img(src='@/assets/curso/tema1/img22.svg', alt='', style="max-width: 80px;").mx-auto
             p.mb-0 Fortalece relaciones comerciales sostenibles mediante comunicación e interacción permanente.
 
     separador
@@ -270,7 +272,7 @@
         
 
     .row.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-09.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
@@ -305,7 +307,7 @@
           img(src="@/assets/curso/tema1/img29.png", data-aos="zoom-in")
 
     .row.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-01.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1

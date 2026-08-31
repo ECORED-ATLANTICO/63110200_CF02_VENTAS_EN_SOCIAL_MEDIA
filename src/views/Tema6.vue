@@ -19,18 +19,18 @@
       #t_6_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 6.1 Conversión
 
-    .bloque-texto-g.bg-color-02.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require_src('@/assets/curso/tema6/img02.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 La conversión corresponde al momento en el cual un usuario realiza una acción previamente definida como valiosa dentro de una estrategia comercial digital. Aunque frecuentemente se asocia con una compra, la conversión también puede representar registros, solicitudes de información, descargas de recursos o cualquier comportamiento alineado con los objetivos establecidos por la organización. En las ventas en <em>social media</em>, la conversión constituye uno de los principales indicadores para evaluar la efectividad de las acciones desarrolladas.
+      .bloque-texto-g.bg-color-02.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/tema6/img02.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 La conversión corresponde al momento en el cual un usuario realiza una acción previamente definida como valiosa dentro de una estrategia comercial digital. Aunque frecuentemente se asocia con una compra, la conversión también puede representar registros, solicitudes de información, descargas de recursos o cualquier comportamiento alineado con los objetivos establecidos por la organización. En las ventas en <em>social media</em>, la conversión constituye uno de los principales indicadores para evaluar la efectividad de las acciones desarrolladas.
 
-    .row.align-items-center.mb-5.bg-color-07.p-4.br-15(data-aos="fade-right")
-      .col-lg
-        p.mb-0 Los procesos de conversión son el resultado de múltiples factores relacionados con la calidad del contenido, la experiencia del usuario, la confianza en la marca y la claridad de la propuesta de valor. Cuando una organización comprende adecuadamente las necesidades de su audiencia y reduce obstáculos durante el proceso de decisión, incrementa significativamente las probabilidades de obtener resultados favorables. Por esta razón, la conversión debe entenderse como una consecuencia de una estrategia comercial integral y no únicamente como un resultado aislado.
-      .col-lg-auto.d-none.d-lg-flex
-        img.d-none.d-lg-flex(src="@/assets/curso/tema6/img03.svg", style="max-width: 100px;").mx-auto
+      .row.align-items-center.mb-5.bg-color-07.p-4.br-15(data-aos="fade-right")
+        .col-lg
+          p.mb-0 Los procesos de conversión son el resultado de múltiples factores relacionados con la calidad del contenido, la experiencia del usuario, la confianza en la marca y la claridad de la propuesta de valor. Cuando una organización comprende adecuadamente las necesidades de su audiencia y reduce obstáculos durante el proceso de decisión, incrementa significativamente las probabilidades de obtener resultados favorables. Por esta razón, la conversión debe entenderse como una consecuencia de una estrategia comercial integral y no únicamente como un resultado aislado.
+        .col-lg-auto.d-none.d-lg-flex
+          img.d-none.d-lg-flex(src="@/assets/curso/tema6/img03.svg", style="max-width: 100px;").mx-auto
 
     p.mb-4(data-aos="fade-right") En este contexto, la conversión digital puede manifestarse mediante diferentes acciones según el objetivo comercial y la etapa de interacción con el consumidor. A continuación, se presentan algunos tipos de conversión que pueden desarrollarse dentro de las estrategias de ventas en <em>social media</em>:
 
@@ -72,69 +72,70 @@
         figure
           img(src="@/assets/curso/tema6/img08.png", data-aos="zoom-in")
 
-    separador
+    .bg-full-width.bg-fondo-1
+      separador
 
-    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 6.2 Medios de pago
+      #t_6_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 6.2 Medios de pago
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-4.col-md-12.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema6/img09.png", data-aos="zoom-in")
-      .col-lg-8
-        p.mb-0(data-aos="fade-right") Los medios de pago corresponden a los mecanismos utilizados para transferir recursos económicos durante procesos de compra y comercialización. En los entornos digitales, su importancia radica en la capacidad para facilitar transacciones seguras, ágiles y adaptadas a las preferencias de los consumidores. Dentro de las ventas en <em>social media</em>, la disponibilidad de diferentes medios de pago contribuye a reducir barreras durante el cierre comercial y favorece la experiencia general del cliente.
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-4.col-md-12.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema6/img09.png", data-aos="zoom-in")
+        .col-lg-8
+          p.mb-0(data-aos="fade-right") Los medios de pago corresponden a los mecanismos utilizados para transferir recursos económicos durante procesos de compra y comercialización. En los entornos digitales, su importancia radica en la capacidad para facilitar transacciones seguras, ágiles y adaptadas a las preferencias de los consumidores. Dentro de las ventas en <em>social media</em>, la disponibilidad de diferentes medios de pago contribuye a reducir barreras durante el cierre comercial y favorece la experiencia general del cliente.
 
-    .bg-fondo-11.p-4.br-15.mb-5(data-aos="fade-right")
-      p.mb-0 Los tipos de medios de pago utilizados en entornos digitales incluyen tarjetas débito y crédito, transferencias bancarias, billeteras digitales, pasarelas de pago y sistemas de recaudo electrónico. Cada alternativa presenta características específicas relacionadas con seguridad, facilidad de uso, tiempos de procesamiento y niveles de aceptación por parte de los consumidores. La selección adecuada depende de las necesidades de la organización y de las expectativas de su mercado objetivo.
+      .bg-fondo-11.p-4.br-15.mb-5(data-aos="fade-right")
+        p.mb-0 Los tipos de medios de pago utilizados en entornos digitales incluyen tarjetas débito y crédito, transferencias bancarias, billeteras digitales, pasarelas de pago y sistemas de recaudo electrónico. Cada alternativa presenta características específicas relacionadas con seguridad, facilidad de uso, tiempos de procesamiento y niveles de aceptación por parte de los consumidores. La selección adecuada depende de las necesidades de la organización y de las expectativas de su mercado objetivo.
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5.text-bold.mb-2 Tabla 9.
-          span Tipos de medios de pago digitales
-        .tabla-a.tb-custom.mb-0
-          table
-            caption Nota. SENA, (2026).
-            thead
-              tr
-                th(width="35%") Medio de pago
-                th(width="65%") Aplicación estratégica
-            tbody
-              tr
-                td <b>Tarjeta débito o crédito</b>
-                td Facilita transacciones rápidas mediante sistemas bancarios electrónicos.
-              tr
-                td <b>Transferencia bancaria</b>
-                td Permite realizar pagos directos entre cuentas financieras autorizadas.
-              tr
-                td <b>Billetera digital</b>
-                td Favorece operaciones ágiles mediante aplicaciones especializadas de pago.
-              tr
-                td <b>Pasarela de pago</b>
-                td Integra múltiples alternativas dentro de plataformas comerciales digitales.
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5.text-bold.mb-2 Tabla 9.
+            span Tipos de medios de pago digitales
+          .tabla-a.tb-custom.mb-0
+            table
+              caption Nota. SENA, (2026).
+              thead
+                tr
+                  th(width="35%") Medio de pago
+                  th(width="65%") Aplicación estratégica
+              tbody
+                tr
+                  td <b>Tarjeta débito o crédito</b>
+                  td Facilita transacciones rápidas mediante sistemas bancarios electrónicos.
+                tr
+                  td <b>Transferencia bancaria</b>
+                  td Permite realizar pagos directos entre cuentas financieras autorizadas.
+                tr
+                  td <b>Billetera digital</b>
+                  td Favorece operaciones ágiles mediante aplicaciones especializadas de pago.
+                tr
+                  td <b>Pasarela de pago</b>
+                  td Integra múltiples alternativas dentro de plataformas comerciales digitales.
 
-    .row.justify-content-center.align-content-center.mb-5(data-aos="fade-right")
-      .col-lg-6.mx-auto.mb-4.mb-lg-0
-        .cajon.bg-color-09.p-4.mb-0
-          p.mb-0 El funcionamiento de los medios de pago digitales involucra procesos tecnológicos orientados a validar, autorizar y registrar transacciones económicas. Estas operaciones se desarrollan mediante plataformas especializadas que garantizan seguridad y trazabilidad durante el intercambio de recursos. Cuando las organizaciones implementan soluciones confiables y fáciles de utilizar, fortalecen la confianza de los consumidores y mejoran las probabilidades de concretar procesos de compra dentro de sus canales digitales.
+      .row.justify-content-center.align-content-center.mb-5(data-aos="fade-right")
+        .col-lg-6.mx-auto.mb-4.mb-lg-0
+          .cajon.bg-color-09.p-4.mb-0
+            p.mb-0 El funcionamiento de los medios de pago digitales involucra procesos tecnológicos orientados a validar, autorizar y registrar transacciones económicas. Estas operaciones se desarrollan mediante plataformas especializadas que garantizan seguridad y trazabilidad durante el intercambio de recursos. Cuando las organizaciones implementan soluciones confiables y fáciles de utilizar, fortalecen la confianza de los consumidores y mejoran las probabilidades de concretar procesos de compra dentro de sus canales digitales.
 
-      .col-lg-6.mx-auto
-        .container.h-100
-          .row.bg-fondo-09.align-items-center.justify-content-center.br-15
-            .col-md-8.col-lg-4.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1.p-3
-              figure
-                img(src="@/assets/curso/tema6/img19.png", data-aos="fade-right").mx-auto.w-md-50
-            .col-lg-8.order-1.order-md-1.order-lg-2.p-4.p-lg-4
-              h4.mb-2.text-white ¿Sabías qué?
-              p(data-aos="fade-left").mb-4.text-white Lo invitamos a escuchar el siguiente Pódcast:
-              TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="Medios de pago digitales"
-                tiempo
-                :audio="require_src('@/assets/curso/audio/1.mp3')"
-                )
+        .col-lg-6.mx-auto
+          .container.h-100
+            .row.bg-fondo-09.align-items-center.justify-content-center.br-15
+              .col-md-8.col-lg-4.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1.p-3
+                figure
+                  img(src="@/assets/curso/tema6/img19.png", data-aos="fade-right").mx-auto.w-md-50
+              .col-lg-8.order-1.order-md-1.order-lg-2.p-4.p-lg-4
+                h4.mb-2.text-white ¿Sabías qué?
+                p(data-aos="fade-left").mb-4.text-white Lo invitamos a escuchar el siguiente Pódcast:
+                TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
+                  texto="Medios de pago digitales"
+                  tiempo
+                  :audio="require_src('@/assets/curso/audio/1.mp3')"
+                  )
 
     .row.align-items-center.mb-0(data-aos="fade-right")
-      .col-lg-8.mx-auto
+      .col-lg-12.col-xl-8.mx-auto
         .bg-color-01.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
