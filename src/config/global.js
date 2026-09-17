@@ -395,7 +395,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional 06. Responsable Ecosistema de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -409,12 +409,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Mario Morales Cabrera',
-          cargo: 'Experto temático',
+          nombre: 'Nicolas Cruz',
+          cargo: 'Experto Temático Comercio y servicio',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Jair Enrique Coll Gallardo',
+          nombre: 'Rosmery Conde',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -424,7 +424,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta',
+          nombre: 'Andrés Felipe Herrera Roldan',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -459,12 +459,12 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Karine Isabel Ospino Fritz',
+          nombre: 'Jonathan Adié Villafañe',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Jonathan Adié Villafañe',
+          nombre: 'Karine Isabel Ospino Fritz',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
