@@ -39,17 +39,17 @@
       .col-lg-7.order-lg-1
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones--borde.p-4(titulo="Generación de texto")
-            p.mb-3 Permite redactar publicaciones, guiones, mensajes persuasivos y artículos orientados a la comunicación digital.
-            p.mb-0 <b>Ejemplo aplicativo:</b> creación de borradores para publicaciones en redes sociales.
+            p.mb-3 Facilita la creación de contenidos comerciales, descriptivos y educativos digitales.
+            p.mb-0 <b>Ejemplo aplicativo:</b> elaboración de textos promocionales para el lanzamiento de un producto.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Generación de imágenes")
             p.mb-3 Permite producir recursos visuales para campañas y publicaciones digitales.
             p.mb-0 <b>Ejemplo aplicativo:</b> creación de imágenes promocionales para redes sociales.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Análisis de datos")
-            p.mb-3 Facilita evaluar métricas, comportamientos e interacción de los usuarios para optimizar contenidos.
-            p.mb-0 <b>Ejemplo aplicativo:</b> análisis de alcance y engagement en campañas digitales.
+            p.mb-3 Ayuda a interpretar la información relacionada con consumidores y mercados.
+            p.mb-0 <b>Ejemplo aplicativo:</b> análisis de interacciones para identificar contenidos de mayor interés.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Asistencia conversacional")
-            p.mb-3 Responde consultas, atiende requerimientos y brinda soporte continuo mediante agentes virtuales.
-            p.mb-0 <b>Ejemplo aplicativo:</b> atención automatizada a clientes mediante chatbots.
+            p.mb-3 Favorece la interacción automatizada mediante respuestas y orientación inicial.
+            p.mb-0 <b>Ejemplo aplicativo:</b> atención de preguntas frecuentes sobre productos y procesos de compra.
 
     .row.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12.col-xl-8.mx-auto
@@ -101,7 +101,7 @@
                   td Plataforma especializada en edición de video que facilita incorporar efectos, transiciones, subtítulos y elementos audiovisuales para contenidos digitales.
                 tr
                   td <b>Adobe Photoshop</b>
-                  td Software de edición de imágenes utilizado para realizar ajustes fotográficos, retoque digital y producción de recursos visuales profesionales.
+                  td <em>Software</em> de edición de imágenes utilizado para realizar ajustes fotográficos, retoque digital y producción de recursos visuales profesionales.
                 tr
                   td <b>Adobe Premiere Pro</b>
                   td Plataforma de edición de video orientada a la producción audiovisual profesional mediante herramientas avanzadas de montaje y postproducción.
@@ -158,7 +158,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La organización EcoDecor producía contenidos para redes sociales utilizando imágenes y diseños desarrollados sin criterios visuales definidos. Aunque sus productos eran atractivos, las publicaciones carecían de coherencia gráfica y generaban niveles limitados de interacción por parte de los consumidores. Después de adoptar plataformas especializadas de diseño y establecer principios visuales consistentes, comenzó a producir contenidos alineados con su identidad de marca. La mejora en calidad gráfica, organización visual y presentación de información permitió incrementar significativamente la interacción de las publicaciones y fortalecer el posicionamiento digital de la organización.
       .col-lg-4.col-md-8
         figure
@@ -241,7 +241,7 @@
         figure
           img(src="@/assets/curso/tema4/img12.png", data-aos="zoom-in")
       .col-lg-7
-        p.mb-3(data-aos="fade-right") La edición de video corresponde al proceso de organización, ajuste y optimización de secuencias audiovisuales con el propósito de construir mensajes claros, atractivos y alineados con objetivos específicos. Dentro de las ventas en <em>social media</em>, el video se ha consolidado como uno de los formatos con mayor capacidad para generar atención e interacción. Por esta razón, la edición se convierte en una etapa estratégica que influye directamente en la calidad de la experiencia ofrecida al consumidor.
+        p.mb-3(data-aos="fade-right") La edición de video corresponde al proceso de organización, ajuste y optimización de secuencias audiovisuales con el propósito de construir mensajes claros, atractivos y alineados con objetivos específicos. Dentro de las ventas en <em>social media</em>, el video se ha consolidado como uno de los formatos con mayor capacidad para generar atención e interacción. Por esta razón, la edición se convierte en una etapa estratégica que influye directamente en la calidad de la experiencia ofrecida al consumidor digital.
 
         .bg-color-07.p-4.br-15(data-aos="fade-left")
           p.mb-0 Las características de la edición de video incluyen la posibilidad de organizar escenas, incorporar transiciones, ajustar sonido, integrar elementos gráficos y mejorar aspectos visuales relacionados con color e iluminación. Estas acciones permiten transformar grabaciones individuales en contenidos estructurados capaces de comunicar ideas de manera efectiva. La calidad técnica del video influye en la percepción de profesionalismo y contribuye a fortalecer la credibilidad de la organización frente a sus audiencias.
@@ -323,7 +323,7 @@
             figure
               img(src="@/assets/curso/tema4/img14.png", alt="")
           .crd_hover_txt--body
-            h4.mb-3.text-center <em>Redes sociales</em>
+            h4.mb-3.text-center Redes sociales
             p.mb-2 Facilitan la interacción, el posicionamiento y la promoción de productos digitales.
             p.mb-0 <b>Ejemplo:</b> una marca publica contenido en Instagram para promocionar una nueva colección y generar interacción con sus clientes.
 
@@ -333,7 +333,7 @@
             figure
               img(src="@/assets/curso/tema4/img15.png", alt="")
           .crd_hover_txt--body
-            h4.mb-3.text-center <em>Sitios web</em>
+            h4.mb-3.text-center Sitios web
             p.mb-2 Permiten centralizar información comercial y procesos de conversión.
             p.mb-0 <b>Ejemplo:</b> una empresa presenta su catálogo en línea y habilita un formulario para solicitar información o realizar una compra.
 
@@ -353,14 +353,14 @@
             figure
               img(src="@/assets/curso/tema4/img17.png", alt="")
           .crd_hover_txt--body
-            h4.mb-3.text-center <em>Correo electrónico</em>
+            h4.mb-3.text-center Correo electrónico
             p.mb-2 Fortalece la comunicación personalizada y los procesos de fidelización comercial.
             p.mb-0 <b>Ejemplo:</b> una empresa envía información sobre nuevos productos, promociones y beneficios exclusivos a sus clientes.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La organización BioMarket comercializaba productos ecológicos utilizando únicamente una red social para comunicarse con sus consumidores. Aunque obtenía resultados aceptables, observaba limitaciones relacionadas con alcance, seguimiento comercial y generación de oportunidades de negocio. Después de analizar su estrategia digital, decidió diversificar los medios utilizados para interactuar con su mercado objetivo. La empresa integró un sitio web para presentar su catálogo, correo electrónico para fortalecer la comunicación con clientes recurrentes y plataformas de mensajería para acompañar procesos de compra. Esta integración permitió mejorar la experiencia del consumidor, ampliar los puntos de contacto comerciales y fortalecer significativamente los resultados obtenidos mediante sus acciones digitales.
       .col-lg-4.col-md-8
         figure
@@ -375,7 +375,7 @@
             .col-lg-9.order-1.order-lg-2.p-4
               .bg-color-10.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Cita de reflexión
-              p.mb-0 "Las herramientas digitales pueden potenciar la creatividad y la productividad, pero la integridad profesional sigue siendo indispensable para comunicar información veraz, respetar los derechos de autor y generar confianza en los consumidores."
+              p.mb-0 "Las herramientas digitales pueden potenciar la creatividad y la productividad, pero la integridad profesional sigue siendo indispensable para comunicar información veraz, respetar los derechos de autor y generar confianza en los consumidores".
 
 </template>
 

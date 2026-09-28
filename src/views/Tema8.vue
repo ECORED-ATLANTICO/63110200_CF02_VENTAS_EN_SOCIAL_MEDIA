@@ -34,7 +34,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-015.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-3 La organización Formación Plus desarrollaba campañas digitales de manera constante, pero carecía de mecanismos estructurados para evaluar su desempeño. Como consecuencia, las decisiones relacionadas con inversión publicitaria y producción de contenidos se realizaban principalmente mediante percepciones subjetivas.
           p.mb-0 Con el propósito de fortalecer su gestión comercial, implementó reportes periódicos que integraban indicadores de alcance, interacción y conversión. Esta información permitió identificar campañas más efectivas, optimizar recursos y mejorar significativamente la capacidad para tomar decisiones basadas en resultados verificables.
       .col-lg-4.col-md-8
@@ -144,7 +144,7 @@
                 td Facilita analizar el comportamiento económico de los consumidores.
                 td Cada cliente realizó compras promedio por valor de $180.000 durante el mes.
               tr
-                td <b>Tasa de clics (CTR)</b>
+                td <b>Tasa de <em>clics</em> (CTR)</b>
                 td Permite evaluar el interés generado por anuncios o publicaciones digitales.
                 td El anuncio obtuvo un CTR del 6,8 % sobre las impresiones registradas.
               tr
@@ -165,7 +165,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La organización TechPro realizaba inversiones constantes en publicidad digital, pero enfrentaba dificultades para determinar cuáles acciones generaban mejores resultados comerciales. Aunque disponía de gran cantidad de información, no contaba con criterios claros para interpretar el desempeño de sus estrategias. Después de identificar las métricas más relevantes para sus objetivos comerciales, comenzó a monitorear indicadores relacionados con generación de prospectos, conversiones y retorno de inversión. Este enfoque permitió optimizar la asignación de recursos y fortalecer significativamente la efectividad de sus campañas digitales.
       .col-lg-4.col-md-8
         figure
@@ -280,7 +280,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La organización Digital Learning desarrollaba acciones comerciales mediante diferentes plataformas digitales y monitoreaba una gran cantidad de métricas relacionadas con interacción y alcance. Sin embargo, enfrentaba dificultades para determinar cuáles indicadores reflejaban realmente el cumplimiento de sus objetivos estratégicos. Después de revisar su modelo de gestión, identificó KPIs relacionados con generación de prospectos, conversión comercial y retención de estudiantes. El seguimiento sistemático de estos indicadores permitió enfocar esfuerzos en variables críticas para el crecimiento organizacional y mejorar significativamente la efectividad de sus estrategias de ventas en <em>social media</em>.
       .col-lg-4.col-md-8
         figure
@@ -292,9 +292,8 @@
       .p-3.p-md-4(titulo="Relevancia")
         .row.align-items-center.justify-content-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Relevancia
             p.mb-2 Garantiza la relación directa del KPI con los objetivos comerciales.
-            p.mb-0 <b>Ejemplo:</b> para aumentar ventas en <em>Instagram</em>, se prioriza la tasa de conversión.
+            p.mb-0 <b>Ejemplo:</b> para aumentar ventas en Instagram, se prioriza la tasa de conversión.
           .col-lg-5.col-md-10
             figure
               img(src="@/assets/curso/tema8/img14.png", alt="")
@@ -302,7 +301,6 @@
       .p-3.p-md-4(titulo="Medición objetiva")
         .row.align-items-center.justify-content-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Medición objetiva
             p.mb-2 Permite obtener información verificable y comparable en el tiempo.
             p.mb-0 <b>Ejemplo:</b> comparar mensualmente la tasa de conversión de campañas.
           .col-lg-5.col-md-10
@@ -312,7 +310,6 @@
       .p-3.p-md-4(titulo="Claridad")
         .row.align-items-center.justify-content-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Claridad
             p.mb-2 Facilita la interpretación de los resultados por parte del equipo responsable.
             p.mb-0 <b>Ejemplo:</b> utilizar indicadores claramente definidos para evaluar una campaña.
           .col-lg-5.col-md-10
@@ -322,7 +319,6 @@
       .p-3.p-md-4(titulo="Utilidad estratégica")
         .row.align-items-center.justify-content-center
           .col-lg-7.mb-4.mb-lg-0
-            h4 Utilidad estratégica
             p.mb-2 Aporta información para tomar decisiones y realizar ajustes comerciales.
             p.mb-0 <b>Ejemplo:</b> identificar las campañas con mejores resultados para optimizar el presupuesto.
           .col-lg-5.col-md-10
@@ -330,7 +326,7 @@
               img(src="@/assets/curso/tema8/img17.png", alt="")
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
-      .col-lg-6.mb-4.mb-lg-0.h-100
+      .col-lg-6.mb-4.mb-lg-0.h-100.order-2.order-lg-1
         .bg-color-01.br-15.mb-0
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.d-none.d-lg-block.order-lg-1
@@ -338,9 +334,9 @@
             .col-lg-8.order-1.order-lg-2.p-4
               .bg-color-10.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Cita de reflexión
-              p.mb-0 "La integridad en el análisis comercial implica interpretar los datos con objetividad y utilizar la información para mejorar continuamente, evitando decisiones basadas en percepciones o intereses particulares que distorsionen la realidad de los resultados."
+              p.mb-0 "La integridad en el análisis comercial implica interpretar los datos con objetividad y utilizar la información para mejorar continuamente, evitando decisiones basadas en percepciones o intereses particulares que distorsionen la realidad de los resultados".
 
-      .col-lg-6.mx-auto.h-100
+      .col-lg-6.mx-auto.h-100.order-1.order-lg-2
         .container.h-100
           .row.bg-fondo-09.align-items-center.justify-content-center.br-15
             .col-md-8.col-lg-4.mb-3.mb-lg-0.order-2.order-md-2.order-lg-1.p-3
@@ -348,9 +344,9 @@
                 img(src="@/assets/curso/tema6/img19.png", data-aos="fade-right").mx-auto.w-md-50
             .col-lg-8.order-1.order-md-1.order-lg-2.p-4.p-lg-4
               h4.mb-2.text-white ¿Sabías qué?
-              p(data-aos="fade-left").mb-4.text-white Lo invitamos a escuchar el siguiente Pódcast:
+              p(data-aos="fade-left").mb-4.text-white Lo invitamos a consultar el siguiente pódcast:
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="Análisis comercial y KPIs"
+                texto="Inteligencia estratégica comercial"
                 tiempo
                 :audio="require_src('@/assets/curso/audio/2.mp3')"
                 )

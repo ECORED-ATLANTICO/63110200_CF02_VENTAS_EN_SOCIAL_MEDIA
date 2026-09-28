@@ -64,7 +64,7 @@
       .row.mb-5.justify-content-center.align-items-center
         .col-lg-8.mb-4.mb-lg-0
           .bg-color-07.p-4.br-15(data-aos="fade-right")
-            p.text-bold.mb-2 Ejemplo aplicado.
+            p.text-bold.mb-2 Ejemplo aplicado
             p.mb-0 La empresa HomeTech comercializaba productos para el hogar mediante redes sociales y comercio electrónico. Aunque sus campañas generaban resultados positivos, enfrentaba frecuentes reclamaciones relacionadas con retrasos en las entregas y falta de información sobre el estado de los pedidos. Estas situaciones afectaban la satisfacción de los consumidores y generaban comentarios negativos en plataformas digitales. Con el propósito de mejorar la experiencia postventa, implementó un sistema de seguimiento de pedidos y estableció protocolos claros de comunicación durante todo el proceso de entrega. Como resultado, disminuyeron las reclamaciones, aumentó la confianza de los consumidores y mejoró significativamente la percepción de la marca dentro de sus canales digitales.
         .col-lg-4.col-md-8
           figure
@@ -137,7 +137,7 @@
             .col-lg-9.order-1.order-lg-2.p-4
               .bg-color-10.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Cita de reflexión
-              p.mb-0 "Cumplir lo prometido después de la venta es una de las expresiones más visibles de la integridad empresarial."
+              p.mb-0 "Cumplir lo prometido después de la venta es una de las expresiones más visibles de la integridad empresarial".
 
 </template>
 

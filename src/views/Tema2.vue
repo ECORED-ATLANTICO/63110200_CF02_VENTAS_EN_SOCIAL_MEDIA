@@ -65,7 +65,7 @@
           img(src="@/assets/curso/tema2/img07.png", data-aos="zoom-in")
       .col-lg-8
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La empresa EcoCoffee competía en un mercado saturado de productos similares. Aunque ofrecía café de alta calidad, los consumidores no percibían diferencias significativas respecto a otras marcas disponibles. Como consecuencia, la organización enfrentaba dificultades para destacar dentro de plataformas digitales. Después de realizar un análisis estratégico, decidió posicionarse alrededor de prácticas sostenibles y apoyo a productores locales. La comunicación comenzó a resaltar historias reales, procesos responsables y beneficios asociados con el consumo consciente. Con el tiempo, la marca fortaleció su reconocimiento y logró construir una identidad claramente diferenciada dentro de su mercado objetivo.
 
     .row.mb-5.justify-content-center.align-items-center
@@ -97,7 +97,7 @@
     separador
 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.3 Lead magnet
+      h2 2.3 <em>Lead magnet</em>
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-5.col-md-8.mb-4.mb-lg-0
@@ -107,16 +107,16 @@
         p.mb-3(data-aos="fade-right") El <em>lead magnet</em> constituye un recurso de valor diseñado para atraer consumidores potenciales y motivarlos a compartir información de contacto a cambio de un beneficio específico. Su utilización responde a la necesidad de generar relaciones comerciales progresivas antes de realizar una propuesta de venta directa. En entornos digitales, esta estrategia permite captar prospectos interesados en una temática determinada, facilitando posteriores acciones de comunicación y seguimiento comercial orientadas a la conversión.
 
         .bg-color-01.p-4.br-15(data-aos="fade-left")
-          p.mb-0 La efectividad de un <em>lead magnet</em> depende de su capacidad para resolver una necesidad concreta o proporcionar información relevante para la audiencia objetivo. Recursos como guías, plantillas, listas de verificación, webinars o contenidos especializados suelen emplearse porque ofrecen beneficios inmediatos al usuario. Cuando existe coherencia entre el recurso entregado y el producto comercializado posteriormente, aumentan significativamente las probabilidades de construir relaciones comerciales sostenibles y generar confianza.
+          p.mb-0 La efectividad de un <em>lead magnet</em> depende de su capacidad para resolver una necesidad concreta o proporcionar información relevante para la audiencia objetivo. Recursos como guías, plantillas, listas de verificación, <em>webinars</em> o contenidos especializados suelen emplearse porque ofrecen beneficios inmediatos al usuario. Cuando existe coherencia entre el recurso entregado y el producto comercializado posteriormente, aumentan significativamente las probabilidades de construir relaciones comerciales sostenibles y generar confianza.
 
     .bg-color-07.p-3.br-15.mb-5(data-aos="fade-right")
       p.mb-0 En este contexto, un <em>lead magnet</em> puede adoptar diferentes formatos según las necesidades de información de los consumidores y el tipo de relación comercial que se busca desarrollar, entre ellos:
 
+    h4.mb-2.text-bold Ejemplos de lead magnet y aplicación estratégica
     TabsC.color-primario.mb-5(data-aos="zoom-in")
       .p-3.p-md-4(titulo="Guía digital")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-md-0.p-4
-            h4 Guía digital:
             p.mb-0 Facilita compartir conocimiento especializado relacionado con necesidades específicas.
           .col-lg-5.col-md-10.mb-3.mb-lg-0
             figure
@@ -125,16 +125,14 @@
       .p-3.p-md-4(titulo="Plantilla")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-md-0.p-4
-            h4 Plantilla:
             p.mb-0 Permite resolver tareas concretas mediante recursos prácticos y reutilizables.
           .col-lg-5.col-md-10.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema2/img10.png', alt='')
 
-      .p-3.p-md-4(titulo="Webinar")
+      .p-3.p-md-4(titulo="<em>Webinar</em>")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-md-0.p-4
-            h4 Webinar:
             p.mb-0 Favorece la interacción directa y profundización temática con consumidores interesados.
           .col-lg-5.col-md-10.mb-3.mb-lg-0
             figure
@@ -143,7 +141,6 @@
       .p-3.p-md-4(titulo="Lista de verificación")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-md-0.p-4
-            h4 Lista de verificación:
             p.mb-0 Ayuda a simplificar procesos mediante orientaciones estructuradas y aplicables.
           .col-lg-5.col-md-10.mb-3.mb-lg-0
             figure
@@ -228,7 +225,7 @@
     separador
 
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.5 Insights
+      h2 2.5 <em>Insights</em>
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-5.col-md-8.mb-4.mb-lg-0
@@ -244,7 +241,7 @@
       p.mb-0 Para analizar la información obtenida de los consumidores y convertirla en decisiones comerciales, es posible identificar diferentes tipos de <em>insights</em> según el aspecto que se busca comprender, entre ellos:
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-016").mb-5(data-aos="zoom-in")
-      .tarjeta.p-4(titulo="Insight de consumidor")
+      .tarjeta.p-4(titulo="<em>Insight</em> de consumidor")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0
             p.mb-3 Permite comprender motivaciones, necesidades, expectativas y comportamientos de compra del consumidor, facilitando decisiones comerciales más precisas y estrategias orientadas a generar valor.
@@ -253,7 +250,7 @@
             figure
               img(src='@/assets/curso/tema2/img16.png', alt='')
 
-      .tarjeta.p-4(titulo="Insight de mercado")
+      .tarjeta.p-4(titulo="<em>Insight</em> de mercado")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0
             p.mb-3 Facilita identificar tendencias, cambios en la demanda, oportunidades de crecimiento y dinámicas competitivas que apoyan la formulación de estrategias comerciales efectivas.
@@ -262,7 +259,7 @@
             figure
               img(src='@/assets/curso/tema2/img17.png', alt='')
 
-      .tarjeta.p-4(titulo="Insight de producto")
+      .tarjeta.p-4(titulo="<em>Insight</em> de producto")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0
             p.mb-3 Ayuda a interpretar la percepción, aceptación, satisfacción y experiencia de los consumidores respecto a productos, permitiendo optimizar atributos y propuestas de valor.
@@ -271,7 +268,7 @@
             figure
               img(src='@/assets/curso/tema2/img18.png', alt='')
 
-      .tarjeta.p-4(titulo="Insight de comunicación")
+      .tarjeta.p-4(titulo="<em>Insight</em> de comunicación")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0
             p.mb-3 Permite evaluar la efectividad de mensajes, contenidos y acciones comunicativas, favoreciendo ajustes que incrementen el alcance, la interacción y los resultados comerciales obtenidos.
@@ -286,7 +283,7 @@
           img(src="@/assets/curso/tema2/img20.png", data-aos="zoom-in")
       .col-lg-8.order-1.order-lg-2.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La organización Natural Beauty comercializaba productos para el cuidado de la piel mediante redes sociales. Aunque contaba con diferentes líneas de producto, desconocía cuáles eran los temas que generaban mayor interés entre sus consumidores. Con el propósito de mejorar sus resultados, comenzó a analizar métricas de interacción, comentarios y consultas recibidas en sus plataformas digitales. Después de varias semanas identificó que los contenidos relacionados con protección solar obtenían mayor alcance, participación y tiempo de visualización. Este hallazgo permitió desarrollar nuevas campañas orientadas a dicha necesidad, optimizar recursos de comunicación y aumentar las ventas de productos asociados. El caso demuestra cómo los <em>insights</em> permiten convertir información en decisiones estratégicas con impacto comercial tangible.
 
     .row.align-items-center.mb-0(data-aos="fade-right")
@@ -298,7 +295,7 @@
             .col-lg-9.order-1.order-lg-2.p-4
               .bg-color-10.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Cita de reflexión
-              p.mb-0 "La información puede revelar oportunidades comerciales, pero solo la integridad permite utilizar ese conocimiento de manera responsable y respetuosa con las necesidades reales de los consumidores."
+              p.mb-0 "La información puede revelar oportunidades comerciales, pero solo la integridad permite utilizar ese conocimiento de manera responsable y respetuosa con las necesidades reales de los consumidores".
 
 </template>
 

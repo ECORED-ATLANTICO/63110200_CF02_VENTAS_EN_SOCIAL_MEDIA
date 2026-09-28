@@ -37,27 +37,18 @@
         figure
           img(src="@/assets/curso/tema5/img04.png", data-aos="zoom-in")
       .col-lg-7.order-lg-1
-        TabsA.color-acento-botones
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Tipo de contenido")
-            p.text-bold.mb-2 Tipo de contenido.
-            p.mb-2 Clasifica la finalidad del mensaje:
-            p.mb-0 informativo, promocional, educativo, de entretenimiento o de interacción.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Formato")
-            p.text-bold.mb-2 Formato.
-            p.mb-2 Indica la presentación:
-            p.mb-0 post estático, carrusel, reel, video corto, artículo, historia, pódcast, etc.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Tema o mensaje central")
-            p.text-bold.mb-2 Tema o mensaje central.
-            p.mb-2 Define la idea principal que transmitirá la pieza digital:
-            p.mb-0 beneficios, características, testimonios, consejos o promociones.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Objetivo de comunicación")
-            p.text-bold.mb-2 Objetivo de comunicación.
-            p.mb-2 Establece el resultado comercial esperado:
-            p.mb-0 captar leads, generar interacción, educar o impulsar ventas.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Llamado a la acción (CTA)")
-            p.text-bold.mb-2 Llamado a la acción (CTA).
-            p.mb-2 Orienta al usuario sobre la acción a realizar:
-            p.mb-0 comentar, compartir, visitar el sitio web, registrarse o comprar.
+        h4.text-bold.mb-3 Los componentes de una parrilla de contenidos son:
+        TabsA.color-acento-botones.mb-0
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Tipo de contenido").align-content-center
+            p.mb-0 Clasifica la pieza según su función: inspiracional, educativo, promocional, interactivo, entretenimiento, valores de marca.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Formato").align-content-center
+            p.mb-0 Indica la presentación: <em>post</em> estático, carrusel, <em>reel</em>, video corto, artículo, historia, pódcast, etc.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Tema o mensaje central").align-content-center
+            p.mb-0 Resume la idea principal que se quiere transmitir (ej. “Moda sostenible”, “Nueva colección otoño”, “<em>Tips</em> de estilo ejecutivo”).
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Objetivo de comunicación").align-content-center
+            p.mb-0 Define la meta de cada pieza: generar interacción, aumentar ventas, educar, reforzar identidad de marca, atraer tráfico.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Llamado a la acción (CTA)").align-content-center
+            p.mb-0 La instrucción que guía al usuario hacia la acción deseada: “Compra ahora”, “Descubre la colección”, “Comenta tu favorito”.
 
     p.mb-4(data-aos="fade-right") A continuación, se presentan dos ejemplos de parrillas semanales de contenidos aplicadas a marcas del Sistema Moda, con el propósito de evidenciar la relación entre el tipo de contenido, el formato, el tema, el objetivo y el llamado a la acción (CTA):
 
@@ -79,28 +70,28 @@
             tbody
               tr
                 td <b>Inspiracional</b>
-                td <i>Post con foto</i>
+                td <em>Post</em> con foto
                 td Feminidad y poder
                 td Conectar emocionalmente
                 td "Descubre más en nuestra web"
               tr
                 td <b>Educativo</b>
-                td <i>Reel</i>
+                td <em>Reel</em>
                 td Técnicas artesanales
-                td Mostrar <i>expertise</i>
+                td Mostrar <em>expertise</em>
                 td "Mira la colección completa"
               tr
                 td <b>Producto</b>
                 td Carrusel
-                td <i>Resort Collection</i>
+                td <em>Resort Collection</em>
                 td Promocionar colección
                 td "Compra ahora"
               tr
-                td <b>Lifestyle</b>
+                td <b><em>Lifestyle</em></b>
                 td Artículo
                 td Moda tropical
                 td Asociar estilo con experiencias
-                td "Lee más en nuestro blog"
+                td "Lee más en nuestro <em>blog</em>"
               tr
                 td <b>Interacción</b>
                 td Encuesta
@@ -109,13 +100,13 @@
                 td "Vota tu favorito"
               tr
                 td <b>Entretenimiento</b>
-                td <i>Video backstage</i>
-                td <i>Fashion Week</i> París
-                td Generar <i>engagement</i>
+                td <em>Video backstage</em>
+                td <em>Fashion Week</em> París
+                td Generar <em>engagement</em>
                 td "Suscríbete al canal"
               tr
                 td <b>Valores de marca</b>
-                td <i>Post</i>
+                td <em>Post</em>
                 td Sostenibilidad
                 td Reforzar identidad
                 td "Conoce nuestro compromiso"
@@ -139,47 +130,48 @@
               tbody
                 tr
                   td <b>Inspiracional</b>
-                  td <i>Post</i>
+                  td <em>Post</em>
                   td Estilo masculino
                   td Posicionar marca
-                  td "Explora nuestros <i>looks</i>"
+                  td "Explora nuestros <em>looks</em>"
                 tr
                   td <b>Educativo</b>
-                  td <i>Reel</i>
-                  td <i>Tips</i> de oficina
+                  td <em>Reel</em>
+                  td <em>Tips</em> de oficina
                   td Aportar valor práctico
                   td "Descubre más en tienda"
                 tr
                   td <b>Producto</b>
                   td Carrusel
-                  td Camisas <i>slim fit</i>
+                  td Camisas <em>slim fit</em>
                   td Promocionar colección
                   td "Compra en línea"
                 tr
-                  td <b>Lifestyle</b>
+                  td <b><em>Lifestyle</em></b>
                   td Artículo
-                  td <i>Look</i> ejecutivo vs casual
+                  td <em>Look</em> ejecutivo vs casual
                   td Mostrar versatilidad
-                  td "Lee más en nuestro blog"
+                  td "Lee más en nuestro <em>blog</em>"
                 tr
                   td <b>Interacción</b>
                   td Pregunta
-                  td <i>Blazer</i> azul o gris
+                  td <em>Blazer</em> azul o gris
                   td Generar conversación
-                  td "Responde en <i>Stories</i>"
+                  td "Responde en <em>Stories</em>"
                 tr
                   td <b>Entretenimiento</b>
                   td Video
-                  td <i>Behind the scenes</i> campaña
+                  td <em>Behind the scenes</em> campaña
                   td Humanizar marca
                   td "Suscríbete al canal"
                 tr
                   td <b>Valores de marca</b>
-                  td <i>Post</i>
+                  td <em>Post</em>
                   td Responsabilidad social
                   td Reforzar identidad
                   td "Conoce nuestros programas"
 
+      h4.text-bold.mb-3 Conclusiones:
       .row.justify-content-center.mb-5(data-aos="zoom-in")
         .col-lg-4.col-md-6.mb-4.mb-lg-0
           .bg-color-015.p-4.br-15.h-100
@@ -247,19 +239,31 @@
             SlyderA(tipo="b").bg-color-white.p-3.tarjeta
               .tarjeta.p-3
                 h4 Trello
-                p.mb-0 <b>Uso estratégico:</b> permite organizar y visualizar las actividades relacionadas con la planificación y publicación de contenidos mediante tableros interactivos.
+                p.mb-2 <b>Uso estratégico:</b> permite organizar y visualizar las actividades relacionadas con la planificación y publicación de contenidos mediante tableros interactivos.
+                a.boton.bg-color-04.mb-0(:href="'https://trello.com/es'" target="_blank")
+                  span Ir al recurso
+                  i.fas.fa-link
 
               .tarjeta.p-3
                 h4 Google Calendar
-                p.mb-0 <b>Uso estratégico:</b> facilita programar fechas y horarios para coordinar la publicación de contenidos en diferentes medios digitales.
+                p.mb-2 <b>Uso estratégico:</b> facilita programar fechas y horarios para coordinar la publicación de contenidos en diferentes medios digitales.
+                a.boton.bg-color-04.mb-0(:href="'https://calendar.google.com/calendar/u/0/r'" target="_blank")
+                  span Ir al recurso
+                  i.fas.fa-link
 
               .tarjeta.p-3
                 h4 Notion
-                p.mb-0 <b>Uso estratégico:</b> permite organizar contenidos, estructurar información y coordinar actividades relacionadas con la gestión de contenidos para equipos.
+                p.mb-2 <b>Uso estratégico:</b> permite organizar contenidos, estructurar información y coordinar actividades relacionadas con la gestión de contenidos para equipos.
+                a.boton.bg-color-04.mb-0(:href="'https://www.notion.com/es'" target="_blank")
+                  span Ir al recurso
+                  i.fas.fa-link
 
               .tarjeta.p-3
                 h4 HubSpot
-                p.mb-0 <b>Uso estratégico:</b> facilita la gestión de contenidos y la automatización de acciones de <em>marketing</em> para fortalecer procesos comerciales digitales.
+                p.mb-2 <b>Uso estratégico:</b> facilita la gestión de contenidos y la automatización de acciones de <em>marketing</em> para fortalecer procesos comerciales digitales.
+                a.boton.bg-color-04.mb-0(:href="'https://www.hubspot.es/'" target="_blank")
+                  span Ir al recurso
+                  i.fas.fa-link
 
           
       .row.align-items-center.bg-color-015.p-4.mb-5.br-15
@@ -302,7 +306,6 @@
       .p-3.p-md-4(titulo="Publicación multicanal")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-md-0.p-4
-            h4 Publicación multicanal
             p.mb-2 Amplía el alcance mediante la distribución de contenidos en diferentes medios digitales.
             p.mb-0 <b>Ejemplo:</b> una tienda publica una nueva colección en su sitio web, redes sociales y correo electrónico.
           .col-lg-5.col-md-8.mb-3.mb-lg-0
@@ -312,9 +315,8 @@
       .p-3.p-md-4(titulo="Segmentación de audiencia")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-md-0.p-4
-            h4 Segmentación de audiencia
-            p.mb-2 Dirige contenidos hacia grupos de usuarios específicos según características demográficas, intereses o comportamiento digital.
-            p.mb-0 <b>Ejemplo:</b> una campaña promocional orientada a jóvenes interesados en moda sostenible.
+            p.mb-2 Facilita dirigir contenidos hacia consumidores con intereses específicos.
+            p.mb-0 <b>Ejemplo:</b> una marca deportiva crea contenidos para corredores y personas interesadas en entrenamiento.
           .col-lg-5.col-md-8.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema5/img11.png', alt='')
@@ -322,9 +324,8 @@
       .p-3.p-md-4(titulo="Reutilización de contenidos")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-md-0.p-4
-            h4 Reutilización de contenidos
-            p.mb-2 Adapta una misma pieza informativa a diferentes formatos y plataformas para maximizar su aprovechamiento.
-            p.mb-0 <b>Ejemplo:</b> transformar un artículo de blog en una infografía para redes sociales o un video corto.
+            p.mb-2 Optimiza recursos mediante la adaptación de materiales existentes.
+            p.mb-0 <b>Ejemplo:</b> una empresa convierte un artículo de <em>blog</em> sobre moda en una infografía y un video corto.
           .col-lg-5.col-md-8.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema5/img12.png', alt='')
@@ -332,19 +333,18 @@
       .p-3.p-md-4(titulo="Promoción digital")
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-4.mb-md-0.p-4
-            h4 Promoción digital
-            p.mb-2 Utiliza pauta publicitaria y anuncios pagados para incrementar el alcance de publicaciones estratégicas.
-            p.mb-0 <b>Ejemplo:</b> promocionar un reel de lanzamiento para alcanzar usuarios que aún no siguen la marca.
+            p.mb-2 Incrementa la visibilidad mediante campañas orientadas a audiencias definidas.
+            p.mb-0 <b>Ejemplo:</b> una tienda promociona una nueva línea de productos mediante anuncios en redes sociales y buscadores.
           .col-lg-5.col-md-8.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema5/img13.png', alt='')
 
-    .row.align-items-center.bg-color-07.p-4.mb-5.br-15
-      .col-lg-auto.order-2.order-lg-2.d-none.d-lg-flex
-        img(src="@/assets/curso/tema5/img14.svg", style="max-width: 100px").mx-auto
-      .col-lg.order-1.order-lg-1
-        p.mb-0 Las herramientas digitales especializadas permiten gestionar calendarios de publicaciones de forma más eficiente. Estas herramientas facilitan programar contenidos, administrar múltiples canales y monitorear actividades desde una única interfaz. Su utilización contribuye a optimizar procesos operativos y fortalecer el control sobre las estrategias de comunicación desarrolladas en entornos digitales. La selección de una herramienta adecuada depende de las necesidades organizacionales y de los canales utilizados dentro de la estrategia comercial.
-    
+    .container
+      .row.align-items-center.bg-color-07.p-4.mb-5.br-15
+        .col-lg-auto.order-2.order-lg-2.d-none.d-lg-flex
+          img(src="@/assets/curso/tema5/img14.svg", style="max-width: 100px").mx-auto
+        .col-lg.order-1.order-lg-1
+          p.mb-0 Por otro lado, las herramientas digitales facilitan la gestión y optimización de los procesos de divulgación. Plataformas de programación, sistemas de automatización y soluciones analíticas permiten coordinar publicaciones, monitorear resultados y realizar ajustes oportunos. Cuando estas herramientas se utilizan de manera estratégica, contribuyen a ampliar el alcance de los contenidos y mejorar la eficiencia de las acciones desarrolladas dentro de las estrategias de ventas en <em>social media</em>. En este contexto, estas herramientas permiten gestionar y optimizar las acciones de divulgación mediante diferentes funciones que facilitan la distribución, programación, administración y análisis de contenidos, entre ellas:
 
     .row.justify-content-center.mb-5
       .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
@@ -353,7 +353,7 @@
             figure
               img(src="@/assets/curso/tema5/img15.png", alt="")
           .crd_hover_txt--body
-            h4.mb-3.text-center <em>Mailchimp</em>
+            h4.mb-3.text-center Mailchimp
             p.mb-0 Facilita la distribución de contenidos mediante campañas de correo electrónico segmentadas.
 
       .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
@@ -362,7 +362,7 @@
             figure
               img(src="@/assets/curso/tema5/img16.png", alt="")
           .crd_hover_txt--body
-            h4.mb-3.text-center <em>Hootsuite</em>
+            h4.mb-3.text-center Hootsuite
             p.mb-0 Facilita la gestión simultánea de múltiples canales digitales desde una misma plataforma.
 
       .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
@@ -371,7 +371,7 @@
             figure
               img(src="@/assets/curso/tema5/img17.png", alt="")
           .crd_hover_txt--body
-            h4.mb-3.text-center <em>Meta Business Suite</em>
+            h4.mb-3.text-center Meta Business Suite
             p.mb-0 Permite programar y gestionar publicaciones en las plataformas de Meta.
 
       .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
@@ -380,14 +380,14 @@
             figure
               img(src="@/assets/curso/tema5/img18.png", alt="")
           .crd_hover_txt--body
-            h4.mb-3.text-center <em>Metricool</em>
+            h4.mb-3.text-center Metricool
             p.mb-0 Facilita la programación, el monitoreo y el análisis de estrategias de contenido digital.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-015.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
-          p.mb-0 La organización EcoVida invertía tiempo y recursos en la producción de contenidos educativos relacionados con consumo responsable. Sin embargo, observaba niveles limitados de alcance debido a que las publicaciones eran difundidas únicamente mediante una red social. Como consecuencia, gran parte de su audiencia potencial no llegaba a interactuar con la información generada. Después de implementar una estrategia de divulgación multicanal, comenzó a distribuir contenidos mediante blog corporativo, redes sociales, correo electrónico y campañas digitales segmentadas. Esta diversificación permitió ampliar significativamente la visibilidad de la marca, incrementar la interacción de los consumidores y fortalecer los resultados comerciales obtenidos a partir de sus contenidos digitales.
+          p.text-bold.mb-2 Ejemplo aplicado
+          p.mb-0 La organización EcoVida invertía tiempo y recursos en la producción de contenidos educativos relacionados con consumo responsable. Sin embargo, observaba niveles limitados de alcance debido a que las publicaciones eran difundidas únicamente mediante una red social. Como consecuencia, gran parte de su audiencia potencial no llegaba a interactuar con la información generada. Después de implementar una estrategia de divulgación multicanal, comenzó a distribuir contenidos mediante <em>blog</em> corporativo, redes sociales, correo electrónico y campañas digitales segmentadas. Esta diversificación permitió ampliar significativamente la visibilidad de la marca, incrementar la interacción de los consumidores y fortalecer los resultados comerciales obtenidos a partir de sus contenidos digitales.
       .col-lg-4.col-md-8
         figure
           img(src="@/assets/curso/tema5/img19.png", data-aos="zoom-in")
@@ -470,7 +470,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La organización Consultores Plus enfrentaba dificultades relacionadas con errores de publicación y contenidos inconsistentes entre diferentes plataformas digitales. Estas situaciones afectaban la percepción profesional de la marca y generaban confusión entre los consumidores respecto a algunos servicios ofrecidos. Con el propósito de fortalecer sus procesos, diseñó protocolos de publicación que incluían etapas de revisión, aprobación y programación. Paralelamente optimizó la estructura de sus contenidos mediante criterios orientados a facilitar la indexación digital. Como resultado, mejoró la calidad de sus publicaciones, fortaleció la visibilidad de sus contenidos y consolidó una comunicación más coherente con sus objetivos comerciales.
       .col-lg-4.col-md-8
         figure
@@ -509,7 +509,7 @@
               h4.mb-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start Netiqueta y comunicación en medios digitales
               p.mb-0 Lo invitamos a consultar el siguiente recurso educativo para profundizar en la temática abordada, el cual corresponde a un video que aborda el concepto de netiqueta como el conjunto de normas y recomendaciones que promueven una comunicación respetuosa y responsable en entornos digitales. Explica buenas prácticas relacionadas con el uso de redes sociales, la protección de la privacidad, el respeto por las comunidades virtuales, la gestión adecuada de contenidos y la interacción con otros usuarios.
             .col-12.col-lg-auto.text-center
-              a.boton.bg-color-04(:href="'https://www.youtube.com/watch?v=KM-RhabB6qs'" target="_blank")
+              a.boton.bg-color-04(:href="'https://www.youtube.com/watch?v=nETS1sXMKbw'" target="_blank")
                 span Ir al recurso
                 i.fas.fa-link
 
@@ -539,7 +539,7 @@
             .col-lg-9.order-1.order-lg-2.p-4
               .bg-color-10.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Cita de reflexión
-              p.mb-0 "La integridad se manifiesta no solo en lo que se publica, sino también en la forma en que se interactúa con cada persona dentro de los entornos digitales."
+              p.mb-0 "La integridad se manifiesta no solo en lo que se publica, sino también en la forma en que se interactúa con cada persona dentro de los entornos digitales".
 
 </template>
 

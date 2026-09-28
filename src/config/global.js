@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Operación comercial digital',
     Description:
-      'Este componente formativo desarrolla competencias relacionadas con la planificación, ejecución y optimización de estrategias de ventas en social media, integrando herramientas comerciales, producción de contenidos digitales, comunicación persuasiva, análisis de resultados y gestión de relaciones con consumidores en entornos digitales.',
+      'Este componente formativo desarrolla competencias relacionadas con la planificación, ejecución y optimización de estrategias de ventas en <em>social media</em>, integrando herramientas comerciales, producción de contenidos digitales, comunicación persuasiva, análisis de resultados y gestión de relaciones con consumidores en entornos digitales.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Estrategia comercial en social media',
+        titulo: 'Estrategia comercial en <em>social media</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -56,7 +56,7 @@ export default {
           },
           {
             numero: '1.4',
-            titulo: 'Marketing online',
+            titulo: '<em>Marketing online</em>',
             hash: 't_1_4',
           },
           {
@@ -66,7 +66,7 @@ export default {
           },
           {
             numero: '1.6',
-            titulo: 'Canales de venta de social media',
+            titulo: 'Canales de venta de <em>social media</em>',
             hash: 't_1_6',
           },
         ],
@@ -89,7 +89,7 @@ export default {
           },
           {
             numero: '2.3',
-            titulo: 'Lead magnet',
+            titulo: '<em>Lead magnet</em>',
             hash: 't_2_3',
           },
           {
@@ -99,7 +99,7 @@ export default {
           },
           {
             numero: '2.5',
-            titulo: 'Insights',
+            titulo: '<em>Insights</em>',
             hash: 't_2_5',
           },
         ],
@@ -112,7 +112,7 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Copywriting',
+            titulo: '<em>Copywriting</em>',
             hash: 't_3_1',
           },
           {
@@ -321,7 +321,7 @@ export default {
         'Acción estratégica realizada por un usuario alineada con objetivos comerciales definidos.',
     },
     {
-      termino: 'Copywriting',
+      termino: '<em>Copywriting</em>',
       significado:
         'Redacción persuasiva orientada a influir en decisiones y comportamientos del consumidor.',
     },
@@ -336,7 +336,7 @@ export default {
         'Indicador clave utilizado para evaluar cumplimiento de objetivos estratégicos comerciales.',
     },
     {
-      termino: 'Lead magnet',
+      termino: '<em>Lead magnet</em>',
       significado:
         'Recurso de valor utilizado para captar información de potenciales clientes.',
     },
@@ -395,7 +395,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -410,7 +410,7 @@ export default {
       autores: [
         {
           nombre: 'Nicolas Cruz',
-          cargo: 'Experto Temático Comercio y servicio',
+          cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -450,12 +450,12 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -465,7 +465,7 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],

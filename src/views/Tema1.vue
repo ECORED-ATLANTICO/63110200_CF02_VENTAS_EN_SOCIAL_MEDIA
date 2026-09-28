@@ -101,6 +101,7 @@
         figure
           img(src="@/assets/curso/tema1/img10.png", data-aos="zoom-in", alt="")
       .col-lg-8
+        h4.mb-2.text-bold Componentes de objetivos SMART
         .bg-fondo-02.p-4.br-15
           SlyderA(tipo="b").bg-color-white.p-3.tarjeta
             .tarjeta.p-3
@@ -126,7 +127,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.order-2.order-lg-1
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La empresa EcoStyle comercializa productos sostenibles mediante redes sociales. Durante varios periodos ejecutó campañas digitales sin establecer metas específicas, lo que dificultaba evaluar resultados y optimizar recursos. Posteriormente implementó objetivos SMART para cada campaña, definiendo indicadores relacionados con alcance, generación de prospectos y conversiones comerciales. Uno de sus objetivos consistía en aumentar en 25 % los registros obtenidos mediante formularios digitales durante un periodo de noventa días. Gracias a la claridad del objetivo, la empresa pudo monitorear avances, corregir desviaciones y optimizar contenidos. Como resultado, logró superar la meta planteada y mejorar significativamente la efectividad de sus acciones comerciales digitales.
       .col-lg-4.col-md-8.order-1.order-lg-2.mb-4.mb-lg-0
         figure
@@ -168,7 +169,7 @@
       separador
 
       #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 1.4 Marketing online
+        h2 1.4 <em>Marketing online</em>
 
       .row.mb-5.justify-content-center.align-items-center
         .col-lg-5.col-md-8.mb-4.mb-lg-0
@@ -190,7 +191,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.order-2.order-lg-1
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La organización Aprende Digital ofrecía programas de capacitación empresarial, pero dependía principalmente de referencias personales para conseguir nuevos clientes. Con el propósito de ampliar su alcance comercial, implementó una estrategia de <em>marketing online</em> basada en contenidos especializados, posicionamiento en buscadores y campañas segmentadas en redes sociales. Durante seis meses, la empresa publicó recursos educativos, desarrolló anuncios orientados a públicos específicos y optimizó sus canales digitales. Como resultado, incrementó significativamente el tráfico hacia sus plataformas, aumentó la generación de prospectos y fortaleció el reconocimiento de marca dentro de su sector. Este caso evidencia cómo el <em>marketing online</em> permite ampliar oportunidades comerciales mediante estrategias fundamentadas en datos y segmentación.
       .col-lg-4.col-md-8.order-1.order-lg-2.mb-4.mb-lg-0
         figure
@@ -205,6 +206,7 @@
         figure
           img(src="@/assets/curso/tema1/img23.png", data-aos="zoom-in", alt="")
       .col-lg-8.order-2.order-lg-1.col-md-12.mb-4.mb-lg-0
+        h4.mb-2.text-bold Aplicaciones del marketing online
         SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-2")
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
             .row.align-items-center.mb-3
@@ -258,8 +260,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5.text-bold.mb-2 Figura 1.
           span Etapas del embudo de ventas
-        img.mb-3(data-aos="fade-up", src="@/assets/curso/tema1/img25.png", alt="Infografía que ilustra las 4 etapas del embudo de ventas: 1. Reconocimiento: permite atraer audiencias mediante contenidos orientados a generar visibilidad digital. 2. Interés: favorece interacción inicial mediante información relevante relacionada con necesidades específicas. 3. Consideración: facilita evaluación de alternativas mediante argumentos, evidencias y beneficios comerciales. 4. Conversión: busca concretar la compra mediante acciones orientadas a la toma de decisiones.").mx-auto.d-none.d-lg-block
-        img.mb-3(data-aos="fade-up", src="@/assets/curso/tema1/img26.png", alt="Infografía que ilustra las 4 etapas del embudo de ventas: 1. Reconocimiento: permite atraer audiencias mediante contenidos orientados a generar visibilidad digital. 2. Interés: favorece interacción inicial mediante información relevante relacionada con necesidades específicas. 3. Consideración: facilita evaluación de alternativas mediante argumentos, evidencias y beneficios comerciales. 4. Conversión: busca concretar la compra mediante acciones orientadas a la toma de decisiones.").mx-auto.d-lg-none
+        img.mb-3(data-aos="fade-up", src="@/assets/curso/tema1/img25.png", alt="Figura titulada “Etapas del embudo de ventas”, que representa mediante cuatro bloques conectados con flechas el recorrido del consumidor hacia la compra. La primera etapa es “reconocimiento”, que permite atraer audiencias mediante contenidos orientados a generar visibilidad digital. La segunda etapa es “interés”, que favorece la interacción inicial mediante información relevante relacionada con necesidades específicas. La tercera etapa es “consideración”, que facilita la evaluación de alternativas mediante argumentos, evidencias y beneficios comerciales. La cuarta etapa es “conversión”, que busca concretar la compra mediante acciones orientadas a la toma de decisiones. Las cuatro etapas se presentan de manera secuencial y muestran la progresión desde el primer contacto con la audiencia hasta la acción de compra.").mx-auto.d-none.d-lg-block
+        img.mb-3(data-aos="fade-up", src="@/assets/curso/tema1/img26.png", alt="Figura titulada “Etapas del embudo de ventas”, que representa mediante cuatro bloques conectados con flechas el recorrido del consumidor hacia la compra. La primera etapa es “reconocimiento”, que permite atraer audiencias mediante contenidos orientados a generar visibilidad digital. La segunda etapa es “interés”, que favorece la interacción inicial mediante información relevante relacionada con necesidades específicas. La tercera etapa es “consideración”, que facilita la evaluación de alternativas mediante argumentos, evidencias y beneficios comerciales. La cuarta etapa es “conversión”, que busca concretar la compra mediante acciones orientadas a la toma de decisiones. Las cuatro etapas se presentan de manera secuencial y muestran la progresión desde el primer contacto con la audiencia hasta la acción de compra.").mx-auto.d-lg-none
         figcaption Nota. SENA, (2026).
 
     .bg-color-015.p-4.br-15.mb-5(data-aos="fade-right")
@@ -300,7 +302,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.order-2.order-lg-1
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La empresa TechMarket comercializaba productos tecnológicos utilizando únicamente publicaciones orgánicas en Facebook. Aunque lograba cierto nivel de alcance, observaba dificultades para generar crecimiento sostenido en ventas digitales. Después de analizar el comportamiento de sus consumidores, decidió diversificar sus canales de venta. La organización comenzó a utilizar Instagram para promocionar productos mediante contenido visual, TikTok para generar reconocimiento y WhatsApp Business para acompañar procesos de decisión de compra. Como resultado, logró incrementar la interacción con diferentes segmentos de consumidores y fortalecer significativamente su capacidad de conversión comercial. El caso demuestra la importancia estratégica de seleccionar y combinar adecuadamente los canales de venta en <em>social media</em>.
       .col-lg-4.col-md-8.order-1.order-lg-2.mb-4.mb-lg-0
         figure
@@ -315,7 +317,7 @@
             .col-lg-9.order-1.order-lg-2.p-4
               .bg-color-10.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Cita de reflexión
-              p.mb-0 "La confianza es uno de los activos más valiosos en cualquier proceso comercial; actuar con integridad permite construir relaciones sostenibles que trascienden la venta y fortalecen la reputación profesional y empresarial."
+              p.mb-0 "La confianza es uno de los activos más valiosos en cualquier proceso comercial; actuar con integridad permite construir relaciones sostenibles que trascienden la venta y fortalecen la reputación profesional y empresarial".
 
 </template>
 

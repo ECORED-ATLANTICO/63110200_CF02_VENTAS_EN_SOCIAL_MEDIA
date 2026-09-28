@@ -17,7 +17,7 @@
       separador
       
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 3.1 Copywriting
+        h2 3.1 <em>Copywriting</em>
 
       .row.mb-5.justify-content-center.align-items-center
         .col-lg-5.col-md-8.mb-4.mb-lg-0
@@ -32,7 +32,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La organización Emprende Digital promocionaba programas de formación mediante publicaciones descriptivas centradas únicamente en características técnicas. Aunque los contenidos eran informativos, presentaban bajos niveles de interacción y conversión comercial. Después de analizar su estrategia, decidió implementar principios de <em>copywriting</em> orientados a comunicar beneficios y resultados esperados por los consumidores.<br>La nueva comunicación comenzó a destacar oportunidades de crecimiento profesional, aplicación práctica y generación de valor para los participantes. Además, se fortaleció la calidad ortográfica y la estructura argumentativa de los mensajes. Como resultado, la organización incrementó significativamente la interacción de sus publicaciones y mejoró el desempeño comercial de sus campañas digitales.
       .col-lg-4.col-md-8
         figure
@@ -43,7 +43,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5.text-bold.mb-2 Tabla 2.
-          span Elementos estratégicos del copywriting
+          span Elementos estratégicos del <em>copywriting</em>
         .tabla-a.tb-custom.mb-0
           table
             caption Nota. SENA, (2026).
@@ -94,7 +94,7 @@
             .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center
               img(src="@/assets/curso/tema2/img04.png")
             .col-12.col-lg.mb-2.mb-lg-0
-              h4.mb-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start Qué son los llamados a la acción o CTAs
+              h4.mb-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start Qué son los llamados a la acción o CTA
               p.mb-0 Lo invitamos a consultar el siguiente recurso educativo para profundizar en la temática abordada. El recurso corresponde a un video que explica el concepto de llamado a la acción (<em>Call to Action</em> o CTA) y su importancia como herramienta para orientar el comportamiento de los usuarios en entornos digitales.
             .col-12.col-lg-auto.text-center
               a.boton.bg-color-04(:href="'https://www.youtube.com/watch?v=YlL4p5gEKtg'" target="_blank")
@@ -114,8 +114,8 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-015.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
-          p.mb-0 La empresa SmartTech comercializaba dispositivos electrónicos mediante redes sociales. Aunque desarrollaba publicaciones visualmente atractivas, observaba bajos niveles de clics y consultas comerciales. Después de revisar su estrategia, identificó que los contenidos carecían de llamados a la acción claros y mensajes orientados a la participación del usuario. La organización rediseñó sus publicaciones incorporando títulos más específicos, descripciones enfocadas en beneficios y CTA relacionados con consulta, compra y asesoría personalizada. Además, implementó respuestas automatizadas basadas en preguntas frecuentes. Como resultado, aumentó significativamente la interacción comercial y mejoró los niveles de conversión asociados a sus contenidos digitales.
+          p.text-bold.mb-2 Ejemplo aplicado
+          p.mb-0 La empresa SmartTech comercializaba dispositivos electrónicos mediante redes sociales. Aunque desarrollaba publicaciones visualmente atractivas, observaba bajos niveles de <em>clics</em> y consultas comerciales. Después de revisar su estrategia, identificó que los contenidos carecían de llamados a la acción claros y mensajes orientados a la participación del usuario. La organización rediseñó sus publicaciones incorporando títulos más específicos, descripciones enfocadas en beneficios y CTA relacionados con consulta, compra y asesoría personalizada. Además, implementó respuestas automatizadas basadas en preguntas frecuentes. Como resultado, aumentó significativamente la interacción comercial y mejoró los niveles de conversión asociados a sus contenidos digitales.
       .col-lg-4.col-md-8
         figure
           img(src="@/assets/curso/tema3/img07.png", data-aos="zoom-in")
@@ -183,7 +183,7 @@
           img(src="@/assets/curso/tema3/img13.png", data-aos="zoom-in")
       .col-lg-8
         .bg-color-09.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La empresa Urban Style desarrollaba videos para redes sociales de manera espontánea, sin una planificación estructurada. Aunque sus publicaciones eran frecuentes, existían inconsistencias en los mensajes, dificultades para destacar beneficios de los productos y bajos niveles de conversión comercial. La organización decidió implementar guiones técnicos para cada contenido audiovisual.<br>A partir de ese momento, cada video incluyó objetivos definidos, secuencia narrativa, presentación estratégica de productos y llamados a la acción específicos. Esta metodología permitió mejorar la calidad de los contenidos, fortalecer la coherencia de la comunicación y aumentar significativamente la interacción comercial generada mediante sus redes sociales.
 
     separador
@@ -296,7 +296,7 @@
             img(src="@/assets/curso/tema3/img21.png", data-aos="zoom-in")
         .col-lg-8
           .bg-color-07.p-4.br-15(data-aos="fade-right")
-            p.text-bold.mb-2 Ejemplo aplicado.
+            p.text-bold.mb-2 Ejemplo aplicado
             p.mb-0 La empresa GreenWear experimentaba dificultades para diferenciarse dentro del mercado de moda sostenible. Aunque sus productos respondían a principios ambientales, los consumidores no percibían claramente los atributos que la organización deseaba comunicar. Con el propósito de fortalecer su identidad, decidió aplicar el prisma de la marca como herramienta de análisis estratégico. A partir de este ejercicio, identificó inconsistencias entre los valores comunicados, el estilo visual y los mensajes difundidos en redes sociales. Posteriormente ajustó su comunicación, fortaleció la coherencia de sus contenidos y alineó su experiencia digital con la propuesta de valor empresarial. Como resultado, mejoró el reconocimiento de marca y fortaleció la conexión emocional con sus consumidores.
 
       separador
@@ -330,7 +330,7 @@
             .col-lg-9.order-1.order-lg-2.p-4
               .bg-color-10.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Cita de reflexión
-              p.mb-0 "La construcción de una marca sólida requiere coherencia entre lo que se comunica, lo que se hace y los valores que orientan cada decisión comercial."
+              p.mb-0 "La construcción de una marca sólida requiere coherencia entre lo que se comunica, lo que se hace y los valores que orientan cada decisión comercial".
 
 </template>
 

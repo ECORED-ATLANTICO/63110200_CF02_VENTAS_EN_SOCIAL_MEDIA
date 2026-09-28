@@ -47,7 +47,7 @@
           img(src="@/assets/curso/tema6/img05.svg", style="max-width: 60px;").mx-auto.mb-3
           h4.mb-3 Interacción
           p.mb-3 Favorece la participación mediante acciones relacionadas con contenidos digitales.
-          p.mb-0 <b>Ejemplo aplicado:</b> una marca publica una encuesta en <em>Instagram</em> para conocer las preferencias de sus consumidores.
+          p.mb-0 <b>Ejemplo aplicado:</b> una marca publica una encuesta en Instagram para conocer las preferencias de sus consumidores.
 
       .col-lg-3.col-md-6.mb-4.mb-lg-0
         .bg-color-015.p-4.br-15.h-100.text-center
@@ -66,7 +66,7 @@
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
-          p.text-bold.mb-2 Ejemplo aplicado.
+          p.text-bold.mb-2 Ejemplo aplicado
           p.mb-0 La organización Aprende Hoy desarrollaba campañas digitales con altos niveles de alcance, pero observaba dificultades para transformar el interés generado en resultados concretos. Después de analizar sus procesos comerciales, identificó que muchos usuarios abandonaban el recorrido digital antes de completar acciones relevantes para la organización. Como respuesta, optimizó formularios, simplificó procesos de registro y fortaleció los llamados a la acción presentes en sus contenidos. Estas mejoras permitieron incrementar significativamente las conversiones relacionadas con solicitudes de información y matrículas efectivas. El caso evidencia que la conversión depende de la capacidad para facilitar experiencias claras y orientadas a las necesidades del consumidor.
       .col-lg-4.col-md-8
         figure
@@ -127,9 +127,9 @@
                   img(src="@/assets/curso/tema6/img19.png", data-aos="fade-right").mx-auto.w-md-50
               .col-lg-8.order-1.order-md-1.order-lg-2.p-4.p-lg-4
                 h4.mb-2.text-white ¿Sabías qué?
-                p(data-aos="fade-left").mb-4.text-white Lo invitamos a escuchar el siguiente Pódcast:
+                p(data-aos="fade-left").mb-4.text-white Lo invitamos a consultar el siguiente pódcast:
                 TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                  texto="Medios de pago digitales"
+                  texto="Estrategia de conversión comercial digital"
                   tiempo
                   :audio="require_src('@/assets/curso/audio/1.mp3')"
                   )
@@ -143,7 +143,7 @@
             .col-lg-9.order-1.order-lg-2.p-4
               .bg-color-10.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Cita de reflexión
-              p.mb-0 "La integridad comercial se refleja en el cumplimiento de los compromisos adquiridos y en la claridad de las condiciones ofrecidas durante cada transacción."
+              p.mb-0 "La integridad comercial se refleja en el cumplimiento de los compromisos adquiridos y en la claridad de las condiciones ofrecidas durante cada transacción".
 
 </template>
 

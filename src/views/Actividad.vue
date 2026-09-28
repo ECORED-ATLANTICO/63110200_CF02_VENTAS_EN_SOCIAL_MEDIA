@@ -133,7 +133,7 @@ export default {
         },
         {
           id: 4,
-          texto: '¿Cuál es función principal de un lead magnet comercial?',
+          texto: '¿Cuál es función principal de un <em>lead magnet</em> comercial?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
@@ -202,7 +202,7 @@ export default {
         },
         {
           id: 6,
-          texto: '¿Qué propósito cumple el copywriting?',
+          texto: '¿Qué propósito cumple el <em>copywriting</em>?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
@@ -418,7 +418,7 @@ export default {
             {
               id: 'a',
               texto:
-                'Lead magnet orientado a captar prospectos comerciales interesados previamente.',
+                '<em>Lead magnet</em> orientado a captar prospectos comerciales interesados previamente.',
               esCorrecta: false,
             },
             {
@@ -688,7 +688,7 @@ export default {
         },
         {
           id: 20,
-          texto: '¿Qué característica distingue principalmente a los KPIs?',
+          texto: '¿Qué característica distingue principalmente a los KPI?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
