@@ -133,7 +133,8 @@ export default {
         },
         {
           id: 4,
-          texto: '¿Cuál es función principal de un <em>lead magnet</em> comercial?',
+          texto:
+            '¿Cuál es función principal de un <em>lead magnet</em> comercial?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [

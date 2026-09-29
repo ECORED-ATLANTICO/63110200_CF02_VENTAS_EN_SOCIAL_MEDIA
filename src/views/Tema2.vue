@@ -112,7 +112,7 @@
     .bg-color-07.p-3.br-15.mb-5(data-aos="fade-right")
       p.mb-0 En este contexto, un <em>lead magnet</em> puede adoptar diferentes formatos según las necesidades de información de los consumidores y el tipo de relación comercial que se busca desarrollar, entre ellos:
 
-    h4.mb-2.text-bold Ejemplos de lead magnet y aplicación estratégica
+    h4.mb-2.text-bold Ejemplos de <em>lead magnet</em> y aplicación estratégica
     TabsC.color-primario.mb-5(data-aos="zoom-in")
       .p-3.p-md-4(titulo="Guía digital")
         .row.justify-content-center.align-items-center

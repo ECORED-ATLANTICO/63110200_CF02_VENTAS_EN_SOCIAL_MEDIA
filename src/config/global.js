@@ -263,7 +263,7 @@ export default {
           },
           {
             numero: '8.3',
-            titulo: 'KPIs',
+            titulo: 'KPI',
             hash: 't_8_3',
           },
         ],

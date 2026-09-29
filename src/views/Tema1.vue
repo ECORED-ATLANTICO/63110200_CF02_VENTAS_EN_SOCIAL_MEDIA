@@ -206,7 +206,7 @@
         figure
           img(src="@/assets/curso/tema1/img23.png", data-aos="zoom-in", alt="")
       .col-lg-8.order-2.order-lg-1.col-md-12.mb-4.mb-lg-0
-        h4.mb-2.text-bold Aplicaciones del marketing online
+        h4.mb-2.text-bold Aplicaciones del <em>marketing online</em>
         SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-2")
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
             .row.align-items-center.mb-3

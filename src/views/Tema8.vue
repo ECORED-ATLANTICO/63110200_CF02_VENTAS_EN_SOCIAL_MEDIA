@@ -185,19 +185,19 @@
     separador
     
     #t_8_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 8.3 KPIs
+      h2 8.3 KPI
 
     .bg-full-width.bg-fondo-1.mb-5
       img(src="@/assets/curso/tema8/img09.png", alt="")
       .row.justify-content-center.align-items-center.z-2.mb-5
         .col-lg-11(data-aos="fade-right")
-          p.banner-text Los KPIs (<em>Key Performance Indicators</em> o Indicadores Clave de Desempeño) corresponden a métricas estratégicas utilizadas para evaluar el nivel de cumplimiento de objetivos específicos dentro de una organización. A diferencia de las métricas generales, los KPIs se seleccionan porque reflejan directamente el avance hacia resultados considerados prioritarios para el negocio. En las ventas en <em>social media</em>, estos indicadores permiten monitorear el desempeño comercial y orientar decisiones relacionadas con optimización, crecimiento y rentabilidad.
+          p.banner-text Los KPI (<em>Key Performance Indicators</em> o Indicadores Clave de Desempeño) corresponden a métricas estratégicas utilizadas para evaluar el nivel de cumplimiento de objetivos específicos dentro de una organización. A diferencia de las métricas generales, los KPI se seleccionan porque reflejan directamente el avance hacia resultados considerados prioritarios para el negocio. En las ventas en <em>social media</em>, estos indicadores permiten monitorear el desempeño comercial y orientar decisiones relacionadas con optimización, crecimiento y rentabilidad.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5.text-bold.mb-2 Tabla 12.
-          span KPIs utilizados en ventas digitales
+          span KPI utilizados en ventas digitales
         .tabla-a.tb-custom.mb-0
           table
             caption Nota. SENA, (2026).
@@ -281,7 +281,7 @@
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
           p.text-bold.mb-2 Ejemplo aplicado
-          p.mb-0 La organización Digital Learning desarrollaba acciones comerciales mediante diferentes plataformas digitales y monitoreaba una gran cantidad de métricas relacionadas con interacción y alcance. Sin embargo, enfrentaba dificultades para determinar cuáles indicadores reflejaban realmente el cumplimiento de sus objetivos estratégicos. Después de revisar su modelo de gestión, identificó KPIs relacionados con generación de prospectos, conversión comercial y retención de estudiantes. El seguimiento sistemático de estos indicadores permitió enfocar esfuerzos en variables críticas para el crecimiento organizacional y mejorar significativamente la efectividad de sus estrategias de ventas en <em>social media</em>.
+          p.mb-0 La organización Digital Learning desarrollaba acciones comerciales mediante diferentes plataformas digitales y monitoreaba una gran cantidad de métricas relacionadas con interacción y alcance. Sin embargo, enfrentaba dificultades para determinar cuáles indicadores reflejaban realmente el cumplimiento de sus objetivos estratégicos. Después de revisar su modelo de gestión, identificó KPI relacionados con generación de prospectos, conversión comercial y retención de estudiantes. El seguimiento sistemático de estos indicadores permitió enfocar esfuerzos en variables críticas para el crecimiento organizacional y mejorar significativamente la efectividad de sus estrategias de ventas en <em>social media</em>.
       .col-lg-4.col-md-8
         figure
           img(src="@/assets/curso/tema8/img13.png", data-aos="zoom-in")

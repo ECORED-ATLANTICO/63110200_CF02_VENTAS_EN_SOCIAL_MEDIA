@@ -94,7 +94,7 @@
             .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center
               img(src="@/assets/curso/tema2/img04.png")
             .col-12.col-lg.mb-2.mb-lg-0
-              h4.mb-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start Qué son los llamados a la acción o CTA
+              h4.mb-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start ¿Qué son los llamados a la acción o CTA?
               p.mb-0 Lo invitamos a consultar el siguiente recurso educativo para profundizar en la temática abordada. El recurso corresponde a un video que explica el concepto de llamado a la acción (<em>Call to Action</em> o CTA) y su importancia como herramienta para orientar el comportamiento de los usuarios en entornos digitales.
             .col-12.col-lg-auto.text-center
               a.boton.bg-color-04(:href="'https://www.youtube.com/watch?v=YlL4p5gEKtg'" target="_blank")
