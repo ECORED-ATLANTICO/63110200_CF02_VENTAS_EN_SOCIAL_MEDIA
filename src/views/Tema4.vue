@@ -187,7 +187,7 @@
               .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center
                 img(src="@/assets/curso/tema2/img04.png")
               .col-12.col-lg.mb-2.mb-lg-0
-                h4.mb-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start Fundamentos de edición de imágenes
+                h4.mb-2.mx-auto.mx-lg-0.text-center.text-lg-start Fundamentos de edición de imágenes
                 p.mb-0 Lo invitamos a consultar el siguiente recurso educativo para profundizar en los fundamentos de la edición de imágenes. El artículo presenta conceptos y técnicas básicas que permiten mejorar fotografías y recursos gráficos digitales.
               .col-12.col-lg-auto.text-center
                 a.boton.bg-color-04(:href="'https://www.kunstplaza.de/es/diseno-grafico-2/conceptos-basicos-de-edicion-de-imagenes/'" target="_blank")
@@ -253,7 +253,7 @@
             .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center
               img(src="@/assets/curso/tema2/img04.png")
             .col-12.col-lg.mb-2.mb-lg-0
-              h4.mb-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start ¿Cómo editar vídeos paso a paso: guía para principiantes?
+              h4.mb-2.mx-auto.mx-lg-0.text-center.text-lg-start ¿Cómo editar vídeos paso a paso: guía para principiantes?
               p.mb-0 Lo invitamos a consultar el siguiente recurso educativo para profundizar en la edición de videos. El artículo presenta técnicas fundamentales para la producción de contenidos digitales, incluyendo la organización de materiales, el corte y recorte de escenas, así como la incorporación de audio, texto y efectos visuales.
             .col-12.col-lg-auto.text-center
               a.boton.bg-color-04(:href="'https://www.techsmith.es/blog/como-editar-videos/'" target="_blank")

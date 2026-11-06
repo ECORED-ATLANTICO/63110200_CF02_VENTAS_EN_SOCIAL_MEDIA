@@ -506,7 +506,7 @@
             .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center
               img(src="@/assets/curso/tema2/img04.png")
             .col-12.col-lg.mb-2.mb-lg-0
-              h4.mb-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start Netiqueta y comunicación en medios digitales
+              h4.mb-2.mx-auto.mx-lg-0.text-center.text-lg-start Netiqueta y comunicación en medios digitales
               p.mb-0 Lo invitamos a consultar el siguiente recurso educativo para profundizar en la temática abordada, el cual corresponde a un video que aborda el concepto de netiqueta como el conjunto de normas y recomendaciones que promueven una comunicación respetuosa y responsable en entornos digitales. Explica buenas prácticas relacionadas con el uso de redes sociales, la protección de la privacidad, el respeto por las comunidades virtuales, la gestión adecuada de contenidos y la interacción con otros usuarios.
 
 

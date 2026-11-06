@@ -391,13 +391,13 @@ export default {
               id: 'b',
               texto:
                 'Contraste aplicado estratégicamente para resaltar información relevante presentada.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto:
                 'Automatización comercial mediante plataformas tecnológicas especializadas para ventas.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'd',
@@ -432,13 +432,13 @@ export default {
               id: 'c',
               texto:
                 'Calendario de publicaciones para programar contenidos ordenadamente en plataformas.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'd',
               texto:
                 'Pasarela de pagos empleada durante procesos comerciales electrónicos actuales.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -455,7 +455,7 @@ export default {
               id: 'a',
               texto:
                 'Incrementa alcance mediante distribución en diversos medios digitales disponibles.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
@@ -467,7 +467,7 @@ export default {
               id: 'c',
               texto:
                 'Sustituye herramientas utilizadas para monitorear resultados comerciales estratégicos actuales.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'd',
