@@ -36,7 +36,7 @@
               img(src="@/assets/curso/tema1/img03.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Presencial
-            p.mb-0 Facilitan la interacción directa y la evaluación inmediata de las necesidades del consumidor durante los procesos comerciales.
+            p.mb-0 Facilita la interacción directa y la evaluación inmediata de las necesidades del consumidor durante los procesos comerciales.
 
       .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -54,7 +54,7 @@
               img(src="@/assets/curso/tema1/img05.png", alt="")
           .crd_hover_txt--body
             h4.mb-3.text-center Consultiva
-            p.mb-0 Prioriza diagnóstico y comprensión profunda de necesidades antes de formular propuestas comerciales.
+            p.mb-0 Prioriza el diagnóstico y la comprensión profunda de las necesidades antes de formular propuestas comerciales.
 
       .col-xl-3.col-lg-6.col-md-6.col-12.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -117,8 +117,8 @@
               p.mb-0 Garantiza coherencia entre objetivos propuestos y recursos disponibles organizacionalmente.<br><b>Ejemplo:</b> captar 50 nuevos clientes utilizando el presupuesto publicitario disponible actualmente.
 
             .tarjeta.p-3
-              h4 <em>Realistic</em>
-              p.mb-0 Favorece metas alineadas con condiciones reales del mercado y capacidades empresariales.<br><b>Ejemplo:</b> incrementar las ventas en un 15 % considerando el comportamiento histórico del negocio.
+              h4 <em>Relevant</em>
+              p.mb-0 Favorece metas alineadas con los objetivos y las prioridades de la organización.<br><b>Ejemplo:</b> incrementar las ventas en un 15 % considerando el comportamiento histórico del negocio.
 
             .tarjeta.p-3
               h4 <em>Time-bound</em>
@@ -176,7 +176,7 @@
           figure
             img(src="@/assets/curso/tema1/img16.png", data-aos="zoom-in", alt="")
         .col-lg-7
-          p.mb-3(data-aos="fade-right") El <em>marketing online</em> corresponde al conjunto de estrategias, acciones y herramientas utilizadas para promover productos, servicios o marcas mediante entornos digitales. Su evolución ha transformado la forma en que las organizaciones interactúan con los consumidores, permitiendo desarrollar procesos de comunicación más directos, personalizados y medibles. A diferencia de los medios tradicionales, el <em>marketing online</em> facilita segmentar audiencias específicas y adaptar mensajes según intereses, comportamientos y necesidades identificadas mediante datos digitales.
+          p.mb-3(data-aos="fade-right") El <em>marketing online</em> corresponde al conjunto de estrategias, acciones y herramientas utilizadas para promover productos, servicios o marcas mediante entornos digitales. Su evolución ha transformado la forma en que las organizaciones interactúan con los consumidores, permitiendo desarrollar procesos de comunicación más directos, personalizados y medibles. A diferencia de los medios tradicionales, el <em>marketing online</em> facilita segmentar audiencias y adaptar mensajes según sus intereses, comportamientos y necesidades identificados mediante datos digitales.
 
           .bg-color-01.p-4.br-15(data-aos="fade-left")
             p.mb-0 La relevancia del <em>marketing online</em> se encuentra estrechamente relacionada con los cambios experimentados en los hábitos de consumo. Actualmente, los consumidores investigan productos, comparan alternativas y toman decisiones apoyándose en información disponible en internet. Como consecuencia, las organizaciones requieren presencia estratégica en medios digitales para participar activamente dentro de esos procesos de búsqueda y evaluación. Esta realidad convierte al <em>marketing online</em> en un componente fundamental para la competitividad empresarial contemporánea.
@@ -209,11 +209,11 @@
         h4.mb-2.text-bold Aplicaciones del <em>marketing online</em>
         SlyderF(columnas="col-lg-12 col-xl-6 col-md-12 col-sm-12 p-2")
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
-            .row.align-items-center.mb-3
+            .row.align-items-center.mb-4
               .col-7
                 h4.mb-0 Posicionamiento digital
               .col-5
-                img(src='@/assets/curso/tema1/img19.svg', alt='', style="max-width: 80px; max-height: 80px").mx-auto
+                img(src='@/assets/curso/tema1/img19.svg', alt='', style="max-width: 100px; max-height: 80px").mx-auto
             p.mb-0 Incrementa la visibilidad y el reconocimiento mediante la presencia constante en medios digitales.
 
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
@@ -222,7 +222,7 @@
                 h4.mb-0 Generación de prospectos
               .col-5
                 img(src='@/assets/curso/tema1/img20.svg', alt='', style="max-width: 80px; max-height: 80px").mx-auto
-            p.mb-0 Facilita identificar y reconocer consumidores potenciales interesados en productos o servicios específicos.
+            p.mb-0 Facilita identificar consumidores potenciales interesados en productos o servicios específicos.
 
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
             .row.align-items-center.mb-3
@@ -233,11 +233,11 @@
             p.mb-0 Favorece procesos orientados a transformar prospectos en clientes efectivos.
 
           .tarjeta.bg-fondo-03.p-4.h-100.br-15
-            .row.align-items-center.mb-3
+            .row.align-items-center.mb-4
               .col-7
                 h4.mb-0 Fidelización digital
               .col-5
-                img(src='@/assets/curso/tema1/img22.svg', alt='', style="max-width: 80px;").mx-auto
+                img(src='@/assets/curso/tema1/img22.svg', alt='', style="max-width: 85px;").mx-auto
             p.mb-0 Fortalece relaciones comerciales sostenibles mediante comunicación e interacción permanente.
 
     separador
@@ -282,7 +282,7 @@
             .col-lg-9.order-1.order-lg-2.p-4
               .bg-color-08.p-2.mb-2.max-cont-md
                 h4.mb-0.text-bold.text-white Clave estratégica
-              p.mb-0 Los consumidores requieren contenidos diferentes según la etapa del proceso comercial en la que se encuentran.
+              p.mb-0 Los consumidores requieren contenidos diferentes según la etapa del proceso comercial en la que se encuentren.
 
     separador
 

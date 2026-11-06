@@ -333,7 +333,7 @@ export default {
     {
       termino: 'KPI',
       significado:
-        'Indicador clave utilizado para evaluar cumplimiento de objetivos estratégicos comerciales.',
+        'Indicador clave utilizado para evaluar el cumplimiento de objetivos estratégicos comerciales.',
     },
     {
       termino: '<em>Lead magnet</em>',
@@ -343,7 +343,7 @@ export default {
     {
       termino: 'Métrica',
       significado:
-        'Medida cuantitativa utilizada para evaluar desempeño de actividades comerciales digitales.',
+        'Medida cuantitativa utilizada para evaluar el desempeño de actividades comerciales digitales.',
     },
     {
       termino: 'Posicionamiento',
@@ -358,13 +358,13 @@ export default {
     {
       termino: 'Tono de marca',
       significado:
-        'Estilo comunicativo utilizado por una organización para relacionarse con audiencias.',
+        'Estilo comunicativo utilizado por una organización para relacionarse con las audiencias.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Kunstplaza. (2026, 5 de mayo). Fundamentos de edición de imágenes: técnicas para optimizar fotografías y diseños. Kunstplaza.',
+        'Kunstplaza. (2026, 5 de mayo). Fundamentos de edición de imágenes: técnicas para optimizar fotografías y diseños.',
       link: 'https://www.kunstplaza.de/es/diseno-grafico-2/conceptos-basicos-de-edicion-de-imagenes/',
     },
     {
@@ -386,6 +386,11 @@ export default {
       referencia:
         'TechSmith. (s. f.). Cómo editar vídeos paso a paso: guía para principiantes. TechSmith.',
       link: 'https://www.techsmith.es/blog/como-editar-videos/',
+    },
+    {
+      referencia:
+        'Video sobre netiqueta y comunicación respetuosa en entornos digitales [Video]. (s. f.). YouTube.',
+      link: 'https://www.youtube.com/watch?v=nETS1sXMKbw',
     },
   ],
   creditos: [

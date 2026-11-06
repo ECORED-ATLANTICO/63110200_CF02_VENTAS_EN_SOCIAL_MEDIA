@@ -286,7 +286,7 @@ export default {
               id: 'b',
               texto:
                 'Facilitan planificación estructurada de mensajes y recursos audiovisuales estratégicos.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'c',
@@ -298,7 +298,7 @@ export default {
               id: 'd',
               texto:
                 'Reemplazan herramientas utilizadas para programación de publicaciones digitales empresariales.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

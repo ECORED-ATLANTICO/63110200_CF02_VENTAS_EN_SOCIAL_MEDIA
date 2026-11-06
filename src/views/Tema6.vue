@@ -58,7 +58,7 @@
 
       .col-lg-3.col-md-6.mb-4.mb-lg-0
         .bg-color-015.p-4.br-15.h-100.text-center
-          img(src="@/assets/curso/tema6/img07.svg", style="max-width: 60px;").mx-auto.mb-3
+          img(src="@/assets/curso/tema6/img07.svg", style="max-width: 50px;").mx-auto.mb-3
           h4.mb-3 Fidelización
           p.mb-3 Fortalece la continuidad de la relación después de la compra.
           p.mb-0 <b>Ejemplo aplicado:</b> una empresa envía beneficios personalizados a clientes que ya realizaron una compra.

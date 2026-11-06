@@ -37,7 +37,7 @@
             .col-6.col-sm-4.col-md-3.col-lg-2.mb-3.mb-lg-0.mx-auto.mx-lg-0.text-center
               img(src="@/assets/curso/tema2/img04.png")
             .col-12.col-lg.mb-2.mb-lg-0
-              h4.mb-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start ¿Qué es la segmentación de mercado, cuándo se realiza y para qué sirve?
+              h4.mb-2.mx-auto.mx-lg-0.text-center.text-lg-start ¿Qué es la segmentación de mercado, cuándo se realiza y para qué sirve?
               p.mb-0 Lo invitamos a consultar el siguiente recurso educativo para profundizar en la temática abordada. El recurso corresponde a un video que presenta el concepto de segmentación de mercados como una herramienta estratégica para identificar grupos de consumidores con características, necesidades y comportamientos similares.
             .col-12.col-lg-auto.text-center
               a.boton.bg-color-04(:href="'https://www.youtube.com/watch?v=-MI8RMP98kk'" target="_blank")
@@ -262,7 +262,7 @@
       .tarjeta.p-4(titulo="<em>Insight</em> de producto")
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0
-            p.mb-3 Ayuda a interpretar la percepción, aceptación, satisfacción y experiencia de los consumidores respecto a productos, permitiendo optimizar atributos y propuestas de valor.
+            p.mb-3 Ayuda a interpretar la percepción, aceptación, satisfacción y experiencia de los consumidores respecto a los productos, permitiendo optimizar atributos y propuestas de valor.
             p.mb-0 <b>Ejemplo aplicativo:</b> una marca identifica que los consumidores valoran más la facilidad de uso de un producto y destaca este atributo en sus contenidos comerciales.
           .col-lg-4.col-md-10
             figure

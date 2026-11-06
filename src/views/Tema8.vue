@@ -144,7 +144,7 @@
                 td Facilita analizar el comportamiento económico de los consumidores.
                 td Cada cliente realizó compras promedio por valor de $180.000 durante el mes.
               tr
-                td <b>Tasa de <em>clics</em> (CTR)</b>
+                td <b>Tasa de clics (CTR)</b>
                 td Permite evaluar el interés generado por anuncios o publicaciones digitales.
                 td El anuncio obtuvo un CTR del 6,8 % sobre las impresiones registradas.
               tr
@@ -166,7 +166,7 @@
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
           p.text-bold.mb-2 Ejemplo aplicado
-          p.mb-0 La organización TechPro realizaba inversiones constantes en publicidad digital, pero enfrentaba dificultades para determinar cuáles acciones generaban mejores resultados comerciales. Aunque disponía de gran cantidad de información, no contaba con criterios claros para interpretar el desempeño de sus estrategias. Después de identificar las métricas más relevantes para sus objetivos comerciales, comenzó a monitorear indicadores relacionados con generación de prospectos, conversiones y retorno de inversión. Este enfoque permitió optimizar la asignación de recursos y fortalecer significativamente la efectividad de sus campañas digitales.
+          p.mb-0 La organización TechPro realizaba inversiones constantes en publicidad digital, pero enfrentaba dificultades para determinar cuáles acciones generaban mejores resultados comerciales. Aunque disponía de gran cantidad de información, no contaba con criterios claros para interpretar el desempeño de sus estrategias. Después de identificar las métricas más relevantes para sus objetivos comerciales, comenzó a monitorear indicadores relacionados con la generación de prospectos, las conversiones y el retorno de la inversión. Este enfoque permitió optimizar la asignación de recursos y fortalecer significativamente la efectividad de sus campañas digitales.
       .col-lg-4.col-md-8
         figure
           img(src="@/assets/curso/tema8/img08.png", data-aos="zoom-in")
@@ -281,7 +281,7 @@
       .col-lg-8.mb-4.mb-lg-0
         .bg-color-07.p-4.br-15(data-aos="fade-right")
           p.text-bold.mb-2 Ejemplo aplicado
-          p.mb-0 La organización Digital Learning desarrollaba acciones comerciales mediante diferentes plataformas digitales y monitoreaba una gran cantidad de métricas relacionadas con interacción y alcance. Sin embargo, enfrentaba dificultades para determinar cuáles indicadores reflejaban realmente el cumplimiento de sus objetivos estratégicos. Después de revisar su modelo de gestión, identificó KPI relacionados con generación de prospectos, conversión comercial y retención de estudiantes. El seguimiento sistemático de estos indicadores permitió enfocar esfuerzos en variables críticas para el crecimiento organizacional y mejorar significativamente la efectividad de sus estrategias de ventas en <em>social media</em>.
+          p.mb-0 La organización Digital Learning desarrollaba acciones comerciales mediante diferentes plataformas digitales y monitoreaba una gran cantidad de métricas relacionadas con interacción y alcance. Sin embargo, enfrentaba dificultades para determinar cuáles indicadores reflejaban realmente el cumplimiento de sus objetivos estratégicos. Después de revisar su modelo de gestión, identificó KPI relacionados con la generación de prospectos, la conversión comercial y la retención de clientes. El seguimiento sistemático de estos indicadores permitió enfocar esfuerzos en variables críticas para el crecimiento organizacional y mejorar significativamente la efectividad de sus estrategias de ventas en <em>social media</em>.
       .col-lg-4.col-md-8
         figure
           img(src="@/assets/curso/tema8/img13.png", data-aos="zoom-in")

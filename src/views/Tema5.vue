@@ -44,7 +44,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Formato").align-content-center
             p.mb-0 Indica la presentación: <em>post</em> estático, carrusel, <em>reel</em>, video corto, artículo, historia, pódcast, etc.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Tema o mensaje central").align-content-center
-            p.mb-0 Resume la idea principal que se quiere transmitir (ej. “Moda sostenible”, “Nueva colección otoño”, “<em>Tips</em> de estilo ejecutivo”).
+            p.mb-0 Resume la idea principal que se quiere transmitir (por ejemplo, “Moda sostenible”, “Nueva colección otoño”, “<em>Tips</em> de estilo ejecutivo”).
           .tarjeta.color-acento-botones--borde.p-4(titulo="Objetivo de comunicación").align-content-center
             p.mb-0 Define la meta de cada pieza: generar interacción, aumentar ventas, educar, reforzar identidad de marca, atraer tráfico.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Llamado a la acción (CTA)").align-content-center
@@ -508,10 +508,12 @@
             .col-12.col-lg.mb-2.mb-lg-0
               h4.mb-2.max-cont-md.mx-auto.mx-lg-0.text-center.text-lg-start Netiqueta y comunicación en medios digitales
               p.mb-0 Lo invitamos a consultar el siguiente recurso educativo para profundizar en la temática abordada, el cual corresponde a un video que aborda el concepto de netiqueta como el conjunto de normas y recomendaciones que promueven una comunicación respetuosa y responsable en entornos digitales. Explica buenas prácticas relacionadas con el uso de redes sociales, la protección de la privacidad, el respeto por las comunidades virtuales, la gestión adecuada de contenidos y la interacción con otros usuarios.
-            .col-12.col-lg-auto.text-center
-              a.boton.bg-color-04(:href="'https://www.youtube.com/watch?v=nETS1sXMKbw'" target="_blank")
-                span Ir al recurso
-                i.fas.fa-link
+
+
+    figure.mb-5
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nETS1sXMKbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+   
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-6.mb-4.mb-lg-0
